@@ -1,0 +1,935 @@
+[
+  {
+    "id": "4957",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4957",
+    "title": "Welcome opening",
+    "date": "2026-10-14",
+    "start": "10:00",
+    "end": "10:10",
+    "room": "ABCDEF 會議室",
+    "speakerIds": [],
+    "officialText": "2026-10-14 10:00 - 10:10 ABCDEF 會議室\nSHARE\nWelcome opening\nLEVEL\n通識\nLANGUAGE\n中文",
+    "detail_content_valid": false,
+    "detail_text_length": 78,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4958",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4958",
+    "title": "以一些範例來討論AI Coding新時代的團隊開發",
+    "date": "2026-10-14",
+    "start": "10:10",
+    "end": "10:55",
+    "room": "ABCDEF 會議室",
+    "speakerIds": [
+      "2340"
+    ],
+    "officialText": "2026-10-14 10:10 - 10:55 ABCDEF 會議室\nSHARE\nKEYNOTE 以一些範例來討論AI Coding新時代的團隊開發\nAI Coding 帶來的改變，不只是讓工程師「更快寫完程式」，而是開始改寫整個軟體團隊從需求定義、架構設計、開發、測試到部署的工作方式。\n本演講將從幾個實際案例出發，分享 YC 如何從一開始嘗試用一份超過 5,000 行的完整 Spec 驅動 AI 開發，經歷失敗後，逐步調整成「拆解問題、模組化開發、小範圍 Spec、測試驅動、逐步整合」的 AI Coding 開發流程；並結合近期創立 Noopher AI、從零開始打造 AI-Native Company 的第一手經驗，進一步討論當 AI 能夠參與需求分析、架構討論、程式實作、測試、除錯與 Code Review，甚至逐漸成為團隊日常工作中的重要生產力來源後，傳統軟體團隊的分工方式與開發流程會產生什麼變化。哪些事情適合交給 AI、哪些決策仍然需要人負責？工程師、Tech Lead、PM 之間的邊界是否正在改變？當程式碼生成成本快速下降，團隊真正稀缺的能力又會是什麼？\n最後，YC 希望透過這些案例，提出一個值得軟體團隊共同思考的問題：在 AI Coding 的新時代，我們需要重新設計的，可能不只是開發工具與流程，而是整個團隊「如何定義問題、拆解問題、驗證結果，以及共同創造產品」的方式。\n聽眾收穫：\n1. 從實際案例理解 AI Coding 在複雜軟體專案中的適用方式與常見陷阱，包括為什麼「寫一份完整 Spec 讓 AI 一次做完」未必是最佳解法，以及如何透過問題拆解、模組化、小範圍 Spec、TDD、Log 與自動化驗證，建立更可靠的 AI Coding 開發流程。\n2. 理解當 AI 深入參與需求、架構、開發、測試與除錯後，軟體團隊的分工與工程師角色會如何改變，以及為什麼「定義問題、做出取捨、設計架構與驗證結果」可能成為比單純實作更重要的核心能力。\n3. 從 Noopher AI 打造 AI-Native Company 的早期實踐經驗，思考如何把 AI 從個人工具提升為團隊生產力的一部分，並重新設計人與 AI Agent 之間的工作邊界與協作模式。\n4. 帶回一套思考 AI 時代團隊開發的方法：不只是問「我們該用哪一個 AI Coding 工具」，而是進一步思考「如果 AI 已經成為團隊的一員，我們應該如何重新設計整個開發流程與組織方式」。\n陳宜昌 (YC Chen)\nNoopher AI CEO and Founder\nYC 是 Noopher AI 的執行長暨創辦人，過去曾在 MediaTek Research 擔任資深技術經理。Noopher AI 致力於以深度人工智慧研究為基礎，解決真實世界中的實際問題。 YC 擁有超過 8 年的機器學習研發經驗，橫跨半導體、金融與行銷等多個產業，並曾擔任後端工程師、機器學習工程師與人工智慧研究員等不同職務，研究與開發領域涵蓋語言、視覺與語音人工智慧。此外，他具備 5 年的研發團隊領導經驗，曾帶領最多由 5 名研究人員組成的團隊，並成功將多項專案從研究階段推進至實際產品與正式部署。他亦開創了多項台灣首創的開源人工智慧系統，包括 Breeze（大型語言模型，LLM）、BreezyVoice（具備聲音複製能力的文字轉語音系統，TTS），以及 BreezeASR-Taigi（台語語音辨識系統）。他已於 ICLR（機器學習領域頂尖國際會議之一）、ACL 與 INTERSPEECH 等頂尖人工智慧國際會議發表 8 篇論文，累積超過 100 次學術引用。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探討軟體開發生命週期所觸及的各種經驗\nTAGS\nAI 如何改變產品規劃與需求定義\nAI 驅動的軟體開發資安新思維\nAI 開發工具實戰和流程改造",
+    "detail_content_valid": true,
+    "detail_text_length": 1623,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5014",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5014",
+    "title": "產出的人不能驗自己：AI 時代的驗收設計",
+    "date": "2026-10-14",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "A 會議室",
+    "speakerIds": [
+      "1956"
+    ],
+    "officialText": "2026-10-14 11:15 - 12:00 A 會議室\nSHARE\n產出的人不能驗自己：AI 時代的驗收設計\n球員兼裁判，一定過。\n這件事很舊了。新的是現在那個球員一晚能跑完你一週的量，而你只有早上一杯咖啡的時間當裁判。\n我這兩年的產出幾乎都是 AI 做的。一開始我以為問題是它不夠聰明。後來發現不是。問題是我自己就是產出者，我驗自己，永遠會過。\n這場講我怎麼幫自己的產線裝一道外部驗證。不是講怎麼讓 AI 寫更快。是講它跟你說「做好了」的時候，你憑什麼信。\n三件事：\n一、規格存在，不等於規格生效。我有一次讓迴圈跑了一整晚，每一輪都綠，跑完才發現它根本沒走過我的規格。\n二、閘門可以很笨。我實際在用的是 20 行 shell 加 grep，秒級出 exit 0 或 exit 2。價值不在腳本多難寫，在你怎麼定義那幾條線。\n三、產出的人不能當驗證者。我派一個沒看過我產製過程的去挑我毛病。它抓到過一個會出貨的程式碼錯誤、一句我的 AI 捏造的引言，還有一個對我有利、所以我根本不會想去查的數字。\n也會講擋不住的。我的閘門有九個檔只 warn 不擋。我上一場研討會的示範是預錄影片，因為我沒把「示範前要真跑過一輪」寫成規則。\n聽眾收穫：\n一個能拿去問自己團隊的問題：我們的產出，是誰在驗？如果答案是「寫的人自己」，那就是沒驗。這跟 AI 無關，AI 只是讓它變嚴重。\n一支笨到不行、但真的會擋你的閘門。20 行 shell 加 grep，十分鐘寫得完。它擋不住語意層的東西，我會講清楚它的極限在哪、哪一層要換別的方法。我自己在用的規則會放上來給你抄。\n一條你回去就能加進 PR template 的規矩：「完成」要能指出證據位置。不是「應該可以」，是「我驗過，在這裡」。這一條單獨拿走就有價值。\n楊騏 (Ci)\nWaCare 數位健康 Tech Lead\n軟體工程師，做軟體開發 10 幾年，待過外商跟新創。\n這兩年我的產出幾乎都是跟 AI 一起做的。不是把它當生成器，是把它當一個要管的執行者。我自己弄了一套 harness。規則、驗收清單、品質閘門、自動迴圈。一個人也能同時推很多條線。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nBeyond AI",
+    "detail_content_valid": true,
+    "detail_text_length": 957,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5002",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5002",
+    "title": "自己刻 Agent 框架：最難的不是呼叫 LLM",
+    "date": "2026-10-14",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "1604"
+    ],
+    "officialText": "2026-10-14 11:15 - 12:00 BC 會議室\nSHARE\n自己刻 Agent 框架：最難的不是呼叫 LLM\n自己刻 Agent 框架時，很多人第一時間會想到的是 Prompt 和 LLM API；但當流程開始串起來後，才會發現框架還需要處理許多一開始可能不會想到的事情。\n當 Agent 執行長任務、資訊整理或分析輸出時，焦點已從『模型能否回答』轉為『產出是否精確』。同時，過程的可觀察性、可評估性，以及是否支援後續調整，也是非常重要考量。\n開發會遇到的痛點，通常在實際把 Agent 跑起來之後，最常卡住的不是「如何拿到模型的回答」，而是這幾類問題：\n- 幻覺產生：LLM 回答的內容摻雜了幻覺，讓結果無法直接使用。\n- 定位困難：結果不如預期時，不知道該從哪裡開始調整——是 prompt 寫得不好？工具回傳的資料有問題？還是某一個過程把 context 搞壞了？\n- 過程黑盒：多步驟流程中，很難定位是哪一個環節出錯，因為中間狀態沒有留下來，只看得到最後輸出。\n- 缺乏基準：每次調 prompt 或換流程後，沒有客觀依據判斷這次到底是變好還是變壞，只能靠人工的操作後主觀的認定。\n本場分享將從 Agent 框架的實作經驗出發，介紹幾個對應這些痛點的框架層能力：\n- Context 管理 — 資訊節流：關注模型每一步應該看見哪些資訊，而不是把資料全部塞進 prompt，避免模型被無關內容干擾或漏掉關鍵資訊。\n- Guardrails — 品質防線：用於摘要與分析型任務，協助建立基本的品質防線，讓明顯不合格的輸出在框架層就能被攔下來。\n- Trace Log — 過程留痕：保留執行過程，讓後續能回放流程、定位問題，並找到優化框架的方向。\n- Eval — 量化判準：讓每次 prompt 或流程的調整都有依據可以判斷，而不是只能靠主觀感覺。\n剛開始做 Agent 框架時，我們對框架的想像往往只有 480P 的畫質。一旦遇到輸出不穩定，很容易陷入盲目調整 Prompt 的無限迴圈。\n這場分享的目標，就是幫各位把這張模糊的草圖，升級成高解析度的系統藍圖。當你的框架具備了『可追蹤、可防禦、可量化評估』的能力。\n面對模型的黑盒，你手邊就有了明確的除錯指標。這能確保我們每一次的迭代，都是朝著讓系統真正落地的方向前進。\n聽眾收穫：\n開發 Agent 最難的不是呼叫模型，而是掌控黑盒與不確定性。\n本場分享將為你提煉資訊節流、品質防線、過程留痕與量化評估四大核心能力。\n我們會將 480P 的模糊開發草圖，升級為高解析度的系統藍圖。\n確保框架運作皆具備可追蹤與可防禦的特性。\n帶你告別盲目調 Prompt，掌握讓系統真正落地的工程指標。\nJamis Liao\n街口支付 (JKOPay) 平台工程師\n資深後端工程師，具 10+ 年後端系統、平台工程、雲端架構與 DevOps 實務經驗。長期投入高流量分散式系統、雲端基礎設施、CI/CD、內部開發平台與 AI Agent Platform 的設計與開發，熟悉從架構規劃、系統實作到上線維運的完整流程。近年專注於任務排程平台、工程效率數據化、系統標準化與 AI workflow automation。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 與系統架構設計",
+    "detail_content_valid": true,
+    "detail_text_length": 1397,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4962",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4962",
+    "title": "AI 工具爆發時代的企業身分認證治理實戰",
+    "date": "2026-10-14",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "69"
+    ],
+    "officialText": "2026-10-14 11:15 - 12:00 DE 會議室\nSHARE\nAI 工具爆發時代的企業身分認證治理實戰\n兩年之內，公司內部的 AI Agent、MCP Server、CLI 工具與自動化腳本數量成長了數十倍。每一個新工具要存取公司資源，都需要「登入」與「授權」——而當認證各自為政，風險與維護成本會跟著一起飆升。\n這場演講分享我們團隊面對這個現場時的真實經歷與應對策略。我們遇到三個被 AI 自動化放大的資安風險：(1) 每個 AI 服務 / MCP / Bot 各自接 LDAP，帳密邏輯散落、安全標準不一；(2) CLI 與 MCP 沒有瀏覽器登入流程，工程師把帳密與 API Key 寫死在原始碼，隨程式碼一起推上 Git；(3) Token 一旦發出就失控——誰持有、何時過期、能否撤銷全都不知道，出事無法追溯、無法即時止血。\n我會先點出一個關鍵的觀念轉變：傳統 SSO 是「以人為中心」設計的，假設使用者面前有一個瀏覽器；但 AI 時代大量的存取主體是沒有瀏覽器、非互動式的「機器」。新時代的資安思維，必須把「機器身分（Machine Identity）」當成一等公民來治理，而不是讓每個工具自己想辦法。\n接著我會以實際打造的開源認證閘道（OAuth 2.0 / OIDC）為例，拆解可落地的做法：用 Device Flow 與 PKCE 解決 CLI / AI Agent / IoT 沒有瀏覽器、又不該寫死金鑰的問題；把 LDAP / AD、GitHub / Gitea、Microsoft Entra 等帳號來源集中於單一入口管理，新服務從「造輪子」變成「註冊」；以及最關鍵的 Token 生命週期治理——可查詢、可設到期、可即時撤銷，管理員能一鍵強制全體重新登入。最後談 production 落地會踩到的真實問題：稽核日誌、限流防暴力破解、Prometheus 監控、健康檢查，以及 LDAP / AD 群組同步的導入策略。\n聽眾收穫：\n1. 看懂被 AI 放大的認證風險：理解為什麼 AI Agent / MCP / CLI 的爆發，會讓「帳密寫死」「Token 失控」「認證各自造輪子」從個別問題升級成系統性資安風險。\n2. 掌握一個關鍵思維轉變：知道為何傳統「以人為中心」的 SSO 不足以應付非互動式的機器存取，以及如何把「機器身分」納入統一治理。\n3. 帶走可立即評估的技術選型：理解 Device Flow、PKCE、OAuth 2.0 / OIDC 在無瀏覽器場景的適用方式，回去就能對照自家 AI 工具的認證現況做盤點。\n4. 獲得 Token 生命週期治理的具體做法：學會如何讓 Token 可查詢、可設到期、可即時撤銷，以及出事時如何一鍵止血、滿足稽核合規。\n吳柏毅 (appleboy)\nMediatek 工程師\n現任聯發科技後端架構工程師，負責公司內部 Technology Platform 開發與維運。擅長以 Go 語言構建微服務架構，熱衷導入 DevOps 與自動化流程改善團隊協作效率。長期貢獻於 Open Source 專案，曾擔任多場技術研討會講師。目前專注於 AI 工具導入，探索 AI 能為軟體團隊帶來多少價值，加速開發流程與決策效率。\nGitHub: https://github.com/appleboy\nSpeakerdeck: https://speakerdeck.com/appleboy\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 與系統架構設計",
+    "detail_content_valid": true,
+    "detail_text_length": 1497,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5012",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5012",
+    "title": "當網站客群不再是人類：WebMCP 的前端新革命",
+    "date": "2026-10-14",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "F 會議室",
+    "speakerIds": [
+      "1937"
+    ],
+    "officialText": "2026-10-14 11:15 - 12:00 F 會議室\nSHARE\n當網站客群不再是人類：WebMCP 的前端新革命\n當網頁的「主要訪客」從人類變成沒有視覺、只看邏輯的 AI Agent 時，傳統靠截圖、硬爬 DOM 樹的互動必死無疑。本場次將解密 Google 與 Microsoft 聯手推動的瀏覽器原生標準——WebMCP。我們將換位思考，分享如何用宣告式與命令式語法，在前端鋪設「AI 專用 VIP 通道」，免改後端就能實現「人機雙軌」的未來網頁架構！\n聽眾收穫：\n掌握 WebMCP 開發規範，學會把網頁功能「函式化」宣告給 AI agent，提早佈局下一代流量入口。\n黃銘 (Mike Huang)\nAngular Taiwan 打雜義工\n現為 Angular GDE，主要熟悉 .NET WebAPI 與 Angular 開發技術，並經常於個人部落格分享學習知識。\n參加過四次 iT 邦幫忙鐵人賽，榮獲兩次冠軍與一次優選。並著有「打通 RxJS 任督二脈：從菜雞前進老鳥必學的關鍵知識」一書，該書曾榮獲天瓏書局 2021/8 繁體中文書 銷售排行 第 1 名！。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 與系統架構設計",
+    "detail_content_valid": true,
+    "detail_text_length": 551,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5018",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5018",
+    "title": "LLM Wiki：企業內部知識問答系統的架構演進",
+    "date": "2026-10-14",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "A 會議室",
+    "speakerIds": [
+      "2228"
+    ],
+    "officialText": "2026-10-14 13:30 - 14:00 A 會議室\nSHARE\nLLM Wiki：企業內部知識問答系統的架構演進\n去年，我們以 LangGraph 建立 Agentic RAG 架構，將企業內部文件接入知識問答系統，讓 Agent 能透過查詢規劃、工具調用與自我修正，協助同仁查找制度、流程、系統文件與部門知識。然而在實際使用過程中，我們逐漸發現，企業知識問答的瓶頸不只在 RAG pipeline，也在於知識源本身多半是「為人類閱讀」而編寫，對 LLM 來說容易產生脈絡斷裂、引用不穩、更新困難與除錯成本高等問題。\n今年，我們受到 Andrej Karpathy 提出的 LLM Wiki 概念啟發，開始嘗試將這個思維應用在內部部門知識庫，將原有文件、流程說明與常見問題，重構為更適合 LLM Agent 理解、導航、引用與維護的知識結構。\n本場演講將分享這段從 Agentic RAG 到 LLM Wiki 的架構演進，包括 LangGraph Agentic RAG 的實作經驗、企業知識問答遇到的限制、LLM-native Wiki 的設計原則，以及如何在企業環境中處理文件結構、知識更新、來源追蹤、權限控管、token 成本與回答品質等實務挑戰。聽眾將能了解企業導入知識問答 Agent 時，為什麼不能只優化檢索流程，也必須重新思考知識本身的組織方式。\n聽眾收穫：\n參與本場演講的聽眾將了解企業知識問答系統從 Agentic RAG 演進到 LLM Wiki 的完整思考脈絡。首先，聽眾會學到如何使用 LangGraph 建立 Agentic RAG 流程，包括查詢規劃、工具調用、狀態管理、自我修正與企業知識問答的基本架構設計，並理解這類方法在實務環境中可能遇到的限制。\n其次，聽眾將認識 LLM Wiki 的核心概念，以及如何將原本為人類閱讀而設計的部門文件、流程說明與常見問題，轉換為更適合 LLM Agent 使用的知識結構。內容將涵蓋 Markdown 結構設計、語意標題、文件顆粒度、metadata、來源引用、版本資訊與知識更新流程。\n最後，演講將分享企業落地時的架構取捨與治理挑戰，包括如何降低幻覺與錯誤引用、如何處理權限控管與資料追蹤、如何平衡 token 成本與回應速度，以及如何讓內部知識庫能長期維護並持續支援同仁查詢。聽眾將能帶走一套從 Agentic RAG 到 LLM-native 知識庫的架構演進藍圖。\n張維峻 (Justin)\n國泰金控 助理架構師\n熱衷於 AI 應用與技術創新的工程師，具備扎實的機器學習與深度學習背景，專注將前沿技術快速落地為可擴展系統。於國泰金控主導醫療收據 OCR 建置，涵蓋資料前處理、繁中模型訓練與表格解析優化，顯著提升辨識準確率與處理效率。\n近年聚焦 LLM 與 AI IDE 開發模式，導入 LLM as a Judge 於回饋平台實現質化量化；建構 Agentic RAG 支援即時語音客服；開發新聞趨勢整理工具與數字人影片應用。持續研究 AI Agent 架構與 MCP ，Agent Skills前沿技術，在高速開發下兼顧安全與穩定，打造可持續演進的企業級 AI 解決方案。\nLEVEL\n通識\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 開發工具實戰和流程改造",
+    "detail_content_valid": true,
+    "detail_text_length": 1397,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4987",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4987",
+    "title": "用 AI 工作流重整事件驅動交易系統的一致性、效能與監測",
+    "date": "2026-10-14",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "2347"
+    ],
+    "officialText": "2026-10-14 13:30 - 14:00 BC 會議室\nSHARE\n用 AI 工作流重整事件驅動交易系統的一致性、效能與監測\n本議程將分享我如何在個人開源專案 EAP（Event-Driven Auction Platform for Electricity Markets）中，使用 AI 協作工作流，將一個原本功能導向的 Spring Boot 微服務專案，逐步重整成具備一致性驗證、冪等處理、效能量測與技術文件的工程案例。\nEAP 是一套以 Java、Spring Boot、RabbitMQ、PostgreSQL、Redis Lua 建構的事件驅動交易系統，核心流程包含訂單提交、資產保留、撮合、成交事件持久化、訂單狀態套用、錢包結算與完成標記收斂。專案初期雖然已具備基本功能，但在進行高併發壓測時，逐漸暴露出多個真實後端系統常見問題：訊息重送下的冪等性、跨服務最終一致性、Outbox 寫入放大、Queue backlog、觀測成本，以及「API 成功」與「完整業務完成」之間的落差。\n我在這個過程中建立了一套 AI 協作工作流，讓 AI 不只是產生程式碼，而是依照不同角色參與工程流程：架構評估、效能分析、實作拆票、QA 驗證、code review 與文件整理。每一次修改都必須經過測試、壓測、RabbitMQ queue 指標、PostgreSQL statistics、應用程式 metrics 與正確性 gate 驗證，避免只接受「看起來合理」但無法證明有效的 AI 建議。\n演講將分享以下實戰內容：\n1. 如何把 AI 從單純 coding assistant，調整成架構師、效能分析師、實作負責人、QA 與 reviewer 的協作流程。\n2. 如何用 AI 協助盤點事件驅動系統中的服務邊界、狀態 ownership、Transactional Outbox 與冪等消費策略。\n3. 如何重整交易完成語意，明確區分 accepted input throughput、TradeExecuted reach throughput、wallet settlement throughput 與business-completed throughput。\n4. 如何透過 AI 輔助分析 PostgreSQL、RabbitMQ、Redis 與應用程式 metrics，定位 DB write amplification、Outbox relay 成本與 queue drain tail。\n5. 如何驗證 AI 建議是否真的改善系統，而不是只是把瓶頸轉移到其他 queue、consumer 或資料庫操作。\n6. 如何將兩週以上的調校過程整理成 ticket、benchmark report、架構文件與履歷可用的工程案例。\n本議程的重點不是展示 AI 讓我「更快寫完程式」，而是分享一個後端工程師如何用 AI 建立可追蹤、可驗證、可拒絕錯誤建議的協作流程，並將個人專案推進到能討論一致性、可靠訊息處理與效能瓶頸的工程案例。\n聽眾收穫：\n參與本議程後，聽眾將能：\n1. 理解如何把 AI 工具從程式碼產生器，轉化為架構討論、效能分析、測試設計與 code review 的協作夥伴。\n2. 學會用角色分工的方式設計 AI 工作流，例如 Architect、Performance Analyst、Implementation Lead、QA Lead 與 Reviewer，降低單一 AI 回答直接進入程式碼的風險。\n3. 了解事件驅動系統中，冪等性、Transactional Outbox、Manual ACK、DLQ 與 completion marker 如何影響一致性與效能。\n4. 學會用 benchmark、queue metrics、SQL statistics 與 final correctness gate 驗證 AI 提出的效能建議是否真的有效。\n5. 從實際案例理解，為什麼增加 concurrency、batch 或觀測指標不一定會改善 TPS，甚至可能造成測試失真或系統退步。\n6. 了解如何將個人專案整理成可被面試、技術分享與履歷使用的工程案例，而不是只停留在功能展示。\n蔡宜庭 (ET)\n國泰金控 工程師\n現任國泰金控 Java 後端工程師，專注於事件驅動架構、可觀測性與可靠訊息處理。日常運用 AI 協助需求拆解、程式碼重構、技術文件與效能調校，並透過自動化測試、分散式追蹤及可重現 Benchmark 驗證 AI 產出。\nLEVEL\n通識\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 開發工具實戰和流程改造",
+    "detail_content_valid": true,
+    "detail_text_length": 1958,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5017",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5017",
+    "title": "AI 時代下的另類多工與心流 ：碎片化工作中的「動態專注」法則",
+    "date": "2026-10-14",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "120"
+    ],
+    "officialText": "2026-10-14 13:30 - 14:00 DE 會議室\nSHARE\nAI 時代下的另類多工與心流 ：碎片化工作中的「動態專注」法則\n組織裁員後未曾補進缺少的人力，但業務需求卻絲毫沒有減少。\n幸運的是，我們擁有了 AI；不幸的是，AI 讓一切變得更快、更多、更碎片化。\n當寫程式（Coding）不再是工程師的主要瓶頸，我們面臨的全新挑戰，是成為一個處理龐大資訊串流的「高頻調度員」。\n傳統需要連續 2~3 小時不被打擾的「靜態心流」已成奢求，頻繁的任務切換正不斷消耗我們的認知能量。面對這場無法逆轉的效率革命，我們不能再用舊時代的專注模型來應對。\n本演講將提出全新的思維:動態專注(Dynamic Focus)。這不是要你一心多用，而是教你如何在任務切換之間「隨插隨用」，建立高頻率、快進快出的動態心流，在極速多工的環境中，依然保有清晰的掌控感與深度專注。\n聽眾收穫：\n學會如何實踐 Human in the loop 的工作思維，看清楚AI浪潮下工程師的立足點，放眼與AI協作的共同未來。\n認知翻轉：解析裁員與 AI 加速帶來的「多工悖論」，為何傳統心流不再適用？動態專注機制：如何建立「意圖錨點」與「微單元心流」，實現 15 分鐘的高強度專注。零成本場景切換：透過「認知快照」技巧，在不同 AI 任務間快速切換而不流失上下文。從執行者到指揮官：重新定位工程師的關鍵價值，在高速運作中維持心理韌性。\nRuddy 老師\n集英信誠 顧問\n具有超過 40年的工程師經歷，擅長帶領研發團隊開發與創新，著作有：精實開發與看板方法等書。為專業的軟體工程顧問、Scrum 及看板課程教學的講師。曾擔任多家資訊公司的研發部經理。擅長新創公司的專案開發工作，現任 集英信誠公司的敏捷顧問。為經常往返於二岸的精益佈道師。\nLEVEL\n通識\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\n組織文化與敏捷\n團隊溝通與協作",
+    "detail_content_valid": true,
+    "detail_text_length": 819,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4966",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4966",
+    "title": "AI Workflow：打造 PM 的第二大腦",
+    "date": "2026-10-14",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "F 會議室",
+    "speakerIds": [
+      "1954"
+    ],
+    "officialText": "2026-10-14 13:30 - 14:00 F 會議室\nSHARE\nAI Workflow：打造 PM 的第二大腦\nAI 已逐漸成為產品團隊的日常工具，但多數分享仍聚焦於 Prompt 技巧或單一工具的使用方式，而真正能帶來改變的，不是多會下 Prompt，而是如何重新設計工作的流程，讓 AI 成為產品團隊中的協作者。\n在面對有限的人力與持續增加的需求下，我開始將 AI 導入產品經理的日常工作，從需求分析、規格撰寫、流程設計、API 規劃、測試案例、文件整理，到簡報製作，建立一套可重複運作的 AI Workflow，讓 AI 承擔重複性工作，人則專注於需求判斷、跨部門溝通與產品決策。\n本次分享將以實際專案經驗為例，介紹如何盤點工作內容、找出適合導入 AI 的環節，以及如何建立一套可持續迭代的人機協作模式。這不是一場 AI 工具介紹，也不是 Prompt 教學，而是一套能真正落地於產品開發流程中的工作方法，希望協助更多產品經理與軟體團隊，在有限資源下依然維持高品質的產品交付。\n聽眾收穫：\n從需求分析到產品交付，分享 AI 如何串接產品開發生命週期（SDLC），建立一套跨 PM、SA、QA 與工程師都能實際採用的人機協作工作流。\n- 建立「AI Workflow」的思維，而非只停留在 Prompt 使用技巧。\n- 學會拆解自己的工作流程，找出最適合導入 AI 的工作環節。\n- 了解產品經理如何將 AI 應用於需求分析、規格撰寫、流程設計、測試規劃與文件整理等日常工作。\n- 掌握人與 AI 的協作分工，知道哪些工作適合交給 AI，哪些仍需要人的專業判斷。\n林芝羽 (Xenia)\n國泰金控 產品管理師\n軟體工程師到產品管理師的跨領域經驗，運用親身經歷去理解開發團隊與產品需求之間的平衡點。\n目前致力於推動團隊擁抱敏捷文化，從工程師視角出發，以產品管理師身份帶領團隊靈活運用敏捷框架，建立順暢的跨部門協作流程，打造更有效的團隊合作。\nLEVEL\n通識\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 如何改變產品規劃與需求定義",
+    "detail_content_valid": true,
+    "detail_text_length": 892,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5021",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5021",
+    "title": "從寫得快到交付可信的 AI Coding 工程戰場",
+    "date": "2026-10-14",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "A 會議室",
+    "speakerIds": [
+      "1192"
+    ],
+    "officialText": "2026-10-14 14:15 - 15:00 A 會議室\nSHARE\n從寫得快到交付可信的 AI Coding 工程戰場\n目前前沿的AI Model能力已足以讓 AI Coding Agent 已經能理解需求、修改多個檔案、執行測試，甚至自行完成一項開發任務。但當 AI 產生的程式碼進入到企業專案，必須面對幾個問題：它是否真的跨專案的架構設計？實作上是否符合既有架構或團隊Coding Style？Code Review 是否確實執行？程式碼安全問題是否在建立 Pull Request 前被發現？\n因此我想分享在使用SDD進行AI Coding時，能不能再從 Harness Engineering 的角度，實現可落地的 AI Coding 治理架構，過程中將結合VS-Code、Github Copilot、Claude Code Skills 、Rules、Agents 示範如何從 SDD 規格開始，經過 AI 開發、獨立 Code Review、Fortify 常見弱點預檢與程式修正，最後產生一份可以建立 Pull Request 的交付成果。\n聽眾收穫：\n聽眾將能理解在導入SDD AI Coding再進一步到Skills、Agents、Hooks 各自適合承擔的治理責任，並帶走可以套用到不同 AI Coding 工具與既有專案的架構方法\n陳葵懋 (Ian Chen)\n一等一科技 研發部主任工程師\n任職於一等一科技，同時也是微軟 AI 人工智慧最有價值專家（MVP）與微軟認證講師（MCT）。專注於Azure雲端解決方案、AI、軟體架構與設計，受邀担任公務機關與大學院校AI培訓課程講師、跨國企業AI課程講師，經常於iThome AI & Cloud、Microsoft、Mopcon等研討會分享實務經驗。自2023年起陸續出版多本關於生成式AI與AI Agent的開發書籍，最新一本著作為：AI Agent 奇幻旅程：MCP 通往異世界金鑰。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 開發工具實戰和流程改造",
+    "detail_content_valid": true,
+    "detail_text_length": 898,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4983",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4983",
+    "title": "懂行規的 Agent：把規範變成技能，自動化開發到部署",
+    "date": "2026-10-14",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "2335"
+    ],
+    "officialText": "2026-10-14 14:15 - 15:00 BC 會議室\nSHARE\n懂行規的 Agent：把規範變成技能，自動化開發到部署\n本主題將分享在受監管的金融環境中，設計開發與部署 Agent 的實作經驗。我們的核心並非打造一個更強大的通用 coding agent，而是讓 Agent「懂得行內規範」：將公司的開發與部署規範，包含命名原則、資源設定、API 存取控管原則與部署流程，轉化為結構化的 Skill，使其成為 Agent 可呼叫、可複用的技能，藉此將開發到部署這段重複性的工作流程自動化，同時確保合規與穩定性。\n將涵蓋三個面向：其一，我們如何讓合規成為 Agent 生成當下的輸入，而非事後的審查或攔截；其二，如何透過框架層級(harness)的攔截機制——權限系統與 pre-tool hook，為 Agent 設下執行邊界，因為安全不能仰賴 Agent 自律，必須由框架強制落實；其三，我們對自動化與人工介入的判準取捨：可逆、低風險的步驟交由 Agent 自動執行——例如自行生成測試、依測試結果自我修正；不可逆或跨信任邊界的動作則保留人工確認——例如部署端雖整合既有 CI/CD pipeline，push、apply 這類不可逆的動作仍保留 human confirmation。\n過程中我們也發現，Agent 常「自己亂生成」，但根因往往不在 Agent，而在我們沒把規範與邊界交代清楚——要讓 Agent 照規矩做事，真正考驗的是我們能不能把規矩講清楚。也正是在框架設下的邊界之內，我們才敢放手讓 Agent 自行開發、測試，並將產出送進既有 pipeline。\n聽眾收穫：\n如何把組織既有的開發與部署規範寫成 Skill，讓 Agent 在生成前就讀懂並遵循。\n為什麼安全邊界要做在框架層，寫在 prompt 裡的規則擋不住。\n哪些動作可以讓 Agent 自己做、哪些一定要人按，以及怎麼接進既有 CI/CD。\n讓 Agent 照規矩做事，真正的難點往往不在 Agent，而在我們能否把規範與邊界表達清楚。\n張云姵 (Sarah)\n玉山銀行 資深工程師\n現任玉山銀行智能金融處雲端技術架構師，日常研究新技術、做 PoC、評估能否導入落地——畢竟「酷」跟「能上線」中間，隔著合規、風控與行內規範。具備 GCP 雲端架構設計與開發、金融無塵室跨機構協作的實戰經驗，目前專注於 AI Agent 應用開發，建置 AI Agent 工作流程平台，負責架構規劃與開發部署自動化。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 開發工具實戰和流程改造",
+    "detail_content_valid": true,
+    "detail_text_length": 1111,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4972",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4972",
+    "title": "讓工程師失業的 N + 1 道陰影",
+    "date": "2026-10-14",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "333"
+    ],
+    "officialText": "2026-10-14 14:15 - 15:00 DE 會議室\nSHARE\n讓工程師失業的 N + 1 道陰影\n去年我在 HWDC 分享了一個「不太聽話」的故事：在 AI 還沒那麼受控的年代，我靠著自己的工程硬實力，用力把 AI「拉住」，硬是做出了 ezBundle 這個平台。當時的每一道難關，都是 AI 不受控留下的陰影。\n一年過去，今年我想講的，是這道陰影的第 N + 1 道：SDD（規格驅動開發）。SDD 這類 harness engineering 開發流程讓我從去年那種靠手感硬扛 AI 的方式，進化成用規格穩穩地駕馭它。我不是被取代，而是更難被取代。\n聽眾收穫：\n一套能照搬的 SDD 流程骨架以及幾個實作上的判斷、哪種任務值得先寫規格、規格寫到多細才剛好，還有該把力氣從拼手速寫 code，轉去練定義規格與設計 harness\n高見龍\n五倍學院 負責人\n網站程式開發者 / 講師 / 遊戲宅 / 漫畫宅，喜愛非主流的新玩具，著有《為你自己學 Git》、《為你自己學 Python》以及《為你自己學 Ruby on Rails》等暢銷書籍。\n是個喜歡寫程式而且希望可以寫一輩子程式的電腦阿宅！\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探討軟體開發生命週期所觸及的各種經驗\nTAGS\nSDLC 相關議題",
+    "detail_content_valid": true,
+    "detail_text_length": 568,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5023",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5023",
+    "title": "讓IT主管睡不著的課題，台灣企業Agent規模化的聖杯考驗",
+    "date": "2026-10-14",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "F 會議室",
+    "speakerIds": [
+      "229"
+    ],
+    "officialText": "2026-10-14 14:15 - 15:00 F 會議室\nSHARE\n讓IT主管睡不著的課題，台灣企業Agent規模化的聖杯考驗\nAgent代理浪潮對開發者和消費大眾，帶來了明顯的生產力提升，但有不少企業陷入了想用又不敢用的兩難，尤其不少IT主管自己看好AI Agent技術應用帶來的成效，但想在企業展開規模化推廣時，卻面臨了截然不同的新課題。\n從台灣大型企業和百位企業IT主管的調查數據，來剖析企業落地Agent的困難，更分享大型企業擁抱Agent的實戰過程與背後的挑戰。\n聽眾收穫：\n台灣大型企業擁抱Agent態勢\n台灣企業Agent落地的兩難\nCIO眼中的GAI和Agent的挑戰和機會\n從台灣企業第一線實戰，來看Agent落地企業的挑戰和對策\n王宏仁\niThome 副總編輯\n現任 iThome 週刊副總編輯，也是歷年 iThome CIO 大調查與資安大調查統籌，調查臺灣 2 千大企業 IT 現況與發展策略，近年聚焦企業雲端轉型、IT 現代化、機器學習、AI、敏捷開發等議題，近期負責大型報導如，261 位 CIO 的新常態考驗、台積電全面 AI 數位轉型大解密、軟體開發實踐遊戲化、東京證交所史上最嚴重大當機深度剖析、微服務設計兩難怎麼解。\nLEVEL\n通識\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\n探討軟體開發生命週期所觸及的各種經驗\nTAGS\nFinOps\nSDLC 相關議題\nAI 如何改變產品規劃與需求定義\nAI 與系統架構設計\nAI 如何驅動 DevOps 革命\nAI 驅動的軟體開發資安新思維\nAI 開發工具實戰和流程改造\nBeyond AI\n組織文化與敏捷\n團隊溝通與協作\n數位轉型策與技術創新\n持續整合和持續部署\n領導與人才培訓",
+    "detail_content_valid": true,
+    "detail_text_length": 746,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4986",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4986",
+    "title": "AI 導入之後：傳統開發團隊的角色鬆動與開發新節奏",
+    "date": "2026-10-14",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "A 會議室",
+    "speakerIds": [
+      "2337"
+    ],
+    "officialText": "2026-10-14 15:15 - 15:45 A 會議室\nSHARE\nAI 導入之後：傳統開發團隊的角色鬆動與開發新節奏\nAI 寫 code 很快，但導入一支傳統配置的開發團隊後，真正改變的不只是速度，而是每個人的角色，以及整個開發的節奏。\n這場分享來自一個金融業的專案：團隊裡有寫程式的工程師，也有不寫程式的 PM、BA 與 UX。\n我們觀察到 AI 帶來兩種影響：在本業上，它是加速器，你的領域專業決定 AI 能做到 80 分；跨到不熟的領域，它是賦能工具，卻只能給你 60 分的平均解。\n於是每個人的角色邊界開始鬆動，而往相近領域延伸，效果最好。 開發節奏也跟著改變。需求探索與驗證可以左移，AI 能很快產出逼真的草稿，但「螺絲先別鎖死」——需求會隨著理解而改變。\n需求與規格可以脫鉤，文件只需寫程式碼讀不出來的東西。專案從 vibe coding 起步，邊走邊把踩過的坑寫成規則，最後長出 Harness 與 AI 的「開發慣性」；重複的團隊雜事，則交給第七位 AI 隊友。\n聽眾收穫：\n1. 本業加速與跨域賦能：為什麼一個是 80 分、一個只有 60 分，以及角色該往哪裡延伸\n2. 需求探索與驗證左移：用 AI 草稿快速弄清楚自己要什麼，而不是急著鎖死\n3. 需求與規格脫鉤、文件輕量化：AI 時代該寫哪些文件、不該寫哪些\n4. 從 vibe coding 長出 Harness：團隊如何形成一致的 AI 開發慣性\n陳仁傑\n國泰金控 資深工程師\n一個熱愛開發的軟體工程師，第一次自學寫程式覺得程式碼就像魔法一樣好玩，從此踏上了軟體開發的「不歸路」。轉職後深耕金融業多年，主導多項大型核心系統的架構現代化。最近最有趣的事，是帶領團隊探索「人 × AI 協作」的全新開發工作流，持續用前沿技術拯救團隊的生產力與髮際線！\nLEVEL\n通識\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nBeyond AI",
+    "detail_content_valid": true,
+    "detail_text_length": 824,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4968",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4968",
+    "title": "穩才是快 ～ 以 OKF 打造 Agentic AIOps 治理閉環",
+    "date": "2026-10-14",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "1859"
+    ],
+    "officialText": "2026-10-14 15:15 - 15:45 BC 會議室\nSHARE\n穩才是快 ～ 以 OKF 打造 Agentic AIOps 治理閉環\n摘要\n貼一段 log、問 AI「這該怎麼辦」~ 很多人的 AI 維運就停在這。問題是 Agent 每次都從零開始，不懂你的架構，也不記得上週的異動，建議敢放到正式區執行嗎？。本議題將分享在全球規模服務下的嚴謹 AIOps 架構，透過 Google 的 Open Knowledge Format (OKF) 標準，強化 Agent 間的記憶認知。打造一個讓它們看得懂、知道發生什麼、該做什麼、可審核、可稽核的 AIOps 閉環。說明實際落地案例與 FinOps 治理成效。\n大綱\n1. 全球服務維運的挑戰\n2. 以 OKF 標準化 Agent 記憶\n3. 建造 Architect / SRE / DB / Audit 四 Agent 團隊\n4. 治理觀點～可迭代、可回滾、可稽核的 AIOps 閉環\n5. PoC 落地案例、FinOps 治理成效分享\n聽眾收穫：\n1.「AI 每次都失憶、講不到重點」學會用 OKF 建立 Agent 讀得懂又連貫的記憶框架\n2.「不敢讓 AI 真的動手，怕它闖禍」 搭建受理→審核→執行→稽核的閉環。職責分離、出事能回滾，放手也安心\n3.「萬一 AI 出包，怎麼救?」做最壞的打算，最好的準備，隔離與驗證該怎麼做\n許庭魁 (Jerry Hsu)\n華碩電腦 infra Lead\n現為華碩電腦資深基礎架構主管，帶領SRE團隊負責華碩電腦官網、AI雲端服務、全球會員系統、資料中台、ROG電競官網...等架構規劃、建置與維運。過去三年，專注於解決複雜的基礎架構需求、安全合規、效能議題，確保全球數千萬用戶能夠穩定且高效地存取華碩電腦提供的數位服務。\n同時為台灣SQL PASS社群志工，對SQL效能調教、Azure SQL雲端架構、資料整合方案有興趣。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 如何驅動 DevOps 革命",
+    "detail_content_valid": true,
+    "detail_text_length": 882,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5009",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5009",
+    "title": "從 Hello World 看懂 AI 開發工具的計費結構——如何省得到錢",
+    "date": "2026-10-14",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "243"
+    ],
+    "officialText": "2026-10-14 15:15 - 15:45 DE 會議室\nSHARE\n從 Hello World 看懂 AI 開發工具的計費結構——如何省得到錢\n當 AI 開發工具從「固定次數」改為「用量計費」，開發者第一次需要理解：我送出去的那句話，究竟被算了什麼錢？\n這場議程從一個實驗開始：在 VS Code 送出同一句 Hello World，第一次花掉 6.64 個計價單位，第二次卻不到 1。拆開來看，你打的字其實只佔一小部分——真正的成本來自工具在背後組出的那份長請求：常駐指令檔、工具與 MCP schema、對話歷史。而前面沒變的部分可以走快取重用，一旦前綴變了就得整段重算，照原價收費。\n弄懂這個結構之後，省錢的優先順序就清楚了：先控 output、再瘦身結構性 input、最後養成快取友善的操作習慣。我會實機示範幾個最常打斷快取的日常動作——讓計價數字自己說話，並補上台灣開發者容易忽略的相關案例。\n內容以 GitHub Copilot 與 VS Code 實作，機制本身跨工具通用。帶走一份個人與團隊都能當天套用的檢查清單。\n適合已在日常使用 AI 開發工具、想弄懂帳單為何居高不下的開發者與 Team Lead。\n聽眾收穫：\n• 能拆解一次 AI 編碼互動的成本組成\n• 知道省錢的正確優先順序\n• 能在當天完成三項具體調整\n• 能判斷哪些日常操作正在花冤枉錢\n• 具備跨工具遷移的判斷力\n謝政廷 (Duran Hsieh)\nGitHub Star TSMC 副理\n專長於開發、測試、效能調教、GitHub、GitHub Copilot、DevOps、Azure 開發相關技術，曾擔任微軟 CS-Digital & Application Innovation 領域現場工程師、技術顧問與雲端解決方案架構師，提供國內外20+家企業技術諮詢與數位轉型。台灣第一位 GitHub Star、Study4TW 社群核心成員、微軟最有價值專家、書籍作家、大學業界講師、技術部落客。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 開發工具實戰和流程改造\nSDLC 相關議題\n數位轉型策與技術創新",
+    "detail_content_valid": true,
+    "detail_text_length": 930,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4965",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4965",
+    "title": "雲端把花錢的權力交給了工程師，然後呢？",
+    "date": "2026-10-14",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "F 會議室",
+    "speakerIds": [
+      "2332"
+    ],
+    "officialText": "2026-10-14 15:15 - 15:45 F 會議室\nSHARE\n雲端把花錢的權力交給了工程師，然後呢？\n雲端最危險的，從來不是貴，而是「看不見」。\n地端時代買一台機器要層層簽呈、漫長採購，但成本固定也安心；雲端時代隨需即用，工程師寫幾行 Code 就能瞬間開啟昂貴資源、動支龐大預算。權力下放到第一線是雲端的魅力，代價卻是成本失去了輪廓——往往要到月底帳單，才發現錢早就花出去了。\n這場分享講述我們團隊如何建立 FinOps 機制，把看不見的雲端成本變成看得見、管得住的治理。我們做一些事情：釐清費用，把月底滯後帳單轉化為即時數據；掌握流向，讓每一分錢都對得上專案與服務；攤開消耗，讓資源配置變成有依據的決策，而不是憑感覺。\n為此我們打造了一套 FinOps 治理引擎，本場分享逐層拆解。底層以 BigQuery 承接帳單與用量資料；交叉驗證層確保費用數據精準；視覺化層用 Looker Studio 把枯燥數字轉成動態儀表板，支援跨專案、跨時間即時切換與例會討論；自動掃描層每日偵測閒置資源與預算超標的專案，建立專案 budget 與 budget alert，並自動通知負責人限期改善、追蹤落地。\n聽眾收穫：\n1. 一套可複製的 FinOps 框架：釐清費用、掌握流向、成本透明化三步驟，以及預算編號控管法\n2. 真實節費案例的完整拆解：發現方式、根因分析、系統改良到量化效益\n3. 告警與監控的實作細節\n4. CUD（承諾使用折扣）的如何決策\n5. 工具的整合方式：從 BigQuery 資料底層、交叉驗證、Looker Studio 儀表板到自動掃描閒置資源\n6. 制度化的關鍵：如何把 Postmortem 沉澱為 KM，形成「異常 → 預防」的正向循環，避免重蹈覆轍\n7. 區分「業務成長」與「資源浪費」的判斷方法，讓成本檢視不再憑感覺\n林宗穎 (Kater)\n玉山金控 副主任工程師\nWork Experience\nE.SUN Bank – Intelligent financial division 2020.09 – 2026.2\nE.SUN FHC – 2026.3 – Present\nDeputy Staff Engineer / Information Architecture Planner\nServing as the Financial Holding Information Architecture Planner, leading the design and evolution of enterprise-level IT blueprints, cloud-native strategies, and data governance frameworks across the financial group.\nArchitecting next-generation Generative AI (LLM / RAG) platforms and autonomous AI Agent workflows to modernize core intelligent financial services.\nSpearheading the implementation of enterprise-grade MLOps pipelines, high-throughput microservices, and real-time analytics architectures to ensure ultra-low latency, high scalability, and robust system security.\nLEVEL\n通識\nLANGUAGE\n中文\nSUBTOPIC\n探討軟體開發生命週期所觸及的各種經驗\nTAGS\nFinOps",
+    "detail_content_valid": true,
+    "detail_text_length": 1608,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4960",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4960",
+    "title": "當 Secret 不再是秘密",
+    "date": "2026-10-14",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "A 會議室",
+    "speakerIds": [
+      "1576"
+    ],
+    "officialText": "2026-10-14 16:00 - 16:45 A 會議室\nSHARE\n當 Secret 不再是秘密\n題目全名：當 Secret 不再是秘密 - AI、IaC 與 Azure KeyVault 如何重塑機敏資訊治理\n在許多團隊中，Secret Management 往往被視為一個安全議題，因此大家投入大量心力討論 Azure Key Vault、Kubernetes Secret 或各種密碼管理工具。然而，當真正開始改善工作流程時，我發現最大的瓶頸並不是密碼存放的位置，而是整個 Secret 的生命週期缺乏一條能夠被所有角色理解的工作流。\n在我們的組織中，Secret 曾散落於 Azure DevOps Library、Repository、Wiki、Excel、Teams，甚至存在於少數人的記憶中。更令人意外的是，即使已經導入 Azure Key Vault，由於對 Pipeline 與 Key Vault 整合方式理解不足，許多 Secret 最終仍被複製回 Pipeline Variables，形成重複維護與隱性知識累積的問題。\n原本，我的任務只是重構 Classic Pipeline，提升交付透明度，並透過 IaC 建立更可追蹤的部署流程。但在導入 Kustomize、Artifact 與 Pipeline as Code 的過程中，我發現真正需要重建的不是 Pipeline，而是 Secret 在不同角色之間的協作方式。\n這場分享將介紹我們如何利用 Azure Key Vault、Bicep、Pull Request、Validate、What-if、Azure Boards 與 Pipeline，重新設計一條自助式的 Secret 工作流。開發者只需透過 IaC 宣告需求，由 AI Skill 協助產生符合規範的 Bicep Param；審核者透過 What-if 理解即將發生的基礎設施變更；Pipeline 自動建立 Key Vault 與 Secret Container；真正的持密者則透過 Azure Boards 與 Secret URL 完成填值，最後由受控身分於部署階段安全取得 Secret，整個過程中，開發者不需要接觸密碼，也能完成交付。\n這並不是一場 Azure Key Vault 的操作教學，也不是一場 AI Showcase。我希望分享的是，在導入 AI 與 IaC 的時代，我們如何重新理解組織中的工作流，將原本散落在人腦中的隱性知識，逐步轉化為可以被理解、被審查、被治理、被追蹤的流程。\n透過這場分享，你將帶走的不只是 Azure Key Vault 的實作經驗，而是一套重新思考 DevOps 治理的方法：如何把開發者視為平台的主要客戶、如何重新定義跨部門角色與責任，以及如何讓 AI 成為降低理解成本的助手，而不是取代決策者。因為真正值得自動化的，從來不是工具，而是那些已經被所有人理解的工作流。\n聽眾收穫：\n聽完這場分享，你將能夠：\n1. 知道如何在不暴露密碼的前提下，重新設計一套自助式 Secret 工作流。\n2. 理解如何讓 IaC、PR、What-if 與 Azure Key Vault 串接成可治理、可追蹤的 SDLC 流程。\n3. 學會重新定義 Developer、DBA、SRE、Reviewer 與平台團隊的角色與責任，而不是只調整工具。\n4. 了解 AI 在企業 DevOps 中的最佳定位：協助理解與表達，而非取代決策。\n5. 帶走一套可延伸至 Pipeline、身分治理與平台工程的 Understanding-Driven DevOps 思維。\n邱繼平 (山姆大叔)\n架構師\n我是邱繼平(山姆大叔)，Microsoft MVP（DevOps）2025.2026 ，現任架構師，專注於企業 DevOps 治理、平台工程與雲端原生架構。\n近年持續推動 Azure DevOps、Kubernetes、API Gateway 與多雲平台治理，致力於將組織中隱性的交付知識轉化為可理解、可治理、可追蹤的工作流程。目前負責以 Azure DevOps 為平台核心，推動 Azure、Kong API Gateway 與多叢集 Kubernetes 平台的治理與自動化。\n除了實務導入外，也長期投入技術社群分享，兩屆iThome 鐵人賽優選作者，並曾擔任最佳團隊獎團長。《我要招架一切【痛點】：從工程師到開發團隊的 Azure DevOps 冒險指南》作者，曾於 Hello World Dev Conference、DevOpsDays Taipei 等技術研討會分享企業 DevOps 實踐。\n我相信，真正的 DevOps 不只是導入工具，而是讓每一位參與者都能理解整個工作流，並讓治理成為組織持續演進的能力。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探討軟體開發生命週期所觸及的各種經驗\nTAGS\nSDLC 相關議題",
+    "detail_content_valid": true,
+    "detail_text_length": 2067,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4959",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4959",
+    "title": "讓 Agent Skills 介入你的軟體開發的工作流",
+    "date": "2026-10-14",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "2324"
+    ],
+    "officialText": "2026-10-14 16:00 - 16:45 BC 會議室\nSHARE\n讓 Agent Skills 介入你的軟體開發的工作流\n讓 Agent Skills 介入你的軟體開發的工作流\nAgenda\n1.如何駕馭 AI 開發、AI 時代架構師的暖身運動\n2.從『規格至上』來探討 Agent 驅動的規格分析與建模技巧\n3.Spec 驅動開發？\n- 這不只是將 prompts 變成可重複使用的命令\n4.重新定義 AI 時代的 SDLC 軟體開發\n5.用 Agent Skills 來定義統開發與設計流程方法 (Methodology)\n- 定義 Sequence/Domain Modeling 與程式碼的 Skills\n6.最後，我們展示 Agent Skills 讓 AI 專注在特定 Context 商業領域 Labs 與實作\n聽眾收穫：\n可了解在實際軟體專案開發上，就算 AI 寫程式非常厲害，但是因為大語言模型 LLM 的特性，你無法每一次得到完全相同的結果。\n不過，在藉由特定的方法論下，當你的粒度切割的適當的範圍下，你可以讓你的 AI 每次產出的程式碼都符合你的預期，符合你的 Coding Standard/Rules，但是要怎麼做呢？\n有興趣的話，來看看我怎麼做吧。\n吳俊毅 (Gelis)\nGelis 的程式設計訓練營 資深. NET技術顧問\n在軟體界深耕接近30年，從 QBasic/Turbo C++ 寫到 Delphi 與 VB6，在 .NET 問世後一路做到現在。角色的挑戰從PG, SD, SA, PM, Presales, Consultants, Trainers 都經歷過，且把不同的角色當做是挑戰。目前經營個人FB社團軟體開發之路， Gelis 程式設計訓練營，在.NET圈小有名氣。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探討軟體開發生命週期所觸及的各種經驗\nTAGS\nSDLC 相關議題",
+    "detail_content_valid": true,
+    "detail_text_length": 826,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5003",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5003",
+    "title": "Rule Driven Develpoment-AI時代的軟體開發策略",
+    "date": "2026-10-14",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "119"
+    ],
+    "officialText": "2026-10-14 16:00 - 16:45 DE 會議室\nSHARE\nRule Driven Develpoment-AI時代的軟體開發策略\n隨著 AI Coding Agent 能夠理解需求、修改程式碼、執行測試與操作開發工具，軟體開發正從單點的 AI 輔助，走向 End-to-End 的自動化開發。\n透過 DevOps 平台與自動化流程，AI 已經可以從一張需求單開始，自動展出 User Story、Acceptance Criteria 與工作項目，接著自動完成程式碼開發、自動建立 Pull Request，並進行 AI Code Review、錯誤分析 與 Debug。\n這代表著未來的開發流程，將不再是由開發者逐步操作每個環節，而是由人類提出需求與目標，AI 在 DevOps 工具與工程流程中持續完成開發與驗證工作。\n然而，當 AI 能夠 End-to-End 自動開發時，最大的挑戰也不再是「AI 會不會寫程式」，而是它是否真正理解需求，以及產生的結果是否符合系統規則。\n在這場分享中，講者將透過實際流程與案例，介紹如何讓 AI 自動完成需求展開、工作拆解、程式碼開發、Code Review 與 Debug，並進一步說明：要讓這類自動化開發真正可控、可信任，軟體開發必須從需求驅動，進一步走向以商業規則為核心的 Rule Driven Development(RDD)。\n聽眾收穫：\n了解 AI 如何 讓軟體開發 從 Coding Assistant 走向 End-to-End 的自動化開發\n認識 AI 如何 自動展開需求、Acceptance Criteria 與 開發工作項目、並且自動化進行 程式碼開發、Code Review 與 Debug\n了解如何透過 DevOps 工具串接出完整的 multi-agent 自動化開發流程\n認識 End-to-End 的自動化開發可能面臨的需求誤解、失控、與 驗證問題\n理解為何 AI 自動化開發需要搭配 Rule Driven Development(RDD)\n董大偉 (David)\n光岩資訊 資深技術顧問\n光岩資訊 資深技術顧問\n微軟認證講師(Microsoft Certified Trainer)\n微軟技術社群區域總監(Microsoft Regional Director)\n微軟最有價值專家(AI & DEV 雙 MVP)\nLINE API Expert(LAE, LINE官方認證API專家)\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探討軟體開發生命週期所觸及的各種經驗\nTAGS\nSDLC 相關議題",
+    "detail_content_valid": true,
+    "detail_text_length": 1106,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5013",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5013",
+    "title": "解構 Agentic AI 時代的系統架構：A2A、x402、AP2",
+    "date": "2026-10-14",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "F 會議室",
+    "speakerIds": [
+      "1483"
+    ],
+    "officialText": "2026-10-14 16:00 - 16:45 F 會議室\nSHARE\n解構 Agentic AI 時代的系統架構：A2A、x402、AP2\n當年 REST 與 gRPC 定義了微服務時代的服務間通訊，催生了 API Gateway、Service Mesh 與整個雲原生生態；如今，一組全新的協定正在重新定義 AI Agent 時代的系統架構：Google 的 A2A（Agent2Agent Protocol）讓 Agent 之間能互相發現與協作；Coinbase 主導的 x402 協定賦予 Agent 自主付費呼叫 API 的能力；而 Google 的 AP2（Agent Payments Protocol）則透過可驗證的授權鏈（Mandate Chain），回答了 Agent 交易中最棘手的問責難題。\n這場演講不是三個協定的規格導讀。我會以「一個 Agent 的完整旅程」作為敘事主軸：從透過 A2A 協商任務開始，到收到 402 Payment Required、以 x402 完成鏈上小額支付。這趟旅程將透過講者開源的 Kubernetes 支付基礎設施 Ghost Pay 現場實際演示：以 Istio mTLS 與 Envoy Lua Filter 構建「隱形支付攔截層」，當業務 Agent 遭遇外部 402 挑戰時，Envoy sidecar 自動攔截流量並委派給叢集內的 Paymaster Agent 簽署 EIP-3009 支付憑證，再交由外部 Facilitator 完成鏈上結算。業務 Pod 全程零感知、零程式碼修改，甚至不需要持有任何代幣支付 Gas 費。支付跑通之後，我們再面對下一個更難的問題：「誰授權這個 Agent 花這筆錢？」這正是 AP2 試圖回答的命題，也是 Agent 進入生產環境前無法迴避的最後一塊拼圖。\n聽完這場演講，你將理解：當 Agent 成為系統中的一等公民與交易主體，我們的系統架構設計、服務間通訊、身分授權與計費架構需要迎來哪些根本性的變革，以及哪些準備工作現在就必須開始。\n聽眾收穫：\nAI Agent 正迅速從「會思考的工具」演變為「能自主行動的交易主體」，但大多數企業的系統架構仍停留在為「人類使用者＋傳統服務」設計的舊時代。本議程將協助聽眾打破瓶頸，提前佈局 Agent 經濟：\n- 建立 Agentic Protocol Stack 的心智地圖：\n深刻理解 A2A、x402、AP2 三大協定如何各司其職（溝通協作／支付執行／授權問責），並如同微服務時代的 REST／gRPC 一樣，建構出下一代服務間通訊與商務的基礎分層。\n- 解決關鍵問責：「誰授權這個 Agent 花錢？」：\n透過 AP2 的 Mandate 架構與 SD-JWT 授權鏈機制，掌握 Agent 交易的身分授權與稽核設計。這將是 Agent 進入生產環境時，資安與合規團隊必問的魔王級問題。\n- 帶走一個跑得起來的參考架構 Ghost Pay：\n以「Payment as Infrastructure」為核心哲學，將 Agentic Payment（代理人自主支付）能力下沉至 Kubernetes 基礎設施層：以 Istio mTLS、Envoy Lua Filter 與 sidecar 委派 Paymaster Agent，組裝出讓業務 Pod 零感知、零程式碼修改即可調用外部付費資源的隱形支付攔截層。演講將坦誠分享這些架構決策背後的取捨與已知限制，會後可直接 clone 回去研究。\n蕭兆洋 (Charles Hsiao)\nMaiCoin Group SRE\n熱愛開源技術，專注於可觀測性、雲端架構與 AIOps。\n近期不小心掉進 AI 的深坑裡，時不時會出現在技術社群與大家交流經驗。\n日常活動範圍包含海面下、山林中、或是雲端上。\nhttps://www.charles-hsiao.com\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 與系統架構設計",
+    "detail_content_valid": true,
+    "detail_text_length": 1689,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4976",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4976",
+    "title": "可製造的 AI：讓 AI 成為工廠的第二大腦",
+    "date": "2026-10-14",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "A 會議室",
+    "speakerIds": [
+      "330"
+    ],
+    "officialText": "2026-10-14 17:00 - 17:30 A 會議室\nSHARE\n可製造的 AI：讓 AI 成為工廠的第二大腦\nAI 進入企業已是現在進行式，但下一階段的關鍵，不是導入更多 AI 工具，而是建立「可製造的 AI」。\n所謂可製造的 AI，是指 AI 不只會分析資料或生成內容，而是能進入製造流程，理解材料、設備、製程、品質與成本之間的關係，並能對客戶結果負責。\n目前多數 AI 應用仍停留在單點功能或各自生態系內；但當 AI 開始參與製程建議、品質判斷與客戶交付時，就必須具備：\n對客戶負責\n可解釋\n具成本效益\n可擴展\n可持續訓練與迭代\n這也是為什麼 Digital Twins 在許多製造現場難以完整落地。製造並不是單一設備或參數的模擬，而是材料、設備、製程、批次、環境與成本的複雜組合。若要完整建模，成本與維護難度過高，且不一定符合實際製造效益。\n因此，可製造的 AI 不追求一次建立完美模擬，而是從標準化與半標準化開始，透過 UID 追蹤材料、設備、製程與結果，讓每一次製造經驗都能回饋、校正並持續迭代。\n本議程將提出一套製造業 AI 落地架構，說明 AI 如何從通用工具，轉變為能支援製程判斷、品質改善與客戶責任的工廠第二大腦。\n聽眾收穫：\n理解什麼是「可製造的 AI」\n看見 AI 從工具走向製造流程的關鍵挑戰\n理解為什麼 Digital Twins 在許多現場難以完整處理\n學會用 UID、標準化、半標準化與持續回饋建立 AI 製造閉環\n重新思考製造業如何建立能對品質、成本與客戶負責的 AI 能力\n戚務漢 (Caesar)\n正美科技 數位部\nJavaScript 生態系的長期建設者，從社群、開源、顧問服務一路走進產業現場。為個人化品牌零售打造 AI 製造與供應鏈基礎設施的營運者。目前主要將打造品牌想像與製造現場之間的 AI 營運層。\n是一位 AI × 製造營運者，專注打造連接品牌想像、供應鏈協作與工廠現場執行的基礎設施。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 開發工具實戰和流程改造",
+    "detail_content_valid": true,
+    "detail_text_length": 887,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4967",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4967",
+    "title": "當架構設計被 AI 加速後，工程判斷力的養成與傳承該怎麼辦？",
+    "date": "2026-10-14",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "2333"
+    ],
+    "officialText": "2026-10-14 17:00 - 17:30 BC 會議室\nSHARE\n當架構設計被 AI 加速後，工程判斷力的養成與傳承該怎麼辦？\nAgentic coding 讓架構設計從幾天壓縮到幾小時，但過去的品質與判斷力，要怎麼在加速後保留？\n「慢」的價值不在慢本身，而在過程裡發生的兩件事：context 的內化，以及方案選擇之間的掙扎——判斷力正是在這種不舒服裡長出來的。AI 壓縮了產出時間，也一併壓縮了這兩件事。資深者還能靠累積把關，但「AI 給什麼、看起來合理就收下」的下一代，判斷力要從哪裡養成？資深判斷又要趁什麼場合交接？\n這場分享不是呼籲放慢，而是把隱性的養成過程重新設計成顯性機制：從判斷力養成的條件談起，說明 AI 協作為何恰好破壞每一個；依「做錯後回頭的代價」篩選哪些決策放給 AI、哪些留給人；主體聚焦兩個可直接執行的做法——「人先設計、AI 後提案」的順序紀律，以及設計評審中陳述被否決方案的規則。被否決的方案與理由，正是資深判斷的顯性化，是給下一代的免費教材。最後談三個判斷力成長的觀察訊號，以及最大的敵人：機制淪為形式化。\n聽眾收穫：\n聽完這場分享，你會帶走三樣東西：\n1.理解問題的框架——判斷力養成的條件，以及 AI 協作為何恰好破壞每一個。\n2.決策篩選方法——依「做錯後回頭的代價」決定哪些決策留給人深思、哪些放給 AI 全速執行。\n3.可立即落地的機制——融入既有儀式、不新增會議，並讓資深者的隱性判斷顯性化、傳承給團隊。\n林承毅 (Jed)\n躍準科技有限公司 Founder\n林承毅（Jed Lin），ClearForge 躍準科技創辦人。二十餘年軟體開發與技術管理經驗，擅長高並發系統架構與領域驅動設計(DDD)，開發過旅館管理系統、客服中心系統、線上博奕平台及人資SaaS平台。目前專注於協助技術團隊導入 AI 輔助開發流程的治理與陪跑，開設 Tech Lead 導向的 Agentic Coding 治理工作坊與實例化需求工作坊，並持續以獨立開發者身分實踐 AI 協作交付。常態於 twMVC、DevOps Taiwan Meetup、Taipei Agile Community 分享 AI 時代的工程實務與團隊轉型議題。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nBeyond AI",
+    "detail_content_valid": true,
+    "detail_text_length": 994,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5028",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5028",
+    "title": "「開發效能提升實戰」：Claude Design 搭配自建 Skill，團隊達到提升四倍產出",
+    "date": "2026-10-14",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "1562",
+      "2350"
+    ],
+    "officialText": "2026-10-14 17:00 - 17:30 DE 會議室\nSHARE\n「開發效能提升實戰」：Claude Design 搭配自建 Skill，團隊達到提升四倍產出\n在生成式 AI 快速發展的時代，如何將 AI 工具真正融入團隊開發流程，並轉化為可衡量的生產力？本分享將揭密團隊如何結合 Claude Design 與自建的專屬 Skill，建立一套高度協同的 AI 開發機制。\n我們將深入探討自建 Skill 的架構設計與實務落地經驗，分享團隊如何藉由精準的指令設計與流程拆解，成功克服傳統開發切換與協作的痛點，最終達成提升 4 倍開發產出的具體做法與實戰心得。\n核心亮點\n•技術落地：Claude Design 與自建 Skill 的整合架構與心法\n•流程優化：如何將標準開發流程（SOP）轉化為高效 AI 協作指令\n•實戰數據：達成 4 倍產出的關鍵指標與團隊轉型經驗談\n聽眾收穫：\n1.AI 協作流程化：掌握將團隊 SOP 與開發規範封裝為自建 Skill 的實務心法，減少 AI 產出偏離與人工修正時間。\n2.產出倍增關鍵：理解 Claude Design 與自建 Skill 結合的架構邏輯，學會在真實專案中落地推動 4 倍效能提升。\n3.避坑指南與實務數據：獲得第一手的團隊導入痛點、指標衡量經驗與踩坑教訓，縮短自家團隊 AI 化轉型的摸索期\n吳品毅 (阿咪 A-mi)\n敦謙國際 經理 / Scrum Master\n深耕敏捷開發，並使用Scrum打造敦謙的 Hexa 旅宿通路管理系統\n兩年內打造出卓越且符合市場需求的產品\n敦謙國際是台灣最大的旅宿集團, 除了自營50+的飯店外\n還自行研發了飯店所需的大多數系統\n是台灣唯一擁有自研能力與應用場域之公司\n軟體開發是我的興趣, 喜歡挑戰跟研究酷酷的東西\n在團隊中擔任Team Leader\n帶領團隊共同成長與發展新技術\n林杰伶 (Jennifer Lin)\n敦謙國際 資深 UI/UX 設計師\n從平面、包裝設計一路走進網頁與 UI/UX，累積多元的設計經驗，目前專注於數位產品與介面設計。參與 Hexa 旅宿通路管理系統的產品設計，從產品需求、操作流程到介面設計，與 PM、工程師共同推動產品落地。\n近年投入 AI × Design 的實務探索，實際將 AI 導入 Hexa 的產品開發流程，思考 AI 如何協助設計師突破傳統設計與開發之間的界線，讓設計更深入地參與產品開發。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探討軟體開發生命週期所觸及的各種經驗\nTAGS\nAI 如何改變產品規劃與需求定義\nAI 開發工具實戰和流程改造\n組織文化與敏捷\n團隊溝通與協作",
+    "detail_content_valid": true,
+    "detail_text_length": 1124,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5029",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5029",
+    "title": "AI Agent 時代：當人人都能快速上手，什麼才是真正的專業？",
+    "date": "2026-10-14",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "F 會議室",
+    "speakerIds": [
+      "263"
+    ],
+    "officialText": "2026-10-14 17:00 - 17:30 F 會議室\nSHARE\nAI Agent 時代：當人人都能快速上手，什麼才是真正的專業？\nAI Agent 的普及打破了傳統程式與專業知識的壁壘，大幅平緩了跨領域的學習曲線。團隊成員從過往的「求助於人」，轉變為「求助 AI」，學習與嘗試的自主性大增。AI 也讓我們能快速驗證想法、降低跨領域團隊間溝通的磨擦。速度變快了，但我們真的更快到達目的地嗎？\n分享重點：\n．AI Agent 如何改變學習曲線\n．當人人都能快速上手，真正的專業是什麼？\n聽眾收穫：\n．理解 AI 時代下，個人與團隊專業能力會如何轉變？該如何轉變？\n江佳佳\n台中敏捷社群 現任組織者\n職業生涯從工程師開始，擔任過專案負責人與 Scrum Master，也擔任過數年的管理職然後轉職成為 Agile Coach，近期又轉變成 Project Manager，但其實做的事情一直都不是那麼純血，通常是團隊哪裡有坑就往哪裡填 ...\n從 2017 年開始接觸社群活動，從台下走到台上，是台中敏捷社群現任組織者，偶爾會穿梭在各社群打雜。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探討軟體開發生命週期所觸及的各種經驗\nTAGS\nAI 如何改變產品規劃與需求定義\nSDLC 相關議題\n團隊溝通與協作",
+    "detail_content_valid": true,
+    "detail_text_length": 563,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4998",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4998",
+    "title": "Welcome opening",
+    "date": "2026-10-15",
+    "start": "10:00",
+    "end": "10:10",
+    "room": "ABCDEF 會議室",
+    "speakerIds": [],
+    "officialText": "2026-10-15 10:00 - 10:10 ABCDEF 會議室\nSHARE\nWelcome opening\nLEVEL\n通識\nLANGUAGE\n中文",
+    "detail_content_valid": false,
+    "detail_text_length": 78,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4999",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4999",
+    "title": "從一人 AI 工作流到團隊工程系統",
+    "date": "2026-10-15",
+    "start": "10:10",
+    "end": "10:55",
+    "room": "ABCDEF 會議室",
+    "speakerIds": [
+      "1583"
+    ],
+    "officialText": "2026-10-15 10:10 - 10:55 ABCDEF 會議室\nSHARE\nKEYNOTE 從一人 AI 工作流到團隊工程系統\nAI Agent 已經可以在短時間內產出大量程式碼，但程式碼產出速度變快，不代表軟體交付品質也會同步提升。只有工程紀律，才能讓 AI 產出的程式碼變得可驗證、可維護，並且持續演進。\n本議程將以一套實際落地於個人開發流程的 AI Agent 工作流為起點，分享如何從 PRD、User Story、Design Document、Implementation Plan、Agent 實作到 Code Review，逐步建立可被 AI 讀取、執行與回饋的工程上下文。\n除了 AI SDLC，本議程也會說明 Linter、Testing、Coding Guidelines、Git Hooks 與 CI 等傳統軟體工程實踐，如何成為約束 AI 行為、及早發現問題並建立品質回饋循環的重要基礎。\n這套流程目前主要在一人開發情境中驗證，但其核心並不是個人 Prompt 技巧，而是將需求、設計、規範與實作知識，沉澱為可版本化、可審查、可逐步擴展的團隊工程資產。\n聽眾收穫：\n這場分享適合正在導入 AI Agent、但開始遇到混亂、品質不穩的工程師與團隊。聽眾將能帶走一套從個人實踐出發、逐步擴展成團隊工作流的 AI SDLC 設計方法。\n謝浩哲 (HAO)\nTSMC Senior IT Engineer\n大家好，我是HAO，一位熱愛技術並樂於分享的工程師，現任職於TSMC IT。\n曾參加四屆iT邦幫忙鐵人賽，並獲得一次優選、三次佳作。\n此外，我出版了全世界第一本繁體中文的NestJS入門書籍。\n希望我的分享能幫助更多需要的人！\nLEVEL\n通識\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 開發工具實戰和流程改造",
+    "detail_content_valid": true,
+    "detail_text_length": 793,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4971",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4971",
+    "title": "當 AI 開始調查事故：讓 Kubernetes 告警從噪音變決策",
+    "date": "2026-10-15",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "A 會議室",
+    "speakerIds": [
+      "2341"
+    ],
+    "officialText": "2026-10-15 11:15 - 12:00 A 會議室\nSHARE\n當 AI 開始調查事故：讓 Kubernetes 告警從噪音變決策\n半夜兩點告警響了，本來今天是美好的颱風假\n你一臉厭世打開電腦，Grafana 一個視窗、Loki 一個視窗、K8s 事件一個視窗\n最近誰動了部署又是另一個地方，你開始把這些線索一片一片拼起來試圖釐清到底哪裡出了問題?\n每個維運過的人都經歷過這一幕\n事故發生時，消耗時間的往往不是修復而是調查\n可觀測性提供了你需要的資料，卻沒有提供答案\n我將分享打造 AI 輔助事故調查系統的過程，以及如何把 AI 導入問題查找流程\n目標很單純 當告警觸發的那一刻由 AI 接手「拼線索」這件苦差事\n我們希望建立的不是一位會聊天的 AI，而是一位能協助 SRE 更快找出 Root Cause 的助手\n這裡不討論 AI 是否取代 SRE\n我想說的是另一件事「當 AI 把調查的苦工接走 工程師才能真正專注在需要判斷力的決策上」\n聽眾收穫：\n1.重新認識「可觀測性」的邊界：\n有 metrics、logs、traces 不等於有診斷能力，理解這個落差是什麼以及 AI 如何填補它\n2.了解一套適合 SRE 的 AIOps 工作流程：\n從 Alert、證據收集、規則判斷、AI 分析到結構化報告，建立可落地的事故調查流程\n3.知道 AI 為什麼不能直接接收告警：\n理解規則引擎在建立上下文、降低幻覺與提高分析品質中的角色\n4.學會如何讓 AI 的分析結果變得可驗證：\n了解結構化輸出如何支撐後續自動化、系統整合與決策流程，而不只是生成一段文字\n5.讓歷史事故成為可搜尋的組織知識：\n向量搜尋讓「這次跟三個月前那次很像」從工程師直覺變成系統自動提示的能力\nDuo\n大型電商 Senior Engineer\n資深軟體架構師與技術組長\n超過 15 年跨產業及平台的系統開發經驗\n從早期 QB、VB、Perl、Assembly、C/C++\n開發到 Java、C#、Python、JavaScript、Dart、Go、Rust\n熱愛軟體工程、逆向工程及敏捷開發\n也專注於新技術的推廣與研究\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 如何驅動 DevOps 革命",
+    "detail_content_valid": true,
+    "detail_text_length": 966,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5001",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5001",
+    "title": "買完 AI 工具，然後呢？",
+    "date": "2026-10-15",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "700"
+    ],
+    "officialText": "2026-10-15 11:15 - 12:00 BC 會議室\nSHARE\n買完 AI 工具，然後呢？\n「我們每個月花在 AI 工具上的錢，到底換到了什麼？」\n在經營會議上被問到這句時，我腦袋一片空白。帳號都開好了，同仁也真的每天在用，但真要證明這筆錢花得值得，我拿得出來的，只有使用次數。\n一年前開始用 AI 時，我其實沒想那麼多。事情太多、人力不夠，我只想趕快清掉堆積如山的工作。直到後來才發現：一個人用得順，不代表整個團隊真的變快；團隊用起來了，也不代表公司真的得到更多價值。\n這一年，我陸續闖了三關，而且每一關都先摔過一次：\n• 怎麼分工：哪些工作可以交給 AI？哪些判斷、驗收與責任一定要留在人身上？\n• 怎麼讓團隊跟上：為什麼工具導入了、教育訓練也辦了，日常的工作方式還是沒有改變？\n• 怎麼證明有效：除了使用率與產出量，如何把檢查與修改時間、品質及實際成果納入衡量？\n這場分享不會只談我最後做對了什麼，也會拆解我當時怎麼判斷、在哪裡判斷錯誤，以及後來怎麼修正。\n回到「買完 AI 工具，然後呢？」我的答案是：真正該升級的，不只是操作 AI 的能力，更是主管設計工作方式的能力。\n聽眾收穫：\n判斷哪些工作適合交給 AI，哪些關鍵決策與驗收必須由人負責\n找出 AI 導入團隊後卡住的原因，把個人經驗轉成可重複的工作方式\n不只看使用率，從時間、成本與品質衡量 AI 帶來的實際成效\n董淳吉 (Marcus Tung)\n鼎恒數位科技 協理\n後端工程師兼 DevOps 技術社群志工，熱衷於探索與研究各種技術原理，並將技術心得、系統問題排除以及專案實務經驗記錄在個人部落格。近年積極參與研討會分享包含後端開發、Observability 及 DevOps 等主題，並協助社群活動以促進更多交流與學習。希望能透過分享所學與踩雷經驗，幫助更多夥伴與社群朋友一起成長。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探討軟體開發生命週期所觸及的各種經驗\nTAGS\n領導與人才培訓",
+    "detail_content_valid": true,
+    "detail_text_length": 845,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5022",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5022",
+    "title": "AI在企業的應用與挑戰之路",
+    "date": "2026-10-15",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "628"
+    ],
+    "officialText": "2026-10-15 11:15 - 12:00 DE 會議室\nSHARE\nAI在企業的應用與挑戰之路\n說明導入人工智慧的機會與挑戰。AI 已從機器學習、深度學習與生成式 AI，逐步進入可自主規劃、呼叫工具與執行任務的 AI Agent 時代。企業成功關鍵不在模型大小，而在資料品質、治理與場景選擇。RAG 可改善企業知識搜尋，卻受檢索品質與延遲限制。Microsoft Foundry 提供模型、Agent、知識工具、監控及雲地邊緣整合，Foundry Local 可支援離線、低延遲與資料不外流AI 是工具而非策略，贏家是能找對問題、理解業務並持續學習的人。\n我會分享內容中會有提到幾個項目\nMutil-Agent 的設計種類，和應用場景\n採用企業案例說明RAG在LLM解決方案並非都可以被接受\nVibe Coding並非有實際效益，他會帶來一些危害，同時也會因為Token成本造成新的Token管理議題\n說明完上述流程，用自己在企業擔任AI策略管理者，說明我們導入AI的流程\n聽眾收穫：\n可以了解企業導入AI的心路歷程與各項轉折的思考點和做法。同時，也讓聽眾了解AI並非是企業解決問題的唯一解決方案\nEdward Kuo\nMicrosoft MVP\n現任美商科技製造公司資訊處資深經理，兼具 Microsoft Regional Director 與 Microsoft AI MVP 身分，長期投身技術社群與產業實務。擅長雲端架構設計、工業 4.0、供應鏈系統、AI/ML 與 DevOps 解決方案，善於以多元觀點串聯業界需求與技術落地。熱衷於知識分享，活躍於各大技術研討會、社群論壇及企業訓練，亦為多所大學客座講師及競賽評審。致力推動企業數位轉型，持續促進技術交流與社群成長，協助更多團隊實現創新價值。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nBeyond AI",
+    "detail_content_valid": true,
+    "detail_text_length": 816,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4970",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4970",
+    "title": "MCP 時代的 AI Agent 資安攻防",
+    "date": "2026-10-15",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "F 會議室",
+    "speakerIds": [
+      "1950"
+    ],
+    "officialText": "2026-10-15 11:15 - 12:00 F 會議室\nSHARE\nMCP 時代的 AI Agent 資安攻防\nModel Context Protocol (MCP) 讓 AI Agent 能呼叫外部工具，卻也打開了全新攻擊面。從 MCP server 的安全態勢分析出發，拆解五大攻擊路徑（Tool Poisoning、Prompt Injection、Rug Pull、Supply Chain、Cross-Client Leak），真實攻擊案例解析威脅。下半場分享講者在自建 Agent 系統中落地的七條防禦守則與 harness-level policy enforcement 設計。\n聽眾收穫：\n2026 前兩月已有 30+ MCP 相關 CVE，但多數開發者仍在「裝了就用」的階段。聽眾將帶走：(1) 一張可直接套用的 MCP 架構安全檢查清單 (2) 「智能決策層與高權限執行層分離」的設計原則 (3) 一個判斷框架：你的 Agent 系統需不需要在工具呼叫層加裝即時攔截機制（答案取決於你的資料來源是否可被第三方寫入）。\n吳勝繙 (Chris)\n數位發展部 科長\n數位發展部共用系統科科長，主要管理共用系統維運...\n今天我就是一個開發者，工作時間以外把開發當打怪，去年開始從 Vibe coding 畢業，將重心放在最近被稱為軟體 3.0 的領域，從零打造了一套仿生記憶系統並以個人 Agent 工作流驅動日常公務。\nLEVEL\n進階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 驅動的軟體開發資安新思維",
+    "detail_content_valid": true,
+    "detail_text_length": 687,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5008",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5008",
+    "title": "初級工程師如何 AI 賦能的翻寫一個跟自己年紀差不多大的框架",
+    "date": "2026-10-15",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "A 會議室",
+    "speakerIds": [
+      "1976"
+    ],
+    "officialText": "2026-10-15 13:30 - 14:00 A 會議室\nSHARE\n初級工程師如何 AI 賦能的翻寫一個跟自己年紀差不多大的框架\nSDLC 過去最常被犧牲的環節，像是沒時間寫測試、排不出重構，在 AI 時代反而更該重視。這場演講分享我在真實商業專案（legacy 系統現代化）中每天運轉的工作流。從 pm skill 負責釐清需求背後的「為什麼」，產出 User Journey 與驗收標準；arch skill 盤點專案慣例與可重用內容，產出架構文件；Implementer subagent 帶著開發哲學的 system prompt 實作（「先讓改動變容易，再做那個容易的改動」）；Test-reviewer 專門審查測試是否真的產生 confidence、有沒有偷改測試掩蓋 bug；Reviewer 用工程判準抓過度嵌套、競態條件與被繞過的 invariant；最後 QA 以 fork context 驗收，不過就退回修正，直到 pass。\n聽眾收穫：\n1. 一套可直接複製的 subagent pipeline 設計:PM → 架構 → 實作 → 測試審查 → 程式審查 → QA 的角色拆分與銜接文件\n2. 各角色 system prompt 的設計原則:如何把工程哲學與判準寫進 prompt,而不是每次重講\n3. AI 時代的 SDLC\n4. 單人開發者也能維持團隊級的品質防線\nMaple Kuo\nClaude Taiwan 社群管理員 現職網站開發工程師\n曾任《2025 Hello World Dev Conference》講者，從 GPT-3.5 時代開始 vibe coding，一去不返從英文系轉職到軟體業，在 AI 時代出身的軟體工程師。\nLEVEL\n進階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 開發工具實戰和流程改造",
+    "detail_content_valid": true,
+    "detail_text_length": 803,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4975",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4975",
+    "title": "以敵為師的軟體防禦：導入AI紅隊思維與MITRE ATLAS的攻擊面拆解",
+    "date": "2026-10-15",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "1355"
+    ],
+    "officialText": "2026-10-15 13:30 - 14:00 BC 會議室\nSHARE\n以敵為師的軟體防禦：導入AI紅隊思維與MITRE ATLAS的攻擊面拆解\n隨著 AI 模型與 API 深度整合至軟體開發，傳統基於規則的邊界防禦已然失效。本議程將以 EC-Council C|OASP 實戰框架(RECON -&gt; EXPLOIT-&gt; DEFEND)為核心，從破壞者視角動態剖析 AI 驅動開發的資安隱憂。\n講者將結合國際主流的 MITRE ATLAS 威脅矩陣，系統性拆解從「模型指紋識別(Model Fingerprinting)」到「對抗性提示詞注入（Prompt Injection）」及「向量資料庫檢索污染（RAG Poisoning）」的完整攻擊鏈，並探討 AI Agent 在權限過度授權下的橫向移動與漏洞利用路徑。\n最後，本次議程將分享如何由攻擊路徑逆向回推，建立包含「AI Fuzzing 漏洞挖掘」與「多層級防禦護欄（Guardrails）」的縱深防禦強化機制，協助企業嘗試建立運行期的持續合規監測，化被動防守為主動防禦，打造具備高資安韌性的 AI 系統。\n聽眾收穫：\nAI驅動的軟體開發，造成新的資安議題，透過 EC-Council C|OASP 實戰框架(RECON -&gt; EXPLOIT-&gt; DEFEND)與 MITRE ATLAS 威脅模型，系統性拆解攻擊面議題，最後建立包含「AI Fuzzing 漏洞挖掘」與「多層級防禦護欄（Guardrails）」的縱深防禦強化機制，協助聽眾嘗試建立運行期的持續合規監測，化被動防守為主動防禦，打造具備高資安韌性的 AI 系統。\n林毅力 (Stanley)\n台中商業銀行 技術副理\n2 年政府標案 - 軟體工程師\n5 年 - 資訊系統工程師\n7 年 - 資訊部門主管\n2 年 - 集團經營管理、資訊、稽核、人資、安衛環 等單位主管，製造業 \\ 中小企業專業幕僚。\n目前從事金融業資安治理工作，持有 CCSP \\ CISSP \\ CISM \\ CISA \\ CEH \\ ITIL \\ PMP \\ ACP \\ Associate C|CISO 等國際認證。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 驅動的軟體開發資安新思維",
+    "detail_content_valid": true,
+    "detail_text_length": 982,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5006",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5006",
+    "title": "AI Agent Payments：x402 架構實戰",
+    "date": "2026-10-15",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "1309"
+    ],
+    "officialText": "2026-10-15 13:30 - 14:00 DE 會議室\nSHARE\nAI Agent Payments：x402 架構實戰\n隨著 AI Agent 從單純的輔助工具，逐步演進為能自主執行任務、調用 API、購買資料與使用雲端服務的自動化系統，「Agent 如何完成付款」將成為下一階段系統架構設計的重要議題。本議程將介紹 x402 如何運用 HTTP 402 Payment Required 概念，讓 API 與服務能以更原生的方式支援自動化付款流程，進而建構可被 AI Agent 存取、驗證與即時結算的服務架構。\n本次分享將從 AI Agent 支付需求出發，說明傳統 API Key、訂閱制與人工授權流程在 Agentic Workflow 中的限制，並進一步拆解 x402 的核心架構，包括 client、server、payment requirement、facilitator、付款驗證與服務回應流程。\n除了架構與實作，本議程也會探討 x402 在實務落地時需要面對的安全與治理問題，例如支付授權、重放攻擊、防濫用機制、API 存取控制、交易驗證、成本控管與觀測性設計。最後將延伸討論 x402 在 AI Agent Economy、API Monetization、資料服務、模型服務與自動化雲端資源消費中的應用可能，協助開發者理解 AI Agent 支付架構的技術脈絡與實作挑戰。\n聽眾收穫：\n聽眾將理解 AI Agent 為何需要自動化支付能力，並掌握 x402 如何將付款要求、付款驗證與 API 存取流程整合到 HTTP 架構中。透過實作案例，聽眾可以了解如何設計可被 AI Agent 自動付費存取的後端服務，並認識支付授權、重放攻擊、防濫用、存取控制與成本治理等實務挑戰。\nYork Chang\n國泰金控 工程師\n我長期專注於軟體工程、資訊安全、區塊鏈與人工智慧技術領域，具備多年實務經驗。過去曾參與多項資安、區塊鏈與 AI 相關專案，熟悉系統設計、後端開發、安全架構、智慧合約、去中心化應用，以及 AI 技術在實務場景中的整合與應用。除了具備豐富的軟體開發與技術架構經驗，也持續關注新興科技趨勢，致力於將工程實務、安全思維、區塊鏈技術與 AI 應用結合，打造更可靠、智慧且具創新性的技術解決方案。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 與系統架構設計",
+    "detail_content_valid": true,
+    "detail_text_length": 1028,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5007",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5007",
+    "title": "使用過狩野分析與NPS嗎？讓我們一起務實的簡化它",
+    "date": "2026-10-15",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "F 會議室",
+    "speakerIds": [
+      "1070"
+    ],
+    "officialText": "2026-10-15 13:30 - 14:00 F 會議室\nSHARE\n使用過狩野分析與NPS嗎？讓我們一起務實的簡化它\nKano Model 與 NPS 是業界常見的兩種使用者體驗問卷方法。\nKano Model 能協助我們了解不同功能對使用者滿意度的影響，但在問卷編撰與施測過程中，較容易因題目理解產生誤會。\nNPS 則是廣泛用於評估品牌印象與使用者推薦意願的工具，但「使用者填答的意願」是否真的會轉化為「實際行為」，也是值得思考的問題。\n這次的分享將從這兩種方法出發，重新檢視它們在實務上的限制，把 Kano Model 的操作方式簡化；同時，也將帶大家進回歸使用者的真實行為，從NPS的基本定義出發，進行不用問卷的NPS調查。\n聽眾收穫：\n1. 理解Kano Model與NPS的內涵\n2. 如何簡化Kano Model的問卷\n3. 不用問卷如何進行NPS的調查\n陳啟彰 (Nor)\n領潮創意設計 服務設計研究顧問\n陳啟彰，服務設計顧問、講師，長期投入使用者研究、服務設計與創新思維等領域，擁有超過十年的服務設計實務與教學經驗。早期具製造業與品質管理相關背景，接觸 ISO-9002 等管理制度，後逐步轉向以使用者為核心的研究與設計工作，累積跨企業、公共服務與地方創生等不同領域的專案經驗。\n目前主要從事使用者研究、服務設計、體驗量化與創新工作坊等工作，擅長將複雜的方法與工具轉化為容易理解、能夠實際操作的工作流程。從脈絡訪查、深度訪談、問卷設計，到利害關係人分析、共創工作坊與服務創新，重視研究結果如何真正回到決策與實務應用，而不只是停留在研究報告。\n在教學與工作坊方面，長期帶領企業、公部門及地方團隊進行創意思考與共識建立，並持續探索 AI、使用者研究與服務設計之間的結合。近年來對於社區營造也有高度興趣，持續思考投入發展的可能性。\n教學風格強調「把方法用出來」，透過案例、實作與討論，讓參與者不只是理解工具，更能將所學帶回自己的工作現場，轉化為實際的行動與改變。\nLEVEL\n通識\nLANGUAGE\n中文\nSUBTOPIC\n探討軟體開發生命週期所觸及的各種經驗\nTAGS\n團隊溝通與協作\n領導與人才培訓",
+    "detail_content_valid": true,
+    "detail_text_length": 909,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4961",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4961",
+    "title": "AI O11y：數據決策到技術選型",
+    "date": "2026-10-15",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "A 會議室",
+    "speakerIds": [
+      "62"
+    ],
+    "officialText": "2026-10-15 14:15 - 15:00 A 會議室\nSHARE\nAI O11y：數據決策到技術選型\nLLM application 與 AI agent 的問題，通常不只是在服務是否存活。當模型輸出品質下降、latency 變高或成本突然增加時，團隊需要知道每一次 request 經過了哪些步驟、使用了什麼模型與 prompt，以及最後產生了什麼結果。傳統的 logging 與 metrics 往往不足以回答這些問題。\n本次分享將介紹 LLM observability 的基本概念，並以 Langfuse 為例，示範如何建立 tracing、觀察 model call 與 agent workflow，從 traces 中分析品質、延遲與成本，逐步建立可供開發與維運使用的 feedback loop。\n1. 為什麼 LLM application 需要新的 observability\n2. Trace、span、generation 與 metadata\n3. 使用 Langfuse 收集與查看 LLM traces\n4. 從 tracing 分析 latency、token usage 與成本\n5. 觀察 prompt、model output 與 agent workflow\n6. Observability 的限制：如何走向 evaluation 與 decision system\n聽眾收穫：\n你將能理解 LLM tracing 與傳統服務 observability 的差異，使用 Langfuse 追蹤模型呼叫與 agent workflow，並從 traces 取得品質、延遲與成本分析所需的資料，為後續 evaluation 與 regression 建立基礎。\n張哲嘉 (Che Chia Chang)\nMaiCoin SRE\nChe-Chia Chang 是一名專注於後端開發、開發維運、容器化應用及 Kubernetes 開發與管理的技術專家，同時也是 Microsoft 最有價值專業人士（MVP）。\n活躍於台灣技術社群，經常在 CNTUG、DevOps Taipei、GDG Taipei、Golang Taipei Meetup 等社群分享 DevOps、SRE、Kubernetes、雲端與 AI Engineering 相關技術。\n個人部落格： https://chechia.net\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 如何改變產品規劃與需求定義",
+    "detail_content_valid": true,
+    "detail_text_length": 1088,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5004",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5004",
+    "title": "當 AI 加入團隊：打造可審查、可驗證、會自我改善的 AI 開發工作流",
+    "date": "2026-10-15",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "2339"
+    ],
+    "officialText": "2026-10-15 14:15 - 15:00 BC 會議室\nSHARE\n當 AI 加入團隊：打造可審查、可驗證、會自我改善的 AI 開發工作流\n團隊導入 AI Coding 後常遇到同一種困境：每個人的用法不同，好的經驗鎖在個人對話紀錄裡無法複製；AI 有時宣稱「已完成、已驗證」，實際卻沒有真正跑過檢查；日誌、憑證與工具權限也缺乏一致的安全邊界。\n問題的核心不是模型不夠強，而是 AI 的行為缺乏可治理的框架。\n本演講分享 AIWorkflow 的設計與實戰 — 一套刻意輕量的做法：不引入常駐服務、向量資料庫或新平台，完全以 Git、Markdown 與腳本，把團隊的 AI 協作變成可審查的工程資產。內容拆解四個關鍵機制：\n1. 分層與路由：將能力拆成 Workflow、Agent、Skill、Knowledge、Prompt，透過 manifest 讓 AI 每次只載入最小必要上下文。\n2. 行為契約：定義可觀察的完成條件、不得宣稱未執行的驗證、同一方法失敗兩次即停下重新評估。\n3. 安全邊界：每個 Skill 明確宣告允許的動作與副作用，執行期敏感資料一律隔離在版本庫之外。\n4. 自我改善閉環：任務結束後由 AI 產出改善提案，經人工審核才升級為團隊知識——流程會演化，但由人把關。\n全程以真實的軟體問題調查與修復流程貫穿，讓 AI 如何依可重現的工作流完成理解問題、分析日誌、定位程式、修改與驗證，而非仰賴一次性的靈感 Prompt。\n聽眾收穫：\n1. 學會將個人 Prompt 技巧轉化為團隊可維護、可審查的 AI 工作流。\n2. 理解「行為契約」的設計，讓 AI 的完成標準可觀察、可驗證，避免只有「看起來完成」。\n3. 掌握最小上下文、工具權限與敏感資料隔離等安全設計原則。\n4. 建立「執行、驗證、反思、審核、演進」的閉環，持續累積經驗，同時避免錯誤擴散。\n5. 一套不需新增複雜基礎設施、能以 Git、文件與腳本立即試行的最小導入藍圖。\n蔡景翔 (James Tsai)\n骨架資訊有限公司 Microsoft MVP\n現任 Microsoft MVP - Developer Technologies (2015~) 與 骨架資訊有限公司的技術顧問。從 1x 年多前開始接觸 .NET 程式開發後，經歷過撰寫各家行動平台的 App 與 Azure 雲端應用服務整合到當前的 AI 治理。點部落: https://dotblogs.com.tw/jamestsai，內容涵蓋 Xamarin/.NET MAUI、Azure 服務、Avalonia 跨平台相關應用開發...等紀錄。當前專注於跨平台應用開發與 CI/CD 整合、企業行動化資料保護、GitHub Copilot 企業服務的研究與推廣。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 開發工具實戰和流程改造",
+    "detail_content_valid": true,
+    "detail_text_length": 1229,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4981",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4981",
+    "title": "AI 時代下測試的迷思——為什麼綠燈越多，品質卻沒有變好",
+    "date": "2026-10-15",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "160"
+    ],
+    "officialText": "2026-10-15 14:15 - 15:00 DE 會議室\nSHARE\nAI 時代下測試的迷思——為什麼綠燈越多，品質卻沒有變好\nAI 一天能產出近十億行程式，但它解決的是「能不能跑」，不是「對不對、該不該這樣寫」。當生成趨近免費、驗證卻還卡在人類判斷的速度上，測試的瓶頸已經從「寫程式」移到「驗證程式」。團隊嘴上問的是「怎麼測 AI 寫的程式」，心裡真正怕的是「我來不及讀完所有程式時，怎麼還能負責地說它可以上線」。\n這場分享我會拆解幾個在 AI 開發現場最常見的誤解，全程用可查證的研究數據加以佐證說明（METR 隨機對照試驗、DORA 2026、Sonar 2026），並穿插測試業界大佬的觀點。\n大綱:\n一、AI 對軟體測試所帶來的影響\n二、迷思群一・綠燈幻覺——覆蓋率、綠燈、AI 寫的測試，為什麼都騙得了你\n三、迷思群二・感知與現實的落差——你以為的快、你以為的好、你以為的把關，數據都不同意\n四、迷思群三・人與規格反而更重要——oracle problem、模型越強缺口越大、AI 審 AI 的盲點\n五、核心矛盾:很多團隊「要的是驗證，做的卻是把檢查自動化」，還誤以為兩者相等\n聽眾收穫：\n(1) 綠燈不等於對：測試通過只證明程式符合你寫的斷言，不證明那些斷言抓對了重點。\n(2) 體感會騙人：你以為 AI 讓團隊更快了，但量測（METR）顯示資深開發者其實慢了 19%，連自己都沒察覺。\n(3) 人和規格在 AI 時代更重要：AI 能產出程式卻定義不了「什麼叫對」，那個判斷只能由人和規格提供，反而比過去更稀缺。\n柯仁傑 (David Ko/敏捷三叔公)\nOdd-e Technical Coach\n目前在 Odd-e 擔任 Technical Coach，幫助企業導入敏捷、改善流程和提供培訓，台灣 Agile Tour Taipei 的組織者之一，也是國內最大敏捷社群的創始人, 致力於推廣敏捷技術。\n擅長敏捷開發流程、敏捷測試、軟體測試、設計衝刺 (Design Sprint) 和 DevOps 轉型。\nAgile Summit、DevOpsDays Taipei 的主辦人，譯有 Scrum and XP from the Trenches 繁中版。著有: “多團隊高效協作密技：大規模敏捷開發方法 Large Scale Scrum 簡單學”, \"軟體測試修練指南：我獨自升級的實戰心法\" 和 \"範例驅動的需求澄清術：如何用精準範例指揮 GenAI 建構高品質軟體\"\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探討軟體開發生命週期所觸及的各種經驗\nTAGS\nSDLC 相關議題",
+    "detail_content_valid": true,
+    "detail_text_length": 1113,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4980",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4980",
+    "title": "別讓 Agent 瞎掰：用 Semantic Layer 打造可信賴的企業 AI",
+    "date": "2026-10-15",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "F 會議室",
+    "speakerIds": [
+      "2331"
+    ],
+    "officialText": "2026-10-15 14:15 - 15:00 F 會議室\nSHARE\n別讓 Agent 瞎掰：用 Semantic Layer 打造可信賴的企業 AI\n企業的 AI Agent 上線了，回答看起來頭頭是道。但當財務主管發現數字多了 2,500 萬、供應鏈主管依據「有替代方案」的建議放心等待，結果斷料停線時，大家才意識到：AI 答錯的時候，比不回答更危險。\n根源在於 AI 缺少一顆「企業大腦」。業務指標怎麼算、哪些資料要排除、什麼狀態代表什麼意思，這些知識只活在資深員工和散落的文件中，模型從未學過。\n本議程展示如何用 Knowledge Graph 為 AI Agent 建立語意層(Semantic Layer)，讓它在回答問題前先查詢業務規則，像資深同事一樣理解脈絡再行動。議程含完整 live demo，以金融業和製造業兩個場景，直接對比有/沒有語意層時，同一個問題產出的結果差異。\n聽眾收穫：\n搞清楚 Semantic Layer、Ontology、Knowledge Graph 各自是什麼、彼此的關係，以及在 AI 架構中扮演的角色\n一個可立即套用的架構 pattern：如何在 AI Agent 和資料庫之間加入語意層\n清楚理解 RAG vs Knowledge Graph 的適用場景差異\n建構語意層的具體步驟：從哪裡開始、需要誰參與、怎麼維護\n評估自己的場景是否適合這個做法的判斷框架\n林士凱 (Danny)\nAmazon Web Services Solutions Architect\nAmazon Web Services (AWS) 解決方案架構師，超過十年雲端架構設計經驗，持有 AWS 及 Google Cloud Architect 認證。專注於 AI、資料工程、大數據分析及圖技術領域，涵蓋 Knowledge Graph、GraphRAG 與語義層 (Semantic Layer) 設計。曾協助多間企業規劃雲端資料平台與 AI 應用架構。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 與系統架構設計",
+    "detail_content_valid": true,
+    "detail_text_length": 902,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4988",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4988",
+    "title": "讓 AI Agent 記住你：從零打造仿生長期記憶系統的設計決策",
+    "date": "2026-10-15",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "A 會議室",
+    "speakerIds": [
+      "1950"
+    ],
+    "officialText": "2026-10-15 15:15 - 15:45 A 會議室\nSHARE\n讓 AI Agent 記住你：從零打造仿生長期記憶系統的設計決策\nAI Agent 沒有記憶就會重複犯錯、遺忘承諾、無法累積經驗。本議程分享講者從零設計並在日常工作中使用超過半年的 Agent 記憶系統——部署在 Cloudflare Workers 上、管理 600+ 筆記憶的生產級架構。聚焦四個借鑑神經科學的設計決策：依來源差異化遺忘、從錯誤中強化記憶、以使用價值驅動晉升、以新穎性判斷避免重複儲存。每個決策都附帶「為什麼不用現成 RAG 就好」的取捨分析與生產環境驗證數據。\n聽眾收穫：\n多數 Agent 框架只提供 vector store，缺乏記憶的生命週期管理。聽眾將帶走：(1) 四個可複製的仿生記憶設計模式及其適用邊界 (2) 一套 Cloudflare Workers 上的記憶系統架構藍圖 (3) 「何時該自建記憶系統 vs 用現成方案」的判斷框架。\n吳勝繙 (Chris)\n數位發展部 科長\n數位發展部共用系統科科長，主要管理共用系統維運...\n今天我就是一個開發者，工作時間以外把開發當打怪，去年開始從 Vibe coding 畢業，將重心放在最近被稱為軟體 3.0 的領域，從零打造了一套仿生記憶系統並以個人 Agent 工作流驅動日常公務。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 與系統架構設計",
+    "detail_content_valid": true,
+    "detail_text_length": 632,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5016",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5016",
+    "title": "從一本旅遊書到 LINE OMO 服務：一個很殘酷的真實漏斗教會我的事",
+    "date": "2026-10-15",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "2338"
+    ],
+    "officialText": "2026-10-15 15:15 - 15:45 BC 會議室\nSHARE\n從一本旅遊書到 LINE OMO 服務：一個很殘酷的真實漏斗教會我的事\n2025 年，我和在地夥伴（旅庫彰化、白色方塊、奇步應用）把《彰化有料100》這本旅遊書，延伸成一套「書 + 護照 + LINE 兌換」的 OMO 體驗：讀者買書、加購護照、開通 LINE 服務，帶著書走進彰化，用 12 張店家兌換券把線下走讀和線上服務串連在一起。這場演講不講行銷成績，而是把後台數據攤開。\n這套服務裡也藏了兩個輕量但實用的 AI 設計：一個是 LINE 上的心理測驗推薦系統，用幾個問題把讀者導向適合他的內容；另一個更有趣——你上傳一張照片，我用 Gemini 的多模態圖像理解看圖「占卜」，推薦你翻開書的第幾頁、去吃哪一道在地美食，背後是一層把圖像辨識結果對應到書頁與美食的 prompt 設計。我會分享這種「把 AI 當成體驗的一部分、而不是噱頭」的設計考量、prompt 怎麼設計、實際的使用量與 API 成本，以及它在真實使用裡的表現。\n而真正的重頭戲，是把轉換漏斗攤開。這套體驗的入場是付費的：兩刷約 1,500 本書在全台讀者手中，其中 691 人加購護照並開通了 LINE 服務；12 張店家兌換券被 381 人開啟了 864 次，但到活動截止日（2026/2/28）為止，實際走進店裡核銷的只有 112 次——而且核銷紀錄到店家層級，哪家店真的把人拉進門裡消費，一目了然。這是一個已經結案、無法再美化的真實漏斗，而它最殘酷的一段，可能跟你想的不一樣。\n它殘酷的地方在於：這些用戶不是免費加好友的過路客，他們付了兩次錢才進場——買書、再買護照。連付費用戶都會在某一層消失，那流失的原因就不只是「意願」，而是距離、期限、設計。我會逐段拆給你看：每個環節怎麼設計、資料怎麼追、人在哪一層消失、為什麼，以及我後來調了什麼。\n這不是一份「成功案例」的漂亮簡報，而是一個真的上線、有真人付費使用、已經結案、有數據可追蹤的服務，以及一個地方開發者在資源有限下做數位轉型（以及把 AI 實際接進服務）的真實取捨。如果你也在做任何「要讓真人持續使用」的消費者端服務，這個漏斗和這些取捨，你都用得到。\n聽眾收穫：\n● 一套可複製的「紙本 × LINE」OMO 服務架構（護照開通、兌換券、逐店核銷追蹤），以及它與連鎖零售 OMO 的根本差異\n● 怎麼讀一個付費用戶的真實漏斗：未兌現的意圖藏在哪、人在哪一層消失、完成率為什麼不是地方型 OMO 的目標\n● 怎麼把輕量 AI（心理測驗推薦系統、Gemini 多模態看圖占卜推薦）實際接進 LINE 服務，當成體驗而非噱頭——含 prompt 設計與真實成本\n● 資源有限的地方團隊做數位轉型的真實取捨與踩雷\n陳佳新 (佳新哥)\n奇步應用 執行長\n彰化軟體公司【奇步應用】創辦人暨執行長、LINE API Expert、GDG Changhua Organizer，也是 Microsoft AI MVP（2021–2026）。長期投入 LINE、AI 與地方數位轉型，把新技術真正做進地方服務現場，也持續透過社群分享實戰經驗。近年聚焦打造地方數位轉型支持系統，串起技術、人才與地方需求，希望用持續累積的行動，讓地方一年比一年更好。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探討軟體開發生命週期所觸及的各種經驗\nTAGS\n數位轉型策與技術創新",
+    "detail_content_valid": true,
+    "detail_text_length": 1436,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5019",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5019",
+    "title": "每個人都有 AI，為什麼團隊還是這麼慢？",
+    "date": "2026-10-15",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "2355"
+    ],
+    "officialText": "2026-10-15 15:15 - 15:45 DE 會議室\nSHARE\n每個人都有 AI，為什麼團隊還是這麼慢？\n這一兩年團隊裡每個人都配了 AI，個人生產力都快了兩三倍。但 feature 上線的速度，有跟著快兩三倍嗎？\nAI 解掉了個人的生產力，卻沒解掉團隊的協調。以前產品團隊是 PM、設計、工程、QA 四個人四份脈絡；現在變成四個人加四個 AI，每個 AI 都有自己的 context、假設和版本。你會聽到很多場講怎麼讓產出翻幾倍，但產出翻倍不等於團隊變快，因為卡的是協調，不是產出。\n這場談的是：怎麼讓一群人和一群 AI 在同一份 context 裡工作。很多人已經有了自己的第二大腦，團隊缺的是第三大腦。我會用 MeetAndy 在產品團隊的第一手經驗，講如何從 customer insights 到 PR，讓需求、決策、程式碼、review 全部留在同一條 thread、累積成團隊共用的記憶。\n下一個生產力的躍進，不是更聰明的 coding agent，是團隊共用的第三大腦。\n聽眾收穫：\n個人生產力 ≠ 團隊產出\n第二大腦到第三大腦：團隊共用脈絡要回答的問題（我們知道什麼、決定了什麼、正在發生什麼、當初為什麼這樣做）\n一條真實案例：從 customer insight 到 PR，怎麼讓需求/決策/程式碼/review 累積回團隊 context，而不是散在各自的工具與對話裡\n每個職能的新 KPI\n薛良斌 (hlb/布丁)\nMeetAndy AI 共同創辦人\n薛良斌（hlb／布丁），MeetAndy AI 共同創辦人、連續創業者。他於 2006 年創辦 Handlino，推出活動報名服務 Registrano；Registrano 後加入 KKBOX，發展成台灣主要的活動售票平台之一 KKTIX。之後曾任 cacaFly 產品總監，並於 2018 年共同創辦 InfuseAI，協助企業提升 AI 開發效率。2024 年共同創辦 MeetAndy AI，Andy 是產品團隊的 AI 隊友，協助團隊在同一個討論串中，從想法一路走到產品交付，並把每一次交付累積成團隊可重複運用的知識。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\n探討軟體開發生命週期所觸及的各種經驗\nTAGS\nAI 開發工具實戰和流程改造\nSDLC 相關議題\n團隊溝通與協作\n數位轉型策與技術創新",
+    "detail_content_valid": true,
+    "detail_text_length": 1020,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4985",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4985",
+    "title": "透過 ACP 解放 Terminal：打造 Coding Agent 的協作模式",
+    "date": "2026-10-15",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "F 會議室",
+    "speakerIds": [
+      "2336"
+    ],
+    "officialText": "2026-10-15 15:15 - 15:45 F 會議室\nSHARE\n透過 ACP 解放 Terminal：打造 Coding Agent 的協作模式\n把 Coding Agent 接進聊天平台，看起來只是轉送 Prompt。\n過去，我曾自行開發 Adapter，將 Discord／Telegram 串接到 Coding CLI 的 headless 模式。功能雖然可以運作，但實際使用後才發現：聊天室裡看似連續的協作，底層可能只是一段段獨立的 CLI 呼叫。\n真正困難的不是訊息串接，而是如何讓 Coding Agent 持續工作。\nSession lifecycle、Context 管理、Streaming、工具呼叫與權限管理、Cancel／Resume，以及不同 Coding CLI 之間的介面差異，最後都必須由 Adapter 自行處理。原本只是聊天平台整合，最後卻逐漸變成一套 Coding Agent Runtime。\nAgent Client Protocol（ACP）提供了 Client 與 Agent 之間的共通介面。\n它將 Session、串流更新、工具呼叫、權限請求與取消操作等互動標準化，讓整合層不必直接綁定每一套 Coding CLI，也能保留替換不同 Coding Agent 的彈性。\nOpenAB 是從這些實際問題中收斂出的工程解法。\n它將聊天平台、Session Pool 與 Coding Agent Runtime 串接起來，並透過 ACP 建立共通的 Agent 通訊邊界。\n這場演講將從自製 Adapter 遇到的問題開始，拆解 Coding Agent 離開 Terminal 後必須面對的 Runtime 挑戰，進一步介紹 ACP 與 OpenAB 的架構設計，並現場展示：\n送出任務 → Agent 持續執行 → 回報進度 → 驗證結果\n這不只是把 Terminal 搬進聊天室，而是重新設計團隊與 Coding Agent 的協作方式。\n透過 OpenAB，團隊可以在熟悉的聊天平台中交付任務、掌握進度、適時介入，並驗證 Agent 的工作成果，不再需要持續守在 Terminal 前逐步操作\n聽眾收穫：\n理解為什麼「將 Coding Agent 接進聊天平台」不只是 Prompt 轉送，而需要處理 Session、Context、Streaming、Permission 與 Runtime lifecycle 等工程問題。\n了解 Agent Client Protocol（ACP）如何提供 Client 與 Agent 之間的共通通訊介面，降低不同 Coding Agent 整合與替換的成本。\n透過 OpenAB 實例，理解如何設計包含 Session Pool、Agent Runtime、隔離執行環境與工作流程管理的協作架構。\n建立新的 Agent 協作模式：從「人在 Terminal 前逐步指揮 Agent」轉變為「提供任務、環境、權限與驗證條件，讓 Agent 自主完成工程工作」\nNeo Hsu\nTXOne Networks Staff Software Engineer\n目前從事 OT／工控資安領域的產品開發，技術歷程橫跨 Android、React、Go 後端與分散式系統\n近年專注於 Agentic Coding 與 AI 輔助軟體工程，持續探索如何將 AI 納入可驗證、可治理且可規模化的軟體開發流程\n同時也是公司內部 Agentic Coding 傳教士，透過技術分享、工具導入與工作流設計，推動 AI 輔助開發在團隊中落地\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 開發工具實戰和流程改造",
+    "detail_content_valid": true,
+    "detail_text_length": 1574,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4973",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4973",
+    "title": "同一個 Prompt 為什麼差這麼多？——從踩坑到 Harness Engineering",
+    "date": "2026-10-15",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "A 會議室",
+    "speakerIds": [
+      "2344"
+    ],
+    "officialText": "2026-10-15 16:00 - 16:45 A 會議室\nSHARE\n同一個 Prompt 為什麼差這麼多？——從踩坑到 Harness Engineering\n身為解決方案架構師，ChatGPT 出現後每天和客戶通靈的案件多了 10 倍：為何 AI 回答不好？為何燒這麼多 token？為什麼今天就變笨了？這場議程從「同一個 prompt、結果天差地遠」的對比開場，帶你找病根——常常不在模型智力，而在模型周圍的系統。我們會從真實踩坑案例一路走到 Harness Engineering：模型不動，改造它周圍的世界。\n聽眾收穫：\n沒有賣藥環節。你會帶走三樣東西：一套通靈 SOP——AI 出事時先問是模型還是 Harness 的鍋；一張對症下藥表——不穩定、燒 token、context 塞爆各有解法（routing、caching、compaction、verification gates）；還有一場真實災難 trace 的完整解剖。建議至少用過 Claude Code/OpenClaw 等 agentic 工具，會更有感。\n許舜雯 (Olivia Shiu)\nAmazon Web Services Solutions Architect\n現職 AWS 解決方案架構師，服務橫跨電信、串流媒體、製造、機器人等產業。日常任務：陪客戶解架構的坑、聊 AI 的好與壞、聽他們吐槽 AI 帶來的職場焦慮。正職是架構師，副業是「它平常不會這樣」解釋專員。\nLEVEL\n進階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 與系統架構設計",
+    "detail_content_valid": true,
+    "detail_text_length": 690,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5024",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5024",
+    "title": "都用AI寫Code了，工程師若再往前一步：Product Builder",
+    "date": "2026-10-15",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "247"
+    ],
+    "officialText": "2026-10-15 16:00 - 16:45 BC 會議室\nSHARE\n都用AI寫Code了，工程師若再往前一步：Product Builder\nAI 把寫 Code 的門檻打下來之後，每個工程師都能在週末 vibe 出一個從 0 到 1 的小玩具。但你有沒有發現，小玩具滿天飛，真正長成產品的卻沒幾個？因為卡住我們的從來不是 code，而是「到底該做什麼？」「為什麼？」這些事，過去一直有人替你決定好了。\n當實作不再稀缺，工程師的價值該往哪裡移？如果再往前走一步，走進上游，成為 Product Builder 呢？當你用 AI 寫 Code，你和 AI 就組成了一支最小的開發團隊，AI 是你的 Dev Team，而你，得學會當自己的 PO。好消息是，你需要的工具其實早就有了：痛點分析、User Story、Acceptance Criteria，這些敏捷 PO 打磨多年的工法，在這個 AI 時代，也是我們工程師可以跨過去的技能包。\n我是工程師出身，有超過十八年的技術底，後來也做過 PM，從需求探索到程式實作都親手走過。這場分享，我會帶大家走一遍我的真實旅程：從一個 coding 靈感出發，與 AI 協作完成痛點分析、機會探索（Opportunity Solution Tree）、User Story 到 Acceptance Criteria 的完整上游過程。至於拿到清楚的 Story 和 AC 之後，怎麼接上 OpenSpec 這類 SDD 框架往下開發？那是各位的主場，我點到為止就好。AC 寫得清楚，交棒就順。\n從「會把東西做出來」到「知道該做什麼、並且驗證它值得做」。這場分享，就是想陪你往前再跨一步。\n聽眾收穫：\n1. 一套可帶走的上游工法：痛點分析 → OST 機會探索 → User Story → Acceptance Criteria 的完整流程，知道每一步在解決什麼問題、怎麼與 AI 協作完成，以及 AC 如何順利交棒給 SDD 框架（OpenSpec 等）往下開發。\n2. 重新校準 AI 時代的個人定位：當實作被 AI 加速，判斷力成為新的槓桿。工程師若再往前一步，不再只是等別人把需求想好，而是有能力從一個靈感出發，把自己的想法做成自己的產品。\n劉兆恭 (JUGG)\nProdSence 校長兼撞鐘\n擁有超過 18 年軟體產業經驗，工程師出身，曾任職於 Appier、Trend Micro、17 Live、HandsUP 等國際化大型軟體公司與新創，歷任工程師、產品經理、專案經理、團隊主管與敏捷教練，具備少見的跨技術與產品視角。\n長期協助企業導入敏捷與產品管理實務，擅長將複雜的想法轉化為可執行的需求與流程，並在技術、產品與商務之間取得平衡，幫助團隊打造能真正落地的開發模式。\n近年專注於 AI 工具在產品開發流程中的實務應用，包含需求釐清、規格文件撰寫、AI 協作開發與跨職能溝通，協助企業提升需求清晰度、縮短開發週期，並降低 PM 與工程師之間的溝通成本。\n同時經營 YouTube 頻道《JUGG 聊敏捷》，以貼近實務的方式分享敏捷開發、產品思維與 AI 協作經驗，特別關注如何在 AI 時代把需求講清楚，而不是只靠 Vibe Coding「通靈」開發。\n亦長期投入敏捷社群推動，曾主辦 RSG Taipei 2021，現任台灣敏捷協會理事，致力於推動敏捷實踐與產品思維在台灣落地。\nLEVEL\n通識\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 如何改變產品規劃與需求定義",
+    "detail_content_valid": true,
+    "detail_text_length": 1487,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4982",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4982",
+    "title": "AI Gateway：AI 治理的第一步",
+    "date": "2026-10-15",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "62"
+    ],
+    "officialText": "2026-10-15 16:00 - 16:45 DE 會議室\nSHARE\nAI Gateway：AI 治理的第一步\n當團隊開始使用多個 LLM provider 與模型，API Key、模型路由、成本控管、權限與 tracing 很快就會分散在各個應用程式中。AI Gateway 提供一個統一入口，讓團隊能集中管理模型存取與應用流量，也讓後續的觀測、評估與治理更容易落地。\n本次分享將從實務問題出發，介紹 AI Gateway 的核心能力與導入方式，並討論它能解決什麼、不能解決什麼，以及如何與 observability、evaluation 和 AI application workflow 整合。\n1. 為什麼團隊需要 AI Gateway\n2. 統一模型存取、路由與 fallback\n3. API Key、權限與成本治理\n4. 串接 tracing、logging 與 LLM observability\n5. 以實務情境設計 AI Gateway workflow\n6. 導入限制、風險與後續演進\n聽眾收穫：\n你將能理解 AI Gateway 在 LLM application architecture 中的角色，掌握模型路由、權限、成本與 tracing 的基本設計，並具備評估團隊是否適合導入 AI Gateway 的實務判斷依據。\n張哲嘉 (Che Chia Chang)\nMaiCoin SRE\nChe-Chia Chang 是一名專注於後端開發、開發維運、容器化應用及 Kubernetes 開發與管理的技術專家，同時也是 Microsoft 最有價值專業人士（MVP）。\n活躍於台灣技術社群，經常在 CNTUG、DevOps Taipei、GDG Taipei、Golang Taipei Meetup 等社群分享 DevOps、SRE、Kubernetes、雲端與 AI Engineering 相關技術。\n個人部落格： https://chechia.net\nLEVEL\n通識\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 與系統架構設計",
+    "detail_content_valid": true,
+    "detail_text_length": 907,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5011",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5011",
+    "title": "AI 把寫程式變便宜了，那開發者還剩下什麼？",
+    "date": "2026-10-15",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "F 會議室",
+    "speakerIds": [
+      "1501"
+    ],
+    "officialText": "2026-10-15 16:00 - 16:45 F 會議室\nSHARE\nAI 把寫程式變便宜了，那開發者還剩下什麼？\n這一兩年我們都看到了，AI 讓寫程式這件事變得很便宜。但是便宜的東西不會是瓶頸，瓶頸只會往貴的地方移動。所以問題不是「AI 會不會取代開發者」，而是「當寫程式不再是門檻，開發者真正的價值在哪裡」。\n不談特定框架、不推任何工具，只談一件事：軟體從來就不只是程式碼。決定要做什麼、決定不做什麼、驗證它能不能上線、出事的時候誰扛責任、那些沒被寫進 repo 的上下文、以及該放手讓 AI 跑還是該親自把關的臨界判斷，這些貴的部分，才是 AI 之後真正決定成敗的地方。\n我會用自己一個人把構想送進正式環境的實際經驗，包括在醫院這種不能出錯的場域裡，怎麼判斷哪裡可以全交給 AI、哪裡必須人在迴圈。你會帶走一份可以馬上對照自己專案的判斷力清單，而不是又一個「AI 很厲害」的示範。\n聽眾收穫：\n聽眾將了解 AI 如何實際參與需求分析、架構設計、程式開發、自動化測試與文件維護，並學會如何將 Vibe Coding 產生的原型，轉化為可測試、可審查、可部署且可長期維護的正式系統。\n透過醫療場域的實戰案例，聽眾也能掌握人類與 AI 的責任分工，以及在高風險環境中所需的隱私、安全、驗證與治理原則，進而建立適合自己團隊的 AI 協作開發流程。\n鄭重男 (Nickle)\n國軍高雄總醫院 資訊室主任\n鄭重男（Nickle Cheng），國軍高雄總醫院資訊室主任，也是一位仍持續親手開發系統的醫療資訊主管。長期投入醫療資訊系統、DevOps、資料整合、FHIR、SMART on FHIR 與生成式 AI，關注如何讓資源有限的醫院資訊團隊，也能建立安全、敏捷且可持續演進的數位服務。\n他曾以 Ruby on Rails、Docker 與開源技術推動醫院官方網站、即時資訊整合、臨床應用、LINE Bot 與資料平台等專案，並將 DevOps 與現代軟體工程方法帶入高度複雜、重視安全與穩定性的醫療環境。近年則積極探索 AI Coding 與人機協作開發流程，嘗試讓 AI 參與需求整理、程式開發、自動化測試與文件維護，重新思考醫療資訊系統的開發與治理方式。\n曾於 RubyWorld Conference、COSCUP、DevOpsDays Taipei、MOPCON、臺灣醫療品質協會，以及多場醫療與企業活動擔任講者，分享醫院數位轉型、生成式 AI、AI Coding、開源技術與 SMART on FHIR 的實戰經驗。他相信，真正有效的數位轉型，不是追逐最新技術，而是讓技術成為醫療人員可靠的夥伴，並讓好的系統能夠被快速建立、持續改善與長期維護。\nLEVEL\n通識\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 開發工具實戰和流程改造",
+    "detail_content_valid": true,
+    "detail_text_length": 1191,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4977",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4977",
+    "title": "從痛點到產品：用資料與 AI 重新定義產品的規劃邏輯",
+    "date": "2026-10-15",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "A 會議室",
+    "speakerIds": [
+      "2334"
+    ],
+    "officialText": "2026-10-15 17:00 - 17:30 A 會議室\nSHARE\n從痛點到產品：用資料與 AI 重新定義產品的規劃邏輯\n傳統的產品規劃往往仰賴經驗與直覺，但當團隊手上握有大量資料時，AI 是否能真正改變「需求定義」這個環節本身？本分享將以一次實際的資料驅動提案發想過程為例，說明團隊如何從公開資料出發，找出潛在痛點，並透過預測模型與使用者輪廓設計，逐步收斂出具體的產品原型與商業機制。\n過程中最大的挑戰不是模型本身，而是如何把「資料洞察」轉譯成「產品需求」：從痛點假設、資料驗證、邏輯設計，到具體服務原型與效益量化，每一步都需要重新思考產品規劃與資料分析角色之間的分工方式。分享內容將涵蓋團隊如何運用 AI 工具輔助發想與文件撰寫、如何用資料驗證假設而非憑感覺做決策，以及在既有組織流程中導入資料驅動思維時常見的挑戰與因應方式。\n聽眾收穫：\n對「AI 驅動的產品規劃流程」、「資料驅動需求定義方法論」有興趣的產品經理、資料工作者，以及想了解數位轉型實務案例的開發者。\n孫甫璋 (udothemath)\n玉山銀行 主任工程師\n日常專注於 AI 與機器學習技術的開發與實務應用，致力於將前沿的人工智慧技術落地於真實的金融場景與業務流程中。熱愛探索 AI 的各種可能性，對技術充滿好奇心——不僅在工作上推動技術創新，私底下也熱衷於將 AI 融入日常生活，像是偶爾拿 AI 工具來幫小孩對作業。希望透過本次的分享，與更多技術先進交流 AI 實踐的火花與實務心法。\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 如何改變產品規劃與需求定義",
+    "detail_content_valid": true,
+    "detail_text_length": 697,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "4978",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4978",
+    "title": "光靠 Prompt 守不住架構：用 Lint 與 Architecture Test 打造 Agentic Coding 防護牆",
+    "date": "2026-10-15",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "2336"
+    ],
+    "officialText": "2026-10-15 17:00 - 17:30 BC 會議室\nSHARE\n光靠 Prompt 守不住架構：用 Lint 與 Architecture Test 打造 Agentic Coding 防護牆\n寫下規則很容易，讓 Agent 每次都遵守卻很難。\n許多團隊會把架構規範寫進 AGENTS.md、CLAUDE.md 或 .github/copilot-instructions.md：domain 不得依賴 infrastructure、frontend component 不得直接呼叫 API client、不同 feature 不得任意跨界。\n即使這些規範已經進入 Context，它們仍然只是 soft constraints，無法保證 Coding Agent 在每一輪修改中都穩定遵守。\n任務越長，架構越容易被最短路徑侵蝕。\n當修正迴圈增加，Agent 經常會優先選擇最快讓程式通過的方法，原本清楚的架構邊界，也可能在一次次修改中逐漸失守。\n因此我們需要把架構意圖變成可執行的防護牆。\n這場演講將示範如何在後端透過 golangci-lint、depguard 與 Go Architecture Test 驗證 package dependency；在前端則使用 dependency-cruiser，限制跨 layer、跨 feature，以及 component 直接依賴 API client 等違規關係。\n重點不是重新打造工具，而是組合既有工具形成多層防線。\n從通用靜態規則到具有專案語意的架構驗證，讓規範不只存在於 Prompt 與文件裡，而是成為 Coding Agent 每一次修改都必須通過的工程條件。\n聽眾收穫：\n理解為什麼 AGENTS.md、Prompt 與文件規範不足以保證 Coding Agent 遵守架構邊界，以及如何將 soft constraints 轉換為 executable guardrails。\n掌握 Lint、Dependency Analysis 與 Architecture Test 在架構治理中的角色差異，建立從通用規則到專案特定驗證的多層防護策略。\n學習如何在 Go 與 Frontend 專案中實作架構約束，例如 package dependency、layer boundary、feature isolation 與 component 使用規範。\n了解如何設計能被 Coding Agent 理解的驗證回饋，讓 failing test 成為 Agent 自我修正流程的一部分。\n建立一套面對 Agentic Coding 時的工程治理思維：將架構意圖從「需要被記住的規則」轉變為「每次修改都必須通過的驗證條件」。\nNeo Hsu\nTXOne Networks Staff Software Engineer\n目前從事 OT／工控資安領域的產品開發，技術歷程橫跨 Android、React、Go 後端與分散式系統\n近年專注於 Agentic Coding 與 AI 輔助軟體工程，持續探索如何將 AI 納入可驗證、可治理且可規模化的軟體開發流程\n同時也是公司內部 Agentic Coding 傳教士，透過技術分享、工具導入與工作流設計，推動 AI 輔助開發在團隊中落地\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 開發工具實戰和流程改造",
+    "detail_content_valid": true,
+    "detail_text_length": 1443,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5026",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5026",
+    "title": "挖掘技能的全新可能性",
+    "date": "2026-10-15",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "1621"
+    ],
+    "officialText": "2026-10-15 17:00 - 17:30 DE 會議室\nSHARE\n挖掘技能的全新可能性\n當一項任務需要串接多個工具、依情況調整步驟，AI Agent 的技能（Skills）該怎麼設計？技能逐漸增加之後，又該如何處理功能重疊、觸發衝突，以及後續的維護與更新？\n這場演講將從「路由型技能」談起，說明如何把同一領域的功能拆成子模組，再依使用者意圖、任務條件與執行結果，決定何時呼叫哪些模組。我們會討論模組的分工與輸入輸出、流程如何分支、失敗時如何回退，以及在哪些環節檢查品質，讓動態工作流的設計有具體依據。\n技能投入使用後，還需要持續檢查它是否符合需求。因此，演講也會涵蓋技能的生命週期管理：從建立、測試與評估，到融合外部技能與自行持續進化的完整生命週期管理議題，\n這 30 分鐘適合已有 AI 工具或 Agent 使用經驗的開發者、架構師與產品規劃者。我們將聚焦在實際設計時需要做的判斷：需求該如何拆成技能、技能之間如何協作，以及如何在需求改變時持續調整。\n聽眾收穫：\n了解技能生命週期管理的概念，並獲得管理工具\n掌握路由型技能的特性，並且能夠透過llm輔助開發它\n尹相志\n數據決策股份有限公司 技術長\nDataDecision.ai數據科學家，大數據行業經歷今年第27年，於2002年成立台灣第一家大數據顧問公司asiaMiner，曾經協助台灣大型電信公司（中華電信、遠傳電信、台灣大哥大）、銀行（中國信託、台新、台灣銀行、元大、新光、萬泰...等)、零售業（特力屋、7-11）...等企業導入數據科學相關產業應用。也是臺灣微軟在數據科學領域的特約講師，曾獲選2006~2017年微軟最有價值專家(MVP)，於2015~2016年曾兼任上海華院數據（中國第一家大數據顧問公司）之首席數據科學家，於任內發起中國首次國際人工智能競賽「BOT (Brain of things) Shanghai 2016」，同時也擔任2016年與2017年的賽題設計。現任光寶科技、啟雲科技之企業顧問\nLEVEL\n中階\nLANGUAGE\n中文\nSUBTOPIC\n探討軟體開發生命週期所觸及的各種經驗\nTAGS\nAI 與系統架構設計\nAI 如何改變產品規劃與需求定義",
+    "detail_content_valid": true,
+    "detail_text_length": 926,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  },
+  {
+    "id": "5027",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5027",
+    "title": "從 Sprint 到 Prompt：用 AIDD 從 0 打造 LINE Bot",
+    "date": "2026-10-15",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "F 會議室",
+    "speakerIds": [
+      "2354"
+    ],
+    "officialText": "2026-10-15 17:00 - 17:30 F 會議室\nSHARE\n從 Sprint 到 Prompt：用 AIDD 從 0 打造 LINE Bot\n過去擔任 Scrum Master 時，我習慣用 Sprint 規劃開發節奏：拆解需求、排定 Backlog、開發、Review，再進入下一輪迭代。\n但當 AI Coding Agent 開始真正進入開發流程後，我發現熟悉的節奏正在改變。\n這場分享，我將以從 0 打造 LINE Bot 的實際經驗，帶大家看看如何透過 AIDD（AI-Driven Development），讓 AI 不只是負責「寫 Code」，而是參與需求釐清、規劃、實作、驗證到持續迭代的完整開發流程。\n我也會從過去擔任 Scrum Master 的經驗出發，對照過去跑 Scrum 與現在採用 AIDD 開發時，在需求拆解、開發節奏、角色分工與迭代方式上有什麼不同，以及當開發團隊多了一位隨時可以協作的 AI Agent，我們熟悉的軟體開發流程會如何被重新定義。\n這不只是一場「如何用 AI 寫程式」的分享，而是一次關於 AI 時代，我們可以怎麼重新思考軟體開發 的實戰紀錄。\n聽眾收穫：\n•認識 AIDD（AI-Driven Development），理解 AI 如何從「寫 Code」進一步參與完整開發流程。\n•從 Scrum Master 的視角，看見 Scrum 與 AIDD 在開發節奏、協作方式與迭代流程上的差異。\n•透過從 0 打造 LINE Bot 的真實案例，帶走一套 可以實際開始 AIDD 的方法與思維。\nZona Wang\nLINE 台灣 Tech Evangelist\n現任 LINE DevRel / Tech Evangelist，專注於開發者社群、技術內容與 Developer Experience。喜歡透過實作探索新技術，近期持續使用 Codex 等 AI Coding Agent 開發 LINE Bot，並將開發過程整理成文章與開源專案。相信與其等到「準備好」才開始，不如先動手做，讓 AI 成為一起解決問題的開發夥伴。\nLEVEL\n通識\nLANGUAGE\n中文\nSUBTOPIC\n探索 AI 共生共創的面向\nTAGS\nAI 如何改變產品規劃與需求定義\nAI 開發工具實戰和流程改造",
+    "detail_content_valid": true,
+    "detail_text_length": 976,
+    "detail_source_selector": ".session-page",
+    "crawledAt": "2026-10-05T09:39:48.734Z"
+  }
+]

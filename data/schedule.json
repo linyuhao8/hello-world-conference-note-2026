@@ -1,0 +1,1120 @@
+[
+  {
+    "id": "4957",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4957",
+    "title": "Welcome opening",
+    "date": "2026-10-14",
+    "start": "10:00",
+    "end": "10:10",
+    "room": "ABCDEF 會議室",
+    "speakerIds": [],
+    "detail_content_valid": false,
+    "detail_text_length": 78,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4958",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4958",
+    "title": "以一些範例來討論AI Coding新時代的團隊開發",
+    "date": "2026-10-14",
+    "start": "10:10",
+    "end": "10:55",
+    "room": "ABCDEF 會議室",
+    "speakerIds": [
+      "2340"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1623,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5014",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5014",
+    "title": "產出的人不能驗自己：AI 時代的驗收設計",
+    "date": "2026-10-14",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "A 會議室",
+    "speakerIds": [
+      "1956"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 957,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5002",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5002",
+    "title": "自己刻 Agent 框架：最難的不是呼叫 LLM",
+    "date": "2026-10-14",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "1604"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1397,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4962",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4962",
+    "title": "AI 工具爆發時代的企業身分認證治理實戰",
+    "date": "2026-10-14",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "69"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1497,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5012",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5012",
+    "title": "當網站客群不再是人類：WebMCP 的前端新革命",
+    "date": "2026-10-14",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "F 會議室",
+    "speakerIds": [
+      "1937"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 551,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5018",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5018",
+    "title": "LLM Wiki：企業內部知識問答系統的架構演進",
+    "date": "2026-10-14",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "A 會議室",
+    "speakerIds": [
+      "2228"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1397,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4987",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4987",
+    "title": "用 AI 工作流重整事件驅動交易系統的一致性、效能與監測",
+    "date": "2026-10-14",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "2347"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1958,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5017",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5017",
+    "title": "AI 時代下的另類多工與心流 ：碎片化工作中的「動態專注」法則",
+    "date": "2026-10-14",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "120"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 819,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4966",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4966",
+    "title": "AI Workflow：打造 PM 的第二大腦",
+    "date": "2026-10-14",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "F 會議室",
+    "speakerIds": [
+      "1954"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 892,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5021",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5021",
+    "title": "從寫得快到交付可信的 AI Coding 工程戰場",
+    "date": "2026-10-14",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "A 會議室",
+    "speakerIds": [
+      "1192"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 898,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4983",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4983",
+    "title": "懂行規的 Agent：把規範變成技能，自動化開發到部署",
+    "date": "2026-10-14",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "2335"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1111,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4972",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4972",
+    "title": "讓工程師失業的 N + 1 道陰影",
+    "date": "2026-10-14",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "333"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 568,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5023",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5023",
+    "title": "讓IT主管睡不著的課題，台灣企業Agent規模化的聖杯考驗",
+    "date": "2026-10-14",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "F 會議室",
+    "speakerIds": [
+      "229"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 746,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4986",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4986",
+    "title": "AI 導入之後：傳統開發團隊的角色鬆動與開發新節奏",
+    "date": "2026-10-14",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "A 會議室",
+    "speakerIds": [
+      "2337"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 824,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4968",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4968",
+    "title": "穩才是快 ～ 以 OKF 打造 Agentic AIOps 治理閉環",
+    "date": "2026-10-14",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "1859"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 882,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5009",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5009",
+    "title": "從 Hello World 看懂 AI 開發工具的計費結構——如何省得到錢",
+    "date": "2026-10-14",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "243"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 930,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4965",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4965",
+    "title": "雲端把花錢的權力交給了工程師，然後呢？",
+    "date": "2026-10-14",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "F 會議室",
+    "speakerIds": [
+      "2332"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1608,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4960",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4960",
+    "title": "當 Secret 不再是秘密",
+    "date": "2026-10-14",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "A 會議室",
+    "speakerIds": [
+      "1576"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 2067,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4959",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4959",
+    "title": "讓 Agent Skills 介入你的軟體開發的工作流",
+    "date": "2026-10-14",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "2324"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 826,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5003",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5003",
+    "title": "Rule Driven Develpoment-AI時代的軟體開發策略",
+    "date": "2026-10-14",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "119"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1106,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5013",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5013",
+    "title": "解構 Agentic AI 時代的系統架構：A2A、x402、AP2",
+    "date": "2026-10-14",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "F 會議室",
+    "speakerIds": [
+      "1483"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1689,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4976",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4976",
+    "title": "可製造的 AI：讓 AI 成為工廠的第二大腦",
+    "date": "2026-10-14",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "A 會議室",
+    "speakerIds": [
+      "330"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 887,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4967",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4967",
+    "title": "當架構設計被 AI 加速後，工程判斷力的養成與傳承該怎麼辦？",
+    "date": "2026-10-14",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "2333"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 994,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5028",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5028",
+    "title": "「開發效能提升實戰」：Claude Design 搭配自建 Skill，團隊達到提升四倍產出",
+    "date": "2026-10-14",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "1562",
+      "2350"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1124,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5029",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5029",
+    "title": "AI Agent 時代：當人人都能快速上手，什麼才是真正的專業？",
+    "date": "2026-10-14",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "F 會議室",
+    "speakerIds": [
+      "263"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 563,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4989",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/4989",
+    "title": "為 Agentic AI 設計前端狀態機與即時回饋介面",
+    "date": "2026-10-14",
+    "start": "10:10",
+    "end": "12:10",
+    "room": "603+604 會議室",
+    "speakerIds": [
+      "2219",
+      "2226"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1737,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4990",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/4990",
+    "title": "從點子到產品：AI 驅動的現代軟體開發全流程實踐",
+    "date": "2026-10-14",
+    "start": "10:10",
+    "end": "12:10",
+    "room": "605+606 會議室",
+    "speakerIds": [
+      "1189"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1905,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5031",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/5031",
+    "title": "AI 驅動架構實戰：Structurizr × OpenCode",
+    "date": "2026-10-14",
+    "start": "10:10",
+    "end": "12:10",
+    "room": "607+608 會議室",
+    "speakerIds": [
+      "704"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 2207,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4996",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/4996",
+    "title": "通用 AI CLI vs. 場景專用 AI：以 Lovable Web 開發為例的效能實測",
+    "date": "2026-10-14",
+    "start": "13:00",
+    "end": "15:00",
+    "room": "603+604 會議室",
+    "speakerIds": [
+      "334"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1843,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4993",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/4993",
+    "title": "讓 AI Agent、MCP Server、CLI 安全登入的實作工作坊",
+    "date": "2026-10-14",
+    "start": "13:00",
+    "end": "15:00",
+    "room": "605+606 會議室",
+    "speakerIds": [
+      "69"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 2653,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4991",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/4991",
+    "title": "讓 AI 讀懂你的系統 with knowledge graph",
+    "date": "2026-10-14",
+    "start": "13:00",
+    "end": "15:00",
+    "room": "607+608 會議室",
+    "speakerIds": [
+      "2336"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 2029,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5030",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/5030",
+    "title": "把「做完了」寫下來：90 分鐘做出一份機器能檢查的驗收清單",
+    "date": "2026-10-14",
+    "start": "15:30",
+    "end": "17:30",
+    "room": "603+604 會議室",
+    "speakerIds": [
+      "1956"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1378,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5032",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/5032",
+    "title": "從點子到產品：AI 驅動的現代軟體開發全流程實踐",
+    "date": "2026-10-14",
+    "start": "15:30",
+    "end": "17:30",
+    "room": "605+606 會議室",
+    "speakerIds": [
+      "1189"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1905,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4997",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/4997",
+    "title": "在解決跟AI的溝通之前先解決人和人之間的溝通",
+    "date": "2026-10-14",
+    "start": "15:30",
+    "end": "17:30",
+    "room": "607+608 會議室",
+    "speakerIds": [
+      "1548"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 927,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5035",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/5035",
+    "title": "AI Coding 治理實戰：從開發到交付的Harness工程",
+    "date": "2026-10-15",
+    "start": "10:10",
+    "end": "12:10",
+    "room": "603+604 會議室",
+    "speakerIds": [
+      "1192"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1053,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4994",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/4994",
+    "title": "AI 時代下,軟體團隊要怎麼設計?",
+    "date": "2026-10-15",
+    "start": "10:10",
+    "end": "12:10",
+    "room": "605+606 會議室",
+    "speakerIds": [
+      "2343"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1375,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4995",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/4995",
+    "title": "Google AI Studio X Antigravity 驗收實戰",
+    "date": "2026-10-15",
+    "start": "10:10",
+    "end": "12:10",
+    "room": "607+608 會議室",
+    "speakerIds": [
+      "2338"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 2386,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4992",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/4992",
+    "title": "打造跨模型 AI Agent 的 CI/CD 管線：從本地開發到雲端部署",
+    "date": "2026-10-15",
+    "start": "13:00",
+    "end": "15:00",
+    "room": "603+604 會議室",
+    "speakerIds": [
+      "2215"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1176,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5034",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/5034",
+    "title": "讓 AI Agent、MCP Server、CLI 安全登入的實作工作坊",
+    "date": "2026-10-15",
+    "start": "13:00",
+    "end": "15:00",
+    "room": "605+606 會議室",
+    "speakerIds": [
+      "69"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 2653,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5033",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/5033",
+    "title": "AI Coding 治理實戰：從開發到交付的Harness工程",
+    "date": "2026-10-15",
+    "start": "13:00",
+    "end": "15:00",
+    "room": "607+608 會議室",
+    "speakerIds": [
+      "1192"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1053,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5038",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/5038",
+    "title": "AI 驅動架構實戰：Structurizr × OpenCode",
+    "date": "2026-10-15",
+    "start": "15:30",
+    "end": "17:30",
+    "room": "603+604 會議室",
+    "speakerIds": [
+      "704"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 2207,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5037",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/5037",
+    "title": "AI 時代下,軟體團隊要怎麼設計?",
+    "date": "2026-10-15",
+    "start": "15:30",
+    "end": "17:30",
+    "room": "605+606 會議室",
+    "speakerIds": [
+      "2343"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1375,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5036",
+    "type": "lab",
+    "url": "https://hwdc.ithome.com.tw/2026/lab/5036",
+    "title": "從瀑布式的崩潰到 AI 的拯救：用積木與 AI 助手重塑敏捷協作",
+    "date": "2026-10-15",
+    "start": "15:30",
+    "end": "17:30",
+    "room": "607+608 會議室",
+    "speakerIds": [
+      "1205"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1514,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4998",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4998",
+    "title": "Welcome opening",
+    "date": "2026-10-15",
+    "start": "10:00",
+    "end": "10:10",
+    "room": "ABCDEF 會議室",
+    "speakerIds": [],
+    "detail_content_valid": false,
+    "detail_text_length": 78,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4999",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4999",
+    "title": "從一人 AI 工作流到團隊工程系統",
+    "date": "2026-10-15",
+    "start": "10:10",
+    "end": "10:55",
+    "room": "ABCDEF 會議室",
+    "speakerIds": [
+      "1583"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 793,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4971",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4971",
+    "title": "當 AI 開始調查事故：讓 Kubernetes 告警從噪音變決策",
+    "date": "2026-10-15",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "A 會議室",
+    "speakerIds": [
+      "2341"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 966,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5001",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5001",
+    "title": "買完 AI 工具，然後呢？",
+    "date": "2026-10-15",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "700"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 845,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5022",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5022",
+    "title": "AI在企業的應用與挑戰之路",
+    "date": "2026-10-15",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "628"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 816,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4970",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4970",
+    "title": "MCP 時代的 AI Agent 資安攻防",
+    "date": "2026-10-15",
+    "start": "11:15",
+    "end": "12:00",
+    "room": "F 會議室",
+    "speakerIds": [
+      "1950"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 687,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5008",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5008",
+    "title": "初級工程師如何 AI 賦能的翻寫一個跟自己年紀差不多大的框架",
+    "date": "2026-10-15",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "A 會議室",
+    "speakerIds": [
+      "1976"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 803,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4975",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4975",
+    "title": "以敵為師的軟體防禦：導入AI紅隊思維與MITRE ATLAS的攻擊面拆解",
+    "date": "2026-10-15",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "1355"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 982,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5006",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5006",
+    "title": "AI Agent Payments：x402 架構實戰",
+    "date": "2026-10-15",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "1309"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1028,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5007",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5007",
+    "title": "使用過狩野分析與NPS嗎？讓我們一起務實的簡化它",
+    "date": "2026-10-15",
+    "start": "13:30",
+    "end": "14:00",
+    "room": "F 會議室",
+    "speakerIds": [
+      "1070"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 909,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4961",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4961",
+    "title": "AI O11y：數據決策到技術選型",
+    "date": "2026-10-15",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "A 會議室",
+    "speakerIds": [
+      "62"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1088,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5004",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5004",
+    "title": "當 AI 加入團隊：打造可審查、可驗證、會自我改善的 AI 開發工作流",
+    "date": "2026-10-15",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "2339"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1229,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4981",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4981",
+    "title": "AI 時代下測試的迷思——為什麼綠燈越多，品質卻沒有變好",
+    "date": "2026-10-15",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "160"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1113,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4980",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4980",
+    "title": "別讓 Agent 瞎掰：用 Semantic Layer 打造可信賴的企業 AI",
+    "date": "2026-10-15",
+    "start": "14:15",
+    "end": "15:00",
+    "room": "F 會議室",
+    "speakerIds": [
+      "2331"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 902,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4988",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4988",
+    "title": "讓 AI Agent 記住你：從零打造仿生長期記憶系統的設計決策",
+    "date": "2026-10-15",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "A 會議室",
+    "speakerIds": [
+      "1950"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 632,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5016",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5016",
+    "title": "從一本旅遊書到 LINE OMO 服務：一個很殘酷的真實漏斗教會我的事",
+    "date": "2026-10-15",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "2338"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1436,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5019",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5019",
+    "title": "每個人都有 AI，為什麼團隊還是這麼慢？",
+    "date": "2026-10-15",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "2355"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1020,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4985",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4985",
+    "title": "透過 ACP 解放 Terminal：打造 Coding Agent 的協作模式",
+    "date": "2026-10-15",
+    "start": "15:15",
+    "end": "15:45",
+    "room": "F 會議室",
+    "speakerIds": [
+      "2336"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1574,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4973",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4973",
+    "title": "同一個 Prompt 為什麼差這麼多？——從踩坑到 Harness Engineering",
+    "date": "2026-10-15",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "A 會議室",
+    "speakerIds": [
+      "2344"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 690,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5024",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5024",
+    "title": "都用AI寫Code了，工程師若再往前一步：Product Builder",
+    "date": "2026-10-15",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "247"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1487,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4982",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4982",
+    "title": "AI Gateway：AI 治理的第一步",
+    "date": "2026-10-15",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "62"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 907,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5011",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5011",
+    "title": "AI 把寫程式變便宜了，那開發者還剩下什麼？",
+    "date": "2026-10-15",
+    "start": "16:00",
+    "end": "16:45",
+    "room": "F 會議室",
+    "speakerIds": [
+      "1501"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1191,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4977",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4977",
+    "title": "從痛點到產品：用資料與 AI 重新定義產品的規劃邏輯",
+    "date": "2026-10-15",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "A 會議室",
+    "speakerIds": [
+      "2334"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 697,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "4978",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/4978",
+    "title": "光靠 Prompt 守不住架構：用 Lint 與 Architecture Test 打造 Agentic Coding 防護牆",
+    "date": "2026-10-15",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "BC 會議室",
+    "speakerIds": [
+      "2336"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 1443,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5026",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5026",
+    "title": "挖掘技能的全新可能性",
+    "date": "2026-10-15",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "DE 會議室",
+    "speakerIds": [
+      "1621"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 926,
+    "detail_source_selector": ".session-page"
+  },
+  {
+    "id": "5027",
+    "type": "session",
+    "url": "https://hwdc.ithome.com.tw/2026/session/5027",
+    "title": "從 Sprint 到 Prompt：用 AIDD 從 0 打造 LINE Bot",
+    "date": "2026-10-15",
+    "start": "17:00",
+    "end": "17:30",
+    "room": "F 會議室",
+    "speakerIds": [
+      "2354"
+    ],
+    "detail_content_valid": true,
+    "detail_text_length": 976,
+    "detail_source_selector": ".session-page"
+  }
+]
