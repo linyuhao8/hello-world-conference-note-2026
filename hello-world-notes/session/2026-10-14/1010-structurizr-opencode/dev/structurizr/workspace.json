@@ -1,0 +1,932 @@
+{
+  "configuration" : {
+    "scope" : "SoftwareSystem"
+  },
+  "description" : "C4 工作坊",
+  "documentation" : { },
+  "id" : 1,
+  "lastModifiedDate" : "2026-10-14T04:06:57Z",
+  "model" : {
+    "deploymentNodes" : [ {
+      "children" : [ {
+        "containerInstances" : [ {
+          "containerId" : "5",
+          "environment" : "正式環境",
+          "id" : "38",
+          "instanceId" : 1,
+          "properties" : {
+            "structurizr.dsl.identifier" : "apiInstance"
+          },
+          "relationships" : [ {
+            "description" : "讀寫活動設定",
+            "destinationId" : "42",
+            "id" : "43",
+            "linkedRelationshipId" : "27",
+            "sourceId" : "38",
+            "technology" : "SQL"
+          }, {
+            "description" : "送出中籤名單和取貨門市",
+            "destinationId" : "55",
+            "id" : "56",
+            "linkedRelationshipId" : "31",
+            "sourceId" : "38",
+            "technology" : "HTTPS"
+          } ],
+          "tags" : "Container Instance"
+        } ],
+        "description" : "執行預購 API，不用自己管理伺服器。",
+        "environment" : "正式環境",
+        "id" : "37",
+        "instances" : "1",
+        "name" : "ECS Fargate",
+        "properties" : {
+          "structurizr.dsl.identifier" : "ecs"
+        },
+        "tags" : "Element,Deployment Node,Amazon Web Services - Fargate",
+        "technology" : "AWS Fargate"
+      }, {
+        "containerInstances" : [ {
+          "containerId" : "10",
+          "environment" : "正式環境",
+          "id" : "40",
+          "instanceId" : 1,
+          "properties" : {
+            "structurizr.dsl.identifier" : "jobInstance"
+          },
+          "relationships" : [ {
+            "description" : "讀取登記、寫入抽選結果",
+            "destinationId" : "42",
+            "id" : "44",
+            "linkedRelationshipId" : "33",
+            "sourceId" : "40",
+            "technology" : "SQL"
+          }, {
+            "description" : "請 App 推播抽選結果",
+            "destinationId" : "51",
+            "id" : "53",
+            "linkedRelationshipId" : "34",
+            "sourceId" : "40",
+            "technology" : "HTTPS"
+          } ],
+          "tags" : "Container Instance"
+        } ],
+        "description" : "在活動截止時啟動抽選工作。",
+        "environment" : "正式環境",
+        "id" : "39",
+        "instances" : "1",
+        "name" : "EventBridge 排程任務",
+        "properties" : {
+          "structurizr.dsl.identifier" : "scheduler"
+        },
+        "tags" : "Element,Deployment Node,Amazon Web Services - EventBridge",
+        "technology" : "AWS EventBridge + Fargate 任務"
+      }, {
+        "containerInstances" : [ {
+          "containerId" : "11",
+          "environment" : "正式環境",
+          "id" : "42",
+          "instanceId" : 1,
+          "properties" : {
+            "structurizr.dsl.identifier" : "dbInstance"
+          },
+          "tags" : "Container Instance"
+        } ],
+        "description" : "託管資料庫，只用一個可用區來省成本。",
+        "environment" : "正式環境",
+        "id" : "41",
+        "instances" : "1",
+        "name" : "RDS for PostgreSQL",
+        "properties" : {
+          "structurizr.dsl.identifier" : "rds"
+        },
+        "tags" : "Element,Deployment Node,Amazon Web Services - RDS",
+        "technology" : "PostgreSQL 16"
+      } ],
+      "description" : "我們使用的雲端服務。",
+      "environment" : "正式環境",
+      "id" : "36",
+      "instances" : "1",
+      "name" : "雲端區域",
+      "properties" : {
+        "structurizr.dsl.identifier" : "cloud"
+      },
+      "tags" : "Element,Deployment Node,Amazon Web Services - Region",
+      "technology" : "AWS ap-northeast-1"
+    }, {
+      "children" : [ {
+        "containerInstances" : [ {
+          "containerId" : "4",
+          "environment" : "正式環境",
+          "id" : "47",
+          "instanceId" : 1,
+          "properties" : {
+            "structurizr.dsl.identifier" : "adminInstance"
+          },
+          "relationships" : [ {
+            "description" : "讀寫活動設定",
+            "destinationId" : "38",
+            "id" : "48",
+            "linkedRelationshipId" : "25",
+            "sourceId" : "47",
+            "technology" : "HTTPS"
+          } ],
+          "tags" : "Container Instance"
+        } ],
+        "description" : "用瀏覽器開啟管理後台。",
+        "environment" : "正式環境",
+        "id" : "46",
+        "instances" : "1",
+        "name" : "營運人員電腦",
+        "properties" : {
+          "structurizr.dsl.identifier" : "browser"
+        },
+        "tags" : "Element,Deployment Node",
+        "technology" : "Web 瀏覽器"
+      } ],
+      "description" : "營運人員工作的地方。",
+      "environment" : "正式環境",
+      "id" : "45",
+      "instances" : "1",
+      "name" : "代理商辦公室",
+      "properties" : {
+        "structurizr.dsl.identifier" : "office"
+      },
+      "tags" : "Element,Deployment Node",
+      "technology" : "辦公室網路"
+    }, {
+      "children" : [ {
+        "description" : "代理商既有的實名制 App 後端。",
+        "environment" : "正式環境",
+        "id" : "50",
+        "instances" : "1",
+        "name" : "實名制 App 服務",
+        "properties" : {
+          "structurizr.dsl.identifier" : "appHost"
+        },
+        "softwareSystemInstances" : [ {
+          "environment" : "正式環境",
+          "id" : "51",
+          "instanceId" : 1,
+          "properties" : {
+            "structurizr.dsl.identifier" : "realnameInstance"
+          },
+          "relationships" : [ {
+            "description" : "送出已完成實名驗證的預購請求",
+            "destinationId" : "38",
+            "id" : "52",
+            "linkedRelationshipId" : "16",
+            "sourceId" : "51",
+            "technology" : "HTTPS"
+          } ],
+          "softwareSystemId" : "12",
+          "tags" : "Software System Instance"
+        } ],
+        "tags" : "Element,Deployment Node",
+        "technology" : "既有系統"
+      }, {
+        "description" : "代理商既有的門市取貨系統。",
+        "environment" : "正式環境",
+        "id" : "54",
+        "instances" : "1",
+        "name" : "門市取貨系統主機",
+        "properties" : {
+          "structurizr.dsl.identifier" : "storeHost"
+        },
+        "softwareSystemInstances" : [ {
+          "environment" : "正式環境",
+          "id" : "55",
+          "instanceId" : 1,
+          "properties" : {
+            "structurizr.dsl.identifier" : "storeInstance"
+          },
+          "softwareSystemId" : "13",
+          "tags" : "Software System Instance"
+        } ],
+        "tags" : "Element,Deployment Node",
+        "technology" : "既有系統"
+      } ],
+      "description" : "代理商自己維護的系統，我們只使用它們。",
+      "environment" : "正式環境",
+      "id" : "49",
+      "instances" : "1",
+      "name" : "代理商既有系統環境",
+      "properties" : {
+        "structurizr.dsl.identifier" : "agentEnv"
+      },
+      "tags" : "Element,Deployment Node",
+      "technology" : "代理商機房"
+    } ],
+    "people" : [ {
+      "description" : "想買熱門玩具的人，透過代理商的實名制 App 登記。",
+      "id" : "1",
+      "name" : "買家",
+      "properties" : {
+        "structurizr.dsl.identifier" : "buyer"
+      },
+      "relationships" : [ {
+        "description" : "在 App 裡登記、看結果、選取貨門市",
+        "destinationId" : "12",
+        "id" : "14",
+        "sourceId" : "1",
+        "tags" : "Relationship"
+      } ],
+      "tags" : "Element,Person"
+    }, {
+      "description" : "設定活動時間，以及每個買家最多可以抽幾個玩具。",
+      "id" : "2",
+      "name" : "營運人員",
+      "properties" : {
+        "structurizr.dsl.identifier" : "operator"
+      },
+      "relationships" : [ {
+        "description" : "設定活動和抽選規則",
+        "destinationId" : "4",
+        "id" : "22",
+        "sourceId" : "2",
+        "tags" : "Relationship"
+      }, {
+        "description" : "設定活動和抽選規則",
+        "destinationId" : "3",
+        "id" : "23",
+        "linkedRelationshipId" : "22",
+        "sourceId" : "2"
+      } ],
+      "tags" : "Element,Person"
+    } ],
+    "softwareSystems" : [ {
+      "containers" : [ {
+        "description" : "讓營運人員設定活動時間、抽選數量、玩具和取貨門市。",
+        "documentation" : { },
+        "id" : "4",
+        "name" : "管理後台",
+        "properties" : {
+          "structurizr.dsl.identifier" : "adminWeb"
+        },
+        "relationships" : [ {
+          "description" : "讀寫活動設定",
+          "destinationId" : "7",
+          "id" : "24",
+          "sourceId" : "4",
+          "tags" : "Relationship",
+          "technology" : "HTTPS"
+        }, {
+          "description" : "讀寫活動設定",
+          "destinationId" : "5",
+          "id" : "25",
+          "linkedRelationshipId" : "24",
+          "sourceId" : "4",
+          "technology" : "HTTPS"
+        } ],
+        "tags" : "Element,Container",
+        "technology" : "React / Web 瀏覽器"
+      }, {
+        "components" : [ {
+          "description" : "先確認請求真的來自已完成實名驗證的 App。",
+          "documentation" : { },
+          "id" : "6",
+          "name" : "憑證驗證中介層",
+          "properties" : {
+            "structurizr.dsl.identifier" : "authGuard"
+          },
+          "relationships" : [ {
+            "description" : "驗證通過後交給登記服務",
+            "destinationId" : "8",
+            "id" : "18",
+            "sourceId" : "6",
+            "tags" : "Relationship"
+          }, {
+            "description" : "驗證通過後交給取貨服務",
+            "destinationId" : "9",
+            "id" : "19",
+            "sourceId" : "6",
+            "tags" : "Relationship"
+          } ],
+          "tags" : "Element,Component",
+          "technology" : "TypeScript Middleware"
+        }, {
+          "description" : "管理活動時間，並檢查每個買家可以抽幾個玩具。",
+          "documentation" : { },
+          "id" : "7",
+          "name" : "活動規則服務",
+          "properties" : {
+            "structurizr.dsl.identifier" : "campaignService"
+          },
+          "relationships" : [ {
+            "description" : "讀寫活動設定",
+            "destinationId" : "11",
+            "id" : "26",
+            "sourceId" : "7",
+            "tags" : "Relationship",
+            "technology" : "SQL"
+          } ],
+          "tags" : "Element,Component",
+          "technology" : "TypeScript Service"
+        }, {
+          "description" : "記錄買家想抽的玩具，也提供抽選結果查詢。",
+          "documentation" : { },
+          "id" : "8",
+          "name" : "登記服務",
+          "properties" : {
+            "structurizr.dsl.identifier" : "registrationService"
+          },
+          "relationships" : [ {
+            "description" : "查詢活動時間和每人抽選上限",
+            "destinationId" : "7",
+            "id" : "20",
+            "sourceId" : "8",
+            "tags" : "Relationship"
+          }, {
+            "description" : "寫入登記、讀取抽選結果",
+            "destinationId" : "11",
+            "id" : "28",
+            "sourceId" : "8",
+            "tags" : "Relationship",
+            "technology" : "SQL"
+          } ],
+          "tags" : "Element,Component",
+          "technology" : "TypeScript Service"
+        }, {
+          "description" : "記錄中籤買家選的門市，並通知門市取貨系統。",
+          "documentation" : { },
+          "id" : "9",
+          "name" : "取貨服務",
+          "properties" : {
+            "structurizr.dsl.identifier" : "pickupService"
+          },
+          "relationships" : [ {
+            "description" : "查詢可以選的取貨門市",
+            "destinationId" : "7",
+            "id" : "21",
+            "sourceId" : "9",
+            "tags" : "Relationship"
+          }, {
+            "description" : "寫入取貨門市",
+            "destinationId" : "11",
+            "id" : "29",
+            "sourceId" : "9",
+            "tags" : "Relationship",
+            "technology" : "SQL"
+          }, {
+            "description" : "送出中籤名單和取貨門市",
+            "destinationId" : "13",
+            "id" : "30",
+            "sourceId" : "9",
+            "tags" : "Relationship",
+            "technology" : "HTTPS"
+          } ],
+          "tags" : "Element,Component",
+          "technology" : "TypeScript Service"
+        } ],
+        "description" : "接收登記和取貨門市選擇，也提供管理後台使用。",
+        "documentation" : { },
+        "id" : "5",
+        "name" : "預購 API",
+        "properties" : {
+          "structurizr.dsl.identifier" : "preorderApi"
+        },
+        "relationships" : [ {
+          "description" : "讀寫活動設定",
+          "destinationId" : "11",
+          "id" : "27",
+          "linkedRelationshipId" : "26",
+          "sourceId" : "5",
+          "technology" : "SQL"
+        }, {
+          "description" : "送出中籤名單和取貨門市",
+          "destinationId" : "13",
+          "id" : "31",
+          "linkedRelationshipId" : "30",
+          "sourceId" : "5",
+          "technology" : "HTTPS"
+        } ],
+        "tags" : "Element,Container",
+        "technology" : "Node.js / Express REST API"
+      }, {
+        "description" : "活動截止時讀取登記、抽籤、存結果，再請 App 通知買家。",
+        "documentation" : { },
+        "id" : "10",
+        "name" : "抽選排程",
+        "properties" : {
+          "structurizr.dsl.identifier" : "lotteryJob"
+        },
+        "relationships" : [ {
+          "description" : "讀取登記、寫入抽選結果",
+          "destinationId" : "11",
+          "id" : "33",
+          "sourceId" : "10",
+          "tags" : "Relationship",
+          "technology" : "SQL"
+        }, {
+          "description" : "請 App 推播抽選結果",
+          "destinationId" : "12",
+          "id" : "34",
+          "sourceId" : "10",
+          "tags" : "Relationship",
+          "technology" : "HTTPS"
+        } ],
+        "tags" : "Element,Container",
+        "technology" : "Node.js / 排程工作"
+      }, {
+        "description" : "保存活動設定、買家登記、抽選結果和取貨門市。",
+        "documentation" : { },
+        "id" : "11",
+        "name" : "預購資料庫",
+        "properties" : {
+          "structurizr.dsl.identifier" : "preorderDb"
+        },
+        "tags" : "Element,Container",
+        "technology" : "PostgreSQL"
+      } ],
+      "description" : "讓買家登記玩具，在活動截止時抽出結果，並處理取貨門市。",
+      "documentation" : {
+        "decisions" : [ {
+          "content" : "# 1. 預購入口沿用代理商既有的實名制 App\n\nDate: 2026-10-14\n\n## Status\n\nAccepted\n\n## Context\n\n代理商希望用最少的成本辦玩具預購抽選。買家本來就有代理商的實名制 App，登入、實名驗證和推播通知也已經做好。\n\n如果另外做買家端 App，就要重做登入和實名驗證，還要處理 App 上架；買家也要再安裝一個 App。\n\n## Decision\n\n預購登記、結果查詢和取貨門市選擇都放在代理商既有的實名制 App 裡。我們只提供預購 API，不另外做買家端 App，也不重做實名驗證。\n\n我們考慮過但沒有選擇：\n\n- 自己開發買家端 App：畫面比較自由，但成本較高、要重做實名驗證，買家也要多裝一個 App。\n\n## Consequences\n\n- 好處：少做一個 App，降低開發和上架成本。\n- 好處：直接沿用既有登入、實名驗證和推播能力。\n- 代價：畫面和上線時間會受代理商 App 發版安排影響。\n- 代價：我們依賴代理商 App 的可用性和憑證格式，對方改版時需要一起調整。\n",
+          "date" : "2026-10-14T00:00:00Z",
+          "format" : "Markdown",
+          "id" : "1",
+          "status" : "Accepted",
+          "title" : "預購入口沿用代理商既有的實名制 App"
+        } ]
+      },
+      "id" : "3",
+      "name" : "預購抽選系統",
+      "properties" : {
+        "structurizr.dsl.identifier" : "preorderSystem"
+      },
+      "relationships" : [ {
+        "description" : "送出中籤名單和取貨門市",
+        "destinationId" : "13",
+        "id" : "32",
+        "linkedRelationshipId" : "30",
+        "sourceId" : "3",
+        "technology" : "HTTPS"
+      }, {
+        "description" : "請 App 推播抽選結果",
+        "destinationId" : "12",
+        "id" : "35",
+        "linkedRelationshipId" : "34",
+        "sourceId" : "3",
+        "technology" : "HTTPS"
+      } ],
+      "tags" : "Element,Software System"
+    }, {
+      "description" : "代理商已經有的 App，負責登入、實名驗證和推播通知。",
+      "documentation" : { },
+      "id" : "12",
+      "name" : "代理商既有實名制 App",
+      "properties" : {
+        "structurizr.dsl.identifier" : "realnameApp"
+      },
+      "relationships" : [ {
+        "description" : "送出已完成實名驗證的預購請求",
+        "destinationId" : "6",
+        "id" : "15",
+        "sourceId" : "12",
+        "tags" : "Relationship",
+        "technology" : "HTTPS"
+      }, {
+        "description" : "送出已完成實名驗證的預購請求",
+        "destinationId" : "5",
+        "id" : "16",
+        "linkedRelationshipId" : "15",
+        "sourceId" : "12",
+        "technology" : "HTTPS"
+      }, {
+        "description" : "送出已完成實名驗證的預購請求",
+        "destinationId" : "3",
+        "id" : "17",
+        "linkedRelationshipId" : "15",
+        "sourceId" : "12",
+        "technology" : "HTTPS"
+      } ],
+      "tags" : "Element,Software System,External System"
+    }, {
+      "description" : "代理商已經有的系統，依中籤名單和門市安排取貨。",
+      "documentation" : { },
+      "id" : "13",
+      "name" : "代理商既有門市取貨系統",
+      "properties" : {
+        "structurizr.dsl.identifier" : "storeSystem"
+      },
+      "tags" : "Element,Software System,External System"
+    } ]
+  },
+  "name" : "玩具預購抽選服務",
+  "properties" : {
+    "structurizr.inspection.error" : "8",
+    "structurizr.inspection.info" : "0",
+    "structurizr.inspection.ignore" : "0",
+    "structurizr.inspection.warning" : "0"
+  },
+  "views" : {
+    "componentViews" : [ {
+      "automaticLayout" : {
+        "edgeSeparation" : 50,
+        "nodeSeparation" : 50,
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 100,
+        "vertices" : true
+      },
+      "containerId" : "5",
+      "elements" : [ {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "6",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "7",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "8",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "9",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "11",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "12",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "13",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "externalContainerBoundariesVisible" : false,
+      "key" : "Components",
+      "name" : "Component View: 預購抽選系統 - 預購 API",
+      "order" : 4,
+      "relationships" : [ {
+        "id" : "15"
+      }, {
+        "id" : "18"
+      }, {
+        "id" : "19"
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "28"
+      }, {
+        "id" : "29"
+      }, {
+        "id" : "30"
+      } ]
+    } ],
+    "configuration" : {
+      "styles" : {
+        "elements" : [ {
+          "background" : "#999999",
+          "color" : "#ffffff",
+          "tag" : "External System"
+        } ]
+      },
+      "terminology" : { },
+      "themes" : [ "https://raw.githubusercontent.com/structurizr/themes/master/default/theme.json", "https://raw.githubusercontent.com/structurizr/structurizr/v2026.09.19/structurizr-themes/amazon-web-services-2025.07/theme.json" ]
+    },
+    "containerViews" : [ {
+      "automaticLayout" : {
+        "edgeSeparation" : 50,
+        "nodeSeparation" : 50,
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 100,
+        "vertices" : true
+      },
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "5",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "10",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "11",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "12",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "13",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "externalSoftwareSystemBoundariesVisible" : false,
+      "key" : "Containers",
+      "name" : "Container View: 預購抽選系統",
+      "order" : 3,
+      "relationships" : [ {
+        "id" : "14"
+      }, {
+        "id" : "16"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "31"
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "34"
+      } ],
+      "softwareSystemId" : "3"
+    } ],
+    "deploymentViews" : [ {
+      "description" : "每個服務在正式環境中的位置。",
+      "elements" : [ {
+        "id" : "36",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "37",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "38",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "39",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "40",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "41",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "42",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "45",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "46",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "47",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "49",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "50",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "51",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "54",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "55",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "environment" : "正式環境",
+      "key" : "Deployment",
+      "name" : "Deployment View: 正式環境",
+      "order" : 6,
+      "relationships" : [ {
+        "id" : "43"
+      }, {
+        "id" : "44"
+      }, {
+        "id" : "48"
+      }, {
+        "id" : "52"
+      }, {
+        "id" : "53"
+      }, {
+        "id" : "56"
+      } ]
+    } ],
+    "dynamicViews" : [ {
+      "automaticLayout" : {
+        "edgeSeparation" : 50,
+        "nodeSeparation" : 50,
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 100,
+        "vertices" : true
+      },
+      "description" : "一場預購活動從設定、登記、抽選到取貨的完整流程。",
+      "elementId" : "3",
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "5",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "10",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "11",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "12",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "13",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "externalBoundariesVisible" : false,
+      "key" : "PreorderFlow",
+      "name" : "Dynamic View: 預購抽選系統",
+      "order" : 5,
+      "relationships" : [ {
+        "description" : "1. 設定活動時間和每人抽選上限",
+        "id" : "22",
+        "order" : "1",
+        "response" : false
+      }, {
+        "description" : "2. 在活動期間登記想抽的玩具",
+        "id" : "14",
+        "order" : "2",
+        "response" : false
+      }, {
+        "description" : "3. 把已完成實名驗證的登記送來",
+        "id" : "16",
+        "order" : "3",
+        "response" : false
+      }, {
+        "description" : "4. 檢查規則並保存登記",
+        "id" : "27",
+        "order" : "4",
+        "response" : false
+      }, {
+        "description" : "5. 截止時讀取登記、抽選並保存結果",
+        "id" : "33",
+        "order" : "5",
+        "response" : false
+      }, {
+        "description" : "6. 請 App 推播抽選結果",
+        "id" : "34",
+        "order" : "6",
+        "response" : false
+      }, {
+        "description" : "7. 中籤後選擇取貨門市",
+        "id" : "14",
+        "order" : "7",
+        "response" : false
+      }, {
+        "description" : "8. 把取貨門市選擇送來",
+        "id" : "16",
+        "order" : "8",
+        "response" : false
+      }, {
+        "description" : "9. 把中籤名單和取貨門市送給門市系統",
+        "id" : "31",
+        "order" : "9",
+        "response" : false
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "automaticLayout" : {
+        "edgeSeparation" : 50,
+        "nodeSeparation" : 50,
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 100,
+        "vertices" : true
+      },
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "12",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "13",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "key" : "SystemContext",
+      "name" : "System Context View: 預購抽選系統",
+      "order" : 2,
+      "relationships" : [ {
+        "id" : "14"
+      }, {
+        "id" : "17"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "32"
+      }, {
+        "id" : "35"
+      } ],
+      "softwareSystemId" : "3"
+    } ],
+    "systemLandscapeViews" : [ {
+      "automaticLayout" : {
+        "edgeSeparation" : 50,
+        "nodeSeparation" : 50,
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 100,
+        "vertices" : true
+      },
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "12",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "13",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "key" : "SystemLandscape",
+      "name" : "System Landscape View",
+      "order" : 1,
+      "relationships" : [ {
+        "id" : "14"
+      }, {
+        "id" : "17"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "32"
+      }, {
+        "id" : "35"
+      } ]
+    } ]
+  }
+}
