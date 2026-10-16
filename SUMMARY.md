@@ -96,6 +96,8 @@ FinOps 課則將同樣的治理思路放到雲端成本：先知道成本歸屬�
 
 講師與時間：郭孟坤 (Mansun Kuo)，2026-10-14 10:10–12:10。
 
+講師背景：外商 Staff Solution Architect，專注雲端／軟體架構、AI 工具落地，以及用 AI 優化開發與 DevOps 流程。[講師資料](data/speakers/704.md)
+
 #### 官方背景
 
 本場 Workshop 以 Architecture as Code 為主軸：用 Structurizr DSL 建立以 C4 為基礎的 Models as Code，讓不同角色從同一份架構模型產生不同視角，再用 ADR 保存決策脈絡。這些內容有對應的實作目錄、DSL、workspace JSON 與驗證紀錄。
@@ -121,6 +123,8 @@ FinOps 課則將同樣的治理思路放到雲端成本：先知道成本歸屬�
 ### LLM Wiki：企業內部知識問答系統的架構演進
 
 時間：2026-10-14 13:30–14:00；講師：張維峻 (Justin)。此場與同時段的事件驅動交易課重疊，以下依筆記整理，不宣稱完整參與。
+
+講師背景：國泰金控助理架構師，具機器學習與深度學習背景，曾主導醫療收據 OCR，也持續投入 LLM、Agentic RAG、MCP 與 AI IDE 的企業應用。[講師資料](data/speakers/2228.md)
 
 #### 核心觀念
 
@@ -150,6 +154,8 @@ FinOps 課則將同樣的治理思路放到雲端成本：先知道成本歸屬�
 ### 用 AI 工作流重整事件驅動交易系統的一致性、效能與監測
 
 時間：2026-10-14 13:30–14:00；講師：蔡宜庭 (ET)。與 LLM Wiki 時段重疊，以下只根據現有筆記與其中記錄的案例整理。
+
+講師背景：國泰金控 Java 後端工程師，專注事件驅動架構、可觀測性與可靠訊息處理，也使用自動化測試、分散式追蹤與可重現 Benchmark 驗證 AI 產出。[講師資料](data/speakers/2347.md)
 
 #### 核心觀念
 
@@ -184,6 +190,8 @@ AI 可以加速提出效能優化方向，但交易系統不能只看 TPS。每�
 
 講師與時間：張云姵 (Sarah)，2026-10-14 14:15–15:00。
 
+講師背景：玉山銀行智能金融處雲端技術架構師，具 GCP 架構、金融跨機構協作與 AI Agent 工作流程平台的架構及部署自動化經驗。[講師資料](data/speakers/2335.md)
+
 #### 核心觀念
 
 不能期待 LLM 自己遵守命名、資源、API 或部署規範。規則應分成 Agent 可理解的 Skills 與系統真正會阻擋動作的權限、pre-tool hooks、CI 和人工核准。
@@ -211,6 +219,8 @@ AI 可以加速提出效能優化方向，但交易系統不能只看 TPS。每�
 ### 雲端把花錢的權力交給了工程師，然後呢？
 
 講師與時間：林宗穎 (Kater)，2026-10-14 15:15–15:45。
+
+講師背景：玉山金控副主任工程師，負責企業 IT 架構、雲原生策略與資料治理，也投入 Generative AI／RAG 平台、Agent 工作流、MLOps 與高吞吐微服務。[講師資料](data/speakers/2332.md)
 
 #### 核心觀念
 
@@ -240,6 +250,8 @@ FinOps 不是月底看帳單，而是把預估需求、預算分配、使用量�
 
 講師與時間：蕭兆洋 (Charles Hsiao)，2026-10-14 16:00–16:45。
 
+講師背景：MaiCoin Group SRE，專注開源技術、可觀測性、雲端架構與 AIOps，也持續在技術社群分享 AI 與工程實務。[講師資料](data/speakers/1483.md)
+
 #### 核心觀念
 
 如果 Agent 未來要自己找服務、交接任務、購買資料或花公司的錢，系統必須同時處理合作、付款、授權與稽核。四個概念可以先用一句話記：A2A 是 Agent 怎麼合作，x402 是怎麼付款，AP2 是為什麼有權付款，Ghost Pay 是讓付款在基礎設施完成。
@@ -267,6 +279,8 @@ Security Agent 自動購買資安情報是主要案例：Agent 呼叫付費漏�
 ### 當架構設計被 AI 加速後，工程判斷力的養成與傳承該怎麼辦？
 
 講師與時間：林承毅 (Jed)，2026-10-14 17:00–17:30。
+
+講師背景：躍準科技（ClearForge）創辦人，具二十餘年軟體開發與技術管理經驗，專長包括高並發系統、DDD，以及 AI 輔助開發流程治理。[講師資料](data/speakers/2333.md)
 
 #### 核心觀念
 
@@ -298,6 +312,8 @@ AI 把架構設計從幾天壓縮到幾小時，但也可能跳過 Context 內�
 
 講師與時間：謝浩哲 (HAO)，2026-10-15 10:10–10:55。
 
+講師背景：TSMC IT Senior IT Engineer，長期技術分享，曾參與多屆 iT邦幫忙鐵人賽，並出版繁體中文 NestJS 入門書籍。[講師資料](data/speakers/1583.md)
+
 #### 核心觀念
 
 個人用 AI 變快，不等於團隊交付品質穩定。要把需求背景、目標、非目標、驗收條件、規則、Skill、檢查與 review 變成版本化的團隊資產。
@@ -326,7 +342,9 @@ AI 把架構設計從幾天壓縮到幾小時，但也可能跳過 Context 內�
 
 ### 當 AI 開始調查事故：讓 Kubernetes 告警從噪音變決策
 
-講師與時間：依現有 Session 資料整理，2026-10-15 11:15。
+講師與時間：Duo，2026-10-15 11:15–12:00。
+
+講師背景：大型電商 Senior Engineer，具資深軟體架構師與技術組長經驗，累積超過 15 年跨產業、跨平台開發經驗，技術範圍涵蓋從早期語言到 Java、Python、Go、Rust。[講師資料](data/speakers/2341.md)
 
 #### 核心觀念
 
@@ -359,6 +377,8 @@ AI 事故調查不是收到告警後丟給模型一次，而是把告警轉成�
 
 講師與時間：吳柏毅 (appleboy)，2026-10-15 13:00–15:00。
 
+講師背景：Mediatek 後端架構工程師，本場以實作方式拆解 OAuth 2.0、PKCE、MCP Server 與 Gateway 的授權邊界。[講師資料](data/speakers/69.md)
+
 #### 核心觀念
 
 MCP 工具一旦碰到使用者資料，就不能只驗「有沒有 Token」。工作坊用 OAuth 2.0、PKCE、scope、resource／audience、JWKS 與撤銷情境，把 Client、Authorization Server、Resource Server 的責任拆清楚。
@@ -384,6 +404,8 @@ MCP 工具一旦碰到使用者資料，就不能只驗「有沒有 Token」。�
 ### 透過 ACP 解放 Terminal：打造 Coding Agent 的協作模式
 
 講師與時間：Neo Hsu，2026-10-15 15:15–15:45。
+
+講師背景：TXOne Networks Staff Software Engineer，從事 OT／工控資安產品開發，技術經歷涵蓋 Android、React、Go 後端與分散式系統，近年專注可驗證、可治理的 Agentic Coding。[講師資料](data/speakers/2336.md)
 
 #### 核心觀念
 
@@ -411,7 +433,9 @@ MCP 工具一旦碰到使用者資料，就不能只驗「有沒有 Token」。�
 
 ### 從踩坑到 Harness Engineering
 
-講師與時間：現有 Session 資料未保留講師欄位，2026-10-15 16:00。
+講師與時間：許舜雯 (Olivia Shiu)，2026-10-15 16:00–16:45。
+
+講師背景：許舜雯 (Olivia Shiu)，Amazon Web Services Solutions Architect，服務過電信、串流媒體、製造與機器人等產業，長期協助客戶處理架構與 AI 導入問題。[講師資料](data/speakers/2344.md)
 
 #### 核心觀念
 
@@ -442,6 +466,8 @@ COBOL 案例用 One-liner 對比 Structured Prompt：只說「看一下這段 CO
 ### Lint + Architecture Test：Agentic Coding 防護牆
 
 講師與時間：Neo Hsu，2026-10-15 17:00–17:30。
+
+講師背景：TXOne Networks Staff Software Engineer，專注 OT／工控資安、Agentic Coding 與 AI 輔助軟體工程，並推動團隊導入可驗證、可治理的開發流程。[講師資料](data/speakers/2336.md)
 
 #### 核心觀念
 
