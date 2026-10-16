@@ -1,6 +1,6 @@
 # Hello World Dev Conference 2026 — 技術收穫與實戰筆記
 
-這份文件整理 Hello World Dev Conference 2026 兩天共 13 個課程資料夾。內容以各場 `notes.md` 的實際記錄為主要證據，README 的官方簡介只用來補充課程背景；沒有把官方議程直接當成我已經驗證過的成果。10/14 10:10 的 Knowledge Graph 課程我沒有參加，因此該段只保留官方背景與既有素材，不列為個人收穫。
+這份文件整理 Hello World Dev Conference 2026 兩天共 13 個課程資料夾。內容以各場 `notes.md` 的實際記錄為主要證據，README 的官方簡介只用來補充課程背景；沒有把官方議程直接當成我已經驗證過的成果。圖片只在能幫助理解架構、流程或簡報重點時顯示，其他素材改用文字說明，並避開含帳號、Token、Client ID 或授權操作的畫面。10/14 10:10 的「AI 驅動架構實戰：Structurizr × OpenCode」我沒有參加，因此該段只保留官方背景與既有素材，不列為個人收穫。
 
 兩天的內容雖然分散在架構建模、AI Coding、事件驅動系統、授權、事故調查與 FinOps，但共同問題很一致：AI 或分散式系統真正進入工程流程後，不能只靠一個漂亮的 Prompt 或一次成功的 Demo。需要清楚的邊界、可追蹤的狀態、可重跑的驗證，以及失敗後知道怎麼停下來或恢復。
 
@@ -16,7 +16,7 @@
 
 | 日期／時間 | 課程 | 這份整理的重點 | 詳細筆記 |
 |---|---|---|---|
-| 10/14 10:10 | 讓 AI 讀懂你的系統 with Knowledge Graph | **未參加**；僅整理官方背景與既有 Structurizr 素材 | [README](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/README.md) · [notes](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/notes.md) |
+| 10/14 10:10 | AI 驅動架構實戰：Structurizr × OpenCode | **未參加**；僅整理官方背景與既有實作素材 | [README](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/README.md) · [notes](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/notes.md) |
 | 10/14 13:30 | LLM Wiki：企業內部知識問答系統的架構演進 | Raw／Wiki／Ops 分層、更新流程與評估邊界 | [README](hello-world-notes/session/2026-10-14/1330-llm-wiki/README.md) · [notes](hello-world-notes/session/2026-10-14/1330-llm-wiki/notes.md) |
 | 10/14 13:30 | 用 AI 工作流重整事件驅動交易系統的一致性、效能與監測 | 批次化、交易邊界、鎖順序、Outbox 與 reconciliation | [README](hello-world-notes/session/2026-10-14/1330-event-driven-trading/README.md) · [notes](hello-world-notes/session/2026-10-14/1330-event-driven-trading/notes.md) |
 | 10/14 14:15 | 懂行規的 Agent：把規範變成技能，自動化開發到部署 | Skills、權限與 pre-tool check 的治理邊界 | [README](hello-world-notes/session/2026-10-14/1415-agent-compliance-skills/README.md) · [notes](hello-world-notes/session/2026-10-14/1415-agent-compliance-skills/notes.md) |
@@ -30,7 +30,7 @@
 | 10/15 16:00 | 從踩坑到 Harness Engineering | Prompt、Context、Tool、State、Observability、Verify／Recover | [README](hello-world-notes/session/2026-10-15/1600-harness-engineering/README.md) · [notes](hello-world-notes/session/2026-10-15/1600-harness-engineering/notes.md) |
 | 10/15 17:00 | Lint + Architecture Test：Agentic Coding 防護牆 | 將依賴規則與架構邊界變成 CI 可執行的護欄 | [README](hello-world-notes/session/2026-10-15/1700-lint-architecture-test/README.md) · [notes](hello-world-notes/session/2026-10-15/1700-lint-architecture-test/notes.md) |
 
-10/14 的兩場 13:30 課程時間重疊，因此這裡不宣稱兩場都完整參與；各自的內容只依現有筆記整理。10/14 10:10 的 Knowledge Graph 課程則明確標記為未參加。
+10/14 的兩場 13:30 課程時間重疊，因此這裡不宣稱兩場都完整參與；各自的內容只依現有筆記整理。10/14 10:10 的 Structurizr × OpenCode 課程則明確標記為未參加。
 
 ## 核心技術與工程觀念
 
@@ -92,13 +92,13 @@ FinOps 課則將同樣的治理思路放到雲端成本：先知道成本歸屬�
 
 ## 10/14 課程精華
 
-### 讓 AI 讀懂你的系統 with Knowledge Graph（未參加）
+### AI 驅動架構實戰：Structurizr × OpenCode（未參加）
 
-講師與時間：Neo Hsu，2026-10-14 10:10。
+講師與時間：郭孟坤 (Mansun Kuo)，2026-10-14 10:10–12:10。
 
 #### 官方背景
 
-官方內容把 Knowledge Graph 放在 Codebase → Index → Graph → Agent Retrieval 的流程中，用結構化關係補足純向量檢索的限制。這段是課程資料的技術背景，不是我現場聽到的心得，也不宣稱我完成了該場 Workshop。
+官方內容把這場工作坊定位為 AI 驅動的 Architecture as Code：用 Structurizr DSL 建立以 C4 為基礎的 Models as Code，讓不同角色從同一份架構模型產生不同視角，再用 ADR 保存決策脈絡。這段是課程資料的技術背景，不是我現場聽到的心得，也不宣稱我完成了該場 Workshop。
 
 ![既有 Structurizr 玩具預購抽選服務部署視角](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/assets/image.png)
 
@@ -106,12 +106,12 @@ FinOps 課則將同樣的治理思路放到雲端成本：先知道成本歸屬�
 
 #### 解決的問題與方法
 
-課堂主軸是 Codebase → Index → Knowledge Graph，再讓 Coding Agent 依圖譜縮小 Context Retrieval 範圍。這個思路對目前以 chunking、Embedding、Qdrant、LLM 為主的 RAG 有補充價值：向量檢索回答「相似」，圖譜更適合回答「誰依賴誰、哪個元件負責什麼、改動會影響哪裡」。
+課堂主軸是需求脈絡 → C4 模型 → Structurizr DSL → 多視角架構圖 → ADR。OpenCode 以自然語言協助建立與修改模型，但架構邊界、責任、資料流與取捨仍要由人確認。這個做法的價值不只是產生圖，而是讓架構成為可版本控制、可驗證、可交給 Agent 持續使用的共同基準。
 
 #### 可供後續閱讀的方向
 
-- 將知識檢索從「找相似文字」擴展為「找可解釋的系統關係」。
-- 若之後要研究，先用小型 Geo RAG 或單一模組做 POC；目前沒有我的現場筆記，不先把這列為個人行動結論。
+- 將架構從一次性的圖，提升為可版本控制的模型與決策紀錄。
+- 若之後要研究，先用自己的專案畫一張 C4 System Context，並為一個重要取捨補一份 ADR；目前沒有我的現場筆記，不把這列為已完成成果。
 
 #### 詳細資料
 
@@ -366,6 +366,8 @@ MCP 工具一旦碰到使用者資料，就不能只驗「有沒有 Token」。�
 
 實驗路線從匿名 MCP Server 開始，經過 401 與 Protected Resource Metadata 找到登入端點，再做 authorization code + PKCE，接著驗證簽章、issuer、audience、expiry、access type 與 scope。`notes:read` 控制入口，`notes:write` 控制寫入工具；A 的 Token 不能打 B，代表 audience／resource 隔離有實際作用。Kong 的角色是集中入口授權，不會代替使用者登入，也不會自動解決即時 Token 撤銷。
 
+本場圖片包含實際授權紀錄、Client 設定、Redirect URI 與終端機指令；因可能暴露識別資料與授權操作，不在 Summary 顯示。簡報內容已用文字保留：OAuth 負責登入與發 Token，MCP Client 保存 Token，MCP Server 驗證身份與權限，Gateway 集中入口檢查但不取代業務授權。
+
 #### 實際成果
 
 本地 `repo/` 是可執行教材，現有筆記記錄已驗證 Lab 01–05 的 Python 路線與 OAuth／PKCE／Token／scope／audience／revoke 行為；Lab 06 Kong Gateway 仍應標成待驗證或延伸，不能把 repo 存在等同於本機已完成 Gateway 流程。`.env` 與 Token 檔案不應放進公開摘要。
@@ -391,6 +393,8 @@ MCP 工具一旦碰到使用者資料，就不能只驗「有沒有 Token」。�
 筆記中的 OpenAB 架構是聊天平台 → Adapter → Dispatcher／Session Pool → ACP → Agent Runtime。每個 thread 對應一個 Agent Session，事件以 streaming 回報，還要處理 session TTL、context storage、tool call、permission、cancel／resume、錯誤與不同 CLI 的事件格式差異。
 
 平台權限和 Agent 權限要分開：Discord allowlist／bot loop 防護不能取代 Codex 的 sandbox mode 或 full-access 風險控制。多 Agent 協作還需要 trusted bot、mention 規則與 max bot turns，否則會形成無限互相觸發。
+
+本場資料夾沒有可安全引用的圖片，因此以文字說明簡報重點：聊天平台只是入口，真正需要設計的是長生命週期的 Session Runtime，以及 Context、Streaming、工具呼叫、權限、取消與恢復的狀態邊界。
 
 #### 講者實戰經驗
 

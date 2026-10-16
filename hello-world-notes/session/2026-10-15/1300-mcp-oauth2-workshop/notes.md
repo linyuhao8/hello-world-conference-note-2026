@@ -4,6 +4,14 @@
 - **講師**：吳柏毅（appleboy）｜Mediatek 後端架構工程師
 - **教材**：[mcp-oauth2-workshop](https://github.com/go-training/mcp-oauth2-workshop)
 
+## 簡報與素材說明
+
+本場有授權紀錄、Client 設定、Redirect URI、Token 操作與終端機畫面。這些畫面能說明 OAuth 流程，但同時包含帳號、識別碼、內部 URL 或授權操作資訊，因此不直接嵌入筆記；以下用文字保留簡報要點：
+
+- OAuth 流程是「登入與同意 → Authorization Code → Token → MCP Server 驗證」。
+- `scope` 說明能做什麼，`audience／resource` 說明 Token 是給哪個 Server，兩者不能混為一談。
+- Token 撤銷與離線 JWT 驗證的生效時間不同，這是實作時需要明確接受的限制。
+
 ## 一句話總結
 
 OAuth 負責確認「誰可以使用服務」，MCP 負責讓 AI 標準化發現與呼叫工具；Kong Gateway 則可集中處理多個 MCP Server 的入口驗證。

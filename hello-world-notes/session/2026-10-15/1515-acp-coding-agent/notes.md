@@ -1,5 +1,9 @@
 # Notes
 
+## 簡報與素材說明
+
+本場資料夾沒有可引用的課程圖片，因此不硬塞圖片；簡報重點以文字保存：把聊天平台接到 Coding Agent 後，核心不再是轉送 Prompt，而是管理 Session、Context、Streaming、工具權限、Cancel／Resume，以及不同 Agent Runtime 之間的共通介面。
+
 ## 一句話總結
 
 OpenAB 是一個把 Discord／Slack 等聊天平台接到 ACP coding agent 的 thin broker：每個討論串維持自己的 agent session，透過 stdio JSON-RPC 傳遞 prompt、tool call、thinking、permission 與串流回覆，因此可以把「交辦工作 → 持續追問 → 看見進度」放進團隊原本使用的聊天工具。
