@@ -1,6 +1,6 @@
 # Hello World Dev Conference 2026 — 技術收穫與實戰筆記
 
-這份文件整理我在 2026-10-14 與 2026-10-15 參加 Hello World Dev Conference 2026 的 13 場課程。內容以各場 `notes.md` 的實際記錄為主要證據，README 的官方簡介只用來補充課程背景；沒有把官方議程直接當成我已經驗證過的成果。
+這份文件整理 Hello World Dev Conference 2026 兩天共 13 個課程資料夾。內容以各場 `notes.md` 的實際記錄為主要證據，README 的官方簡介只用來補充課程背景；沒有把官方議程直接當成我已經驗證過的成果。10/14 10:10 的 Knowledge Graph 課程我沒有參加，因此該段只保留官方背景與既有素材，不列為個人收穫。
 
 兩天的內容雖然分散在架構建模、AI Coding、事件驅動系統、授權、事故調查與 FinOps，但共同問題很一致：AI 或分散式系統真正進入工程流程後，不能只靠一個漂亮的 Prompt 或一次成功的 Demo。需要清楚的邊界、可追蹤的狀態、可重跑的驗證，以及失敗後知道怎麼停下來或恢復。
 
@@ -10,13 +10,13 @@
 2. **規則要變成可執行的檢查。** AGENTS、Skills、Prompt 與文件可以提供方向，但不能單獨當作保證；Lint、Architecture Test、Build、Test、Git Hook、CI 與權限閘門才是能阻止錯誤進入下一階段的證據。
 3. **效能優化必須和一致性、可恢復性一起量。** 交易課的案例顯示，拿掉交易邊界可以提高局部吞吐量，卻可能產生部分提交與死鎖；真正可接受的方案，是在同一組負載條件下證明資料一致，並保留失敗時的診斷線索。
 4. **可觀測性不等於診斷。** 告警、Metrics、Logs、Traces 只提供證據；AI 事故調查還需要規則先縮小範圍、工具取得上下文、結構化結果、歷史事件檢索與人工確認。
-5. **最有價值的實作成果是可重跑的邊界。** Structurizr 留下了 DSL、ADR 與驗證紀錄；MCP OAuth2 留下可執行的多階段授權實驗。這些比「AI 幫忙寫過一些程式」更容易交接、比較與延伸。
+5. **最有價值的實作成果是可重跑的邊界。** MCP OAuth2 留下可執行的多階段授權實驗；Structurizr 資料夾則保留 DSL、ADR 與驗證資料，但 10/14 10:10 這場我沒有參加，不把它寫成現場成果。
 
 ## 兩天活動總覽
 
 | 日期／時間 | 課程 | 這份整理的重點 | 詳細筆記 |
 |---|---|---|---|
-| 10/14 10:10 | 讓 AI 讀懂你的系統 with Knowledge Graph | 用結構化知識與版本治理補足 RAG 的來源問題 | [README](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/README.md) · [notes](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/notes.md) |
+| 10/14 10:10 | 讓 AI 讀懂你的系統 with Knowledge Graph | **未參加**；僅整理官方背景與既有 Structurizr 素材 | [README](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/README.md) · [notes](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/notes.md) |
 | 10/14 13:30 | LLM Wiki：企業內部知識問答系統的架構演進 | Raw／Wiki／Ops 分層、更新流程與評估邊界 | [README](hello-world-notes/session/2026-10-14/1330-llm-wiki/README.md) · [notes](hello-world-notes/session/2026-10-14/1330-llm-wiki/notes.md) |
 | 10/14 13:30 | 用 AI 工作流重整事件驅動交易系統的一致性、效能與監測 | 批次化、交易邊界、鎖順序、Outbox 與 reconciliation | [README](hello-world-notes/session/2026-10-14/1330-event-driven-trading/README.md) · [notes](hello-world-notes/session/2026-10-14/1330-event-driven-trading/notes.md) |
 | 10/14 14:15 | 懂行規的 Agent：把規範變成技能，自動化開發到部署 | Skills、權限與 pre-tool check 的治理邊界 | [README](hello-world-notes/session/2026-10-14/1415-agent-compliance-skills/README.md) · [notes](hello-world-notes/session/2026-10-14/1415-agent-compliance-skills/notes.md) |
@@ -30,13 +30,13 @@
 | 10/15 16:00 | 從踩坑到 Harness Engineering | Prompt、Context、Tool、State、Observability、Verify／Recover | [README](hello-world-notes/session/2026-10-15/1600-harness-engineering/README.md) · [notes](hello-world-notes/session/2026-10-15/1600-harness-engineering/notes.md) |
 | 10/15 17:00 | Lint + Architecture Test：Agentic Coding 防護牆 | 將依賴規則與架構邊界變成 CI 可執行的護欄 | [README](hello-world-notes/session/2026-10-15/1700-lint-architecture-test/README.md) · [notes](hello-world-notes/session/2026-10-15/1700-lint-architecture-test/notes.md) |
 
-10/14 的兩場 13:30 課程時間重疊，因此這裡不宣稱兩場都完整參與；各自的內容只依現有筆記整理。10/14 的 A2A 與架構判斷兩場目前只有官方摘要，沒有把它們寫成已驗證的現場心得。
+10/14 的兩場 13:30 課程時間重疊，因此這裡不宣稱兩場都完整參與；各自的內容只依現有筆記整理。10/14 10:10 的 Knowledge Graph 課程則明確標記為未參加。
 
 ## 核心技術與工程觀念
 
 ### 1. Architecture as Code 的價值在於共享決策，不只是畫圖
 
-Structurizr 工作坊把架構模型放進 DSL，並用 ADR（Architecture Decision Record，架構決策紀錄）說明為什麼重用代理商既有的實名制 App 與門市取貨系統，而不是重新打造買家 App 或門市系統。這個做法解決的是「人和 Agent 各自從不同上下文理解系統」的問題：系統邊界、外部依賴、資料流與取捨都能被版本控制、檢視與重新產生。
+課程資料把架構模型放進 DSL，並用 ADR（Architecture Decision Record，架構決策紀錄）說明為什麼重用代理商既有的實名制 App 與門市取貨系統，而不是重新打造買家 App 或門市系統。由於我沒有參加這場，以下只把它當成既有資料中的技術背景，不當成我的現場心得。這個做法本身解決的是「人和 Agent 各自從不同上下文理解系統」的問題：系統邊界、外部依賴、資料流與取捨都能被版本控制、檢視與重新產生。
 
 真正重要的不是圖的數量，而是模型能否回答：誰使用系統、哪一個系統負責實名驗證、抽選結果往哪裡送、哪些東西明確不在本次範圍內。DSL 與 ADR 讓這些決策成為可 review 的工程資料，而不是只存在簡報或某個人的記憶中。
 
@@ -92,30 +92,26 @@ FinOps 課則將同樣的治理思路放到雲端成本：先知道成本歸屬�
 
 ## 10/14 課程精華
 
-### 讓 AI 讀懂你的系統 with Knowledge Graph
+### 讓 AI 讀懂你的系統 with Knowledge Graph（未參加）
 
 講師與時間：Neo Hsu，2026-10-14 10:10。
 
-#### 核心觀念
+#### 官方背景
 
-讓 Agent 使用知識圖譜，不只是增加另一個向量資料庫，而是把 codebase、文件、模組與關係整理成可查詢的系統上下文。圖譜即使不完全準確，也能暴露命名、文件與模組邊界的問題。
+官方內容把 Knowledge Graph 放在 Codebase → Index → Graph → Agent Retrieval 的流程中，用結構化關係補足純向量檢索的限制。這段是課程資料的技術背景，不是我現場聽到的心得，也不宣稱我完成了該場 Workshop。
 
-![Structurizr 產出的玩具預購抽選服務部署與系統關係圖](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/assets/image.png)
+![既有 Structurizr 玩具預購抽選服務部署視角](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/assets/image.png)
 
-這是工作坊實際留下的架構圖：管理後台、抽選排程、預購 API、資料庫，以及代理商既有 App／門市取貨系統的責任與資料流被放在同一個模型中。
+這張圖屬於資料夾內既有實作素材，放在 Summary 只作為架構模型的閱讀入口；更完整的參與狀態與圖片說明已放在 [notes](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/notes.md)。
 
 #### 解決的問題與方法
 
 課堂主軸是 Codebase → Index → Knowledge Graph，再讓 Coding Agent 依圖譜縮小 Context Retrieval 範圍。這個思路對目前以 chunking、Embedding、Qdrant、LLM 為主的 RAG 有補充價值：向量檢索回答「相似」，圖譜更適合回答「誰依賴誰、哪個元件負責什麼、改動會影響哪裡」。
 
-#### 講者實戰經驗
-
-現有現場筆記未保留足夠的案例數據，這裡不補造具體準確率或效能結論。可確定的工程提醒是：圖譜本身也可能歪掉，必須把關係品質與文件／程式碼的一致性當成待治理資料。
-
-#### 這堂值得帶走的東西
+#### 可供後續閱讀的方向
 
 - 將知識檢索從「找相似文字」擴展為「找可解釋的系統關係」。
-- 先用小型 Geo RAG 或單一模組做 POC，確認圖譜是否真的改善定位與影響分析，再決定是否引入更大的架構。
+- 若之後要研究，先用小型 Geo RAG 或單一模組做 POC；目前沒有我的現場筆記，不先把這列為個人行動結論。
 
 #### 詳細資料
 

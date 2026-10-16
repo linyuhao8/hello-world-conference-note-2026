@@ -1,5 +1,9 @@
 # Notes
 
+![FinOps 框架與 Inform、Optimize、Operate 三階段](./assets/workshop-photo-2.jpg)
+
+這張投影片把成本治理拆成可觀測、可量化與持續運作的階段，對應本場筆記中的成本循環。
+
 課程：雲端把花錢的權力交給了工程師，然後呢？  
 講師：林宗穎（Kater）｜玉山金控  
 日期：2026-10-14

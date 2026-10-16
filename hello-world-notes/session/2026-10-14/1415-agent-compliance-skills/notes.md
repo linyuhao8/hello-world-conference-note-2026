@@ -1,5 +1,9 @@
 # Notes
 
+![把規範拆成不同 Skill 的課程投影片](./assets/workshop-photo-2.jpg)
+
+圖中示範以 `SKILL.md`、description 與 Agent 讀取 Skill 的方式拆分責任，重點不是把所有規則塞進一份巨大 Prompt。
+
 ## 一句話總結
 
 **AI Agent 不能只靠 Prompt 或 LLM 自律來遵守開發規範，而應將規範拆成 Skills，並透過 Harness、權限與執行前檢查建立強制約束，讓 AI 能在安全邊界內完成開發與部署。**

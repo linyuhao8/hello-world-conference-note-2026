@@ -4,6 +4,10 @@
 
 Prompt / AGENTS.md 只是 soft constraint；真正要守住架構，必須把規則做成 Lint、Architecture Test、Git Hook、CI 等可執行 guardrail。
 
+![depguard 將直接依賴限制變成可執行規則](./assets/workshop-photo-1.jpg)
+
+圖中可看到規則除了列出允許的 import，還要求違規說明與禁止無理由 `nolint`。
+
 ## 核心觀念
 
 ### 1. depguard：擋直接依賴

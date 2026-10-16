@@ -4,6 +4,10 @@
 
 AI 不穩定，問題不一定在 Prompt。
 
+![Structured Prompt 降低 Legacy Code 分析發散的案例](./assets/workshop-photo-1.jpg)
+
+投影片對比模糊的一句話與指定 Input、Process、Output schema 的差異。
+
 - **Prompt** 決定 AI 怎麼說
 - **Context** 決定 AI 看得到什麼
 - **Harness** 決定 AI 能做什麼、怎麼被控制、做錯後怎麼驗證與恢復
