@@ -389,6 +389,10 @@ MCP 工具一旦碰到使用者資料，就不能只驗「有沒有 Token」。�
 
 本場圖片包含實際授權紀錄、Client 設定、Redirect URI 與終端機指令；因可能暴露識別資料與授權操作，不在 Summary 顯示。簡報內容已用文字保留：OAuth 負責登入與發 Token，MCP Client 保存 Token，MCP Server 驗證身份與權限，Gateway 集中入口檢查但不取代業務授權。
 
+![MCP OAuth scope 控制讀寫權限的流程](hello-world-notes/session/2026-10-15/1300-mcp-oauth2-workshop/assets/image%20copy%206.png)
+
+這張簡報流程圖沒有包含帳號、Token 值或 Client ID，適合用來說明權限邊界：`notes:read` Token 可以列出筆記，但不能執行 `create_note`；只有重新取得包含 `notes:write` 的 Token，寫入操作才會成功。
+
 #### 實際成果
 
 本地 `repo/` 是可執行教材，現有筆記記錄已驗證 Lab 01–05 的 Python 路線與 OAuth／PKCE／Token／scope／audience／revoke 行為；Lab 06 Kong Gateway 仍應標成待驗證或延伸，不能把 repo 存在等同於本機已完成 Gateway 流程。`.env` 與 Token 檔案不應放進公開摘要。

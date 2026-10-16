@@ -12,6 +12,10 @@
 - `scope` 說明能做什麼，`audience／resource` 說明 Token 是給哪個 Server，兩者不能混為一談。
 - Token 撤銷與離線 JWT 驗證的生效時間不同，這是實作時需要明確接受的限制。
 
+![MCP OAuth scope 控制讀寫權限的流程](./assets/image%20copy%206.png)
+
+這張流程圖是本場最值得留下的簡報：同一個 Client 先用 `notes:read` 取得讀取 Token，呼叫 `list_notes` 成功，但呼叫 `create_note` 會得到 `403 insufficient_scope`；重新取得同一個 resource、同時包含 `notes:write` 的 Token 後，寫入才成功。它把「登入成功」和「具備特定工具權限」清楚分開。
+
 ## 一句話總結
 
 OAuth 負責確認「誰可以使用服務」，MCP 負責讓 AI 標準化發現與呼叫工具；Kong Gateway 則可集中處理多個 MCP Server 的入口驗證。
