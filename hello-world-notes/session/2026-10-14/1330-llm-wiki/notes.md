@@ -3,9 +3,9 @@
 **講者**：張維峻（Justin）｜國泰金控  
 **日期**：2026-10-14 13:30–14:00
 
-![LLM Wiki 課程現場](./assets/workshop-photo-4.jpg)
+![LLM Wiki 知識庫三層結構](./assets/workshop-photo-5.jpg)
 
-這張照片保留課程主題與現場脈絡；Raw／Wiki／Ops 的具體內容以本檔案後續筆記為準。
+這張簡報直接畫出 Raw、Wiki、Ops 三層：先保留原始證據，再整理成可查詢的知識，最後由 Ops 管理更新、審查與發布。它比單純展示課程標題更能說明 LLM Wiki 的核心設計。
 
 ## 一句話總結
 

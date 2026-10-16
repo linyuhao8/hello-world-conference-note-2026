@@ -4,9 +4,13 @@
 **講師：** Duo（大型電商 Senior Engineer）  
 **日期：** 2026-10-15 11:15–12:00  
 
-![SRE Agent 的告警、背景處理與通知資料流](./assets/workshop-photo-2.jpg)
+![人類工程師的告警調查流程](./assets/workshop-photo-1.jpg)
 
-圖中可看到監控系統、Webhook 接收服務、背景處理服務與通知／資料儲存之間的責任分離。
+這張投影片先建立人工基線：收到 Alert 後依序查看 Grafana、Metrics、Traces、Logs、設定與程式碼，逐步縮小問題範圍。
+
+![SRE Agent 的任務、工具與判斷流程](./assets/workshop-photo-3.jpg)
+
+另一張投影片把人工流程轉成 Agent 工作：建立檢查任務、選擇並呼叫工具、取得結果、判斷是否需要更多資料，最後通過或通知並保存結果。
 **地點：** A 會議室
 
 ## 一句話總結

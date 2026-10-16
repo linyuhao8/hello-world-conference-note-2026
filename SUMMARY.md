@@ -130,9 +130,9 @@ FinOps 課則將同樣的治理思路放到雲端成本：先知道成本歸屬�
 
 企業問答的瓶頸不只在 Retriever，而在來源文件沒有被整理、版本沒有被管理、答案沒有可驗證的證據。LLM Wiki 把知識治理往前移，讓 RAG 取得的不是一堆無上下文的片段。
 
-![LLM Wiki 課程現場投影片](hello-world-notes/session/2026-10-14/1330-llm-wiki/assets/workshop-photo-4.jpg)
+![LLM Wiki 的 Raw、Wiki、Ops 三層知識治理模型](hello-world-notes/session/2026-10-14/1330-llm-wiki/assets/workshop-photo-5.jpg)
 
-這張照片可辨識課程主題與知識圖譜視覺，作為現場素材入口；Raw／Wiki／Ops 的具體分層仍以文字筆記為準。
+這張投影片把課程的核心分層畫出來：Raw 保留來源，Wiki 整理可查詢的知識，Ops 管理目的、審查與發布。
 
 #### 解決的問題與方法
 
@@ -196,9 +196,13 @@ AI 可以加速提出效能優化方向，但交易系統不能只看 TPS。每�
 
 不能期待 LLM 自己遵守命名、資源、API 或部署規範。規則應分成 Agent 可理解的 Skills 與系統真正會阻擋動作的權限、pre-tool hooks、CI 和人工核准。
 
-![把規範拆成不同 Skill 的課程投影片](hello-world-notes/session/2026-10-14/1415-agent-compliance-skills/assets/workshop-photo-2.jpg)
+![Agent 治理的三件事與真正難點](hello-world-notes/session/2026-10-14/1415-agent-compliance-skills/assets/workshop-photo-9.jpg)
 
-圖中用 `SKILL.md`、description 與 Agent 讀取 Skill 的畫面示範：Skill 應有清楚責任與輸出，而不是把所有規則塞進一份巨大 Prompt。
+這張投影片把重點收斂成 Skill、Harness 與人的判斷；難點不是把規則寫出來，而是讓規則在執行時真的生效。
+
+![Skill 與 Harness 共同形成開發防護欄](hello-world-notes/session/2026-10-14/1415-agent-compliance-skills/assets/workshop-photo-6.jpg)
+
+圖中列出命令政策、Gitleaks、PAT、staging 與 audit 等硬性控制，說明 Skill 負責讓 Agent 做對，Harness 負責讓它錯不出去。
 
 #### 解決的問題與方法
 
@@ -260,9 +264,13 @@ FinOps 不是月底看帳單，而是把預估需求、預算分配、使用量�
 
 A2A 把長任務的交接狀態標準化，例如 Agent 缺少 URL 時回報 `input-required`，補齊後再繼續，而不是把每件事壓成一次 Request／Response。x402 讓付費 API 先回 `402 Payment Required`，Agent 完成付款後再取得資料。AP2 對付款增加委託書、預算與供應商限制，例如每次最多 5 美元、每天最多 50 美元。Ghost Pay 則讓 Istio／Envoy 攔截 402，交給 Paymaster 與 Facilitator 完成付款，業務 Agent 不必自己保存私鑰或寫支付流程。
 
-![A2A 的 input-required 任務狀態](hello-world-notes/session/2026-10-14/1600-agentic-a2a-x402-ap2/assets/workshop-photo-2.jpg)
+![AP2 對 Agent 付款授權的分層](hello-world-notes/session/2026-10-14/1600-agentic-a2a-x402-ap2/assets/workshop-photo-11.jpg)
 
-這張投影片具體呈現 A2A 的重點：任務不只會成功或失敗，也可能停在等待輸入，並保留任務 ID 與訊息上下文。
+這張投影片聚焦 AP2：付款不只是技術上能不能完成，還要能說明誰授權、可用多少預算，以及授權如何被稽核。
+
+![x402 與其他付款方式的比較](hello-world-notes/session/2026-10-14/1600-agentic-a2a-x402-ap2/assets/workshop-photo-3.jpg)
+
+這張比較圖用來區分 x402 與既有付款流程；重點是把付費 API 的付款挑戰交給協定與基礎設施處理，而不是散落在每個 Agent 裡。
 
 #### 講者實戰經驗
 
@@ -290,9 +298,9 @@ AI 把架構設計從幾天壓縮到幾小時，但也可能跳過 Context 內�
 
 用做錯後回頭的代價劃分人與 AI 的邊界：影響範圍、下游依賴、發現時間與回復協調越大，越應由人負責決策。實作上先由人形成理解與初步方案，再讓 AI 提替代方案、挑戰假設與比較 trade-off。Design Review 同時記錄最後方案、被否決的方案、限制與理由。
 
-![AI 加速架構設計與工程判斷力的課程投影片](hello-world-notes/session/2026-10-14/1700-architecture-judgment/assets/workshop-photo-1.jpg)
+![判斷 AI 架構建議是否有效的三個訊號](hello-world-notes/session/2026-10-14/1700-architecture-judgment/assets/workshop-photo-3.jpg)
 
-這張投影片是本場主題與課程結構的現場證據；重點不是把 AI 排除，而是保留人的判斷與傳承機制。
+這張投影片把「AI 加速後怎麼知道結果有效」拆成三個可觀察訊號，提醒工程判斷不能只看生成速度或文字是否合理。
 
 #### 講者實戰經驗
 
@@ -318,9 +326,9 @@ AI 把架構設計從幾天壓縮到幾小時，但也可能跳過 Context 內�
 
 個人用 AI 變快，不等於團隊交付品質穩定。要把需求背景、目標、非目標、驗收條件、規則、Skill、檢查與 review 變成版本化的團隊資產。
 
-![Commit 失敗成為 Agent 下一步修正回饋的案例](hello-world-notes/session/2026-10-15/1010-ai-workflow-team/assets/workshop-photo-1.jpg)
+![從原子化實作到檢查與人工 Review 的工作迴圈](hello-world-notes/session/2026-10-15/1010-ai-workflow-team/assets/workshop-photo-4.jpg)
 
-畫面呈現規則檢查失敗後回到 Agent 修正、再重新驗證的迴圈；這比把 commit 當成不可解釋的阻擋更容易形成團隊工作流。
+這張投影片呈現小步驟實作、驗證、規則檢查與 reviewer 接手的迴圈；它把個人使用 AI 的技巧轉成團隊可交接的工程流程。
 
 #### 解決的問題與方法
 
@@ -360,9 +368,13 @@ AI 事故調查不是收到告警後丟給模型一次，而是把告警轉成�
 
 目前筆記沒有足夠資料確認 queue、retry、timeout、idempotency、工具權限與 root-cause 驗證的完整實作。模型成本／成功率照片也缺少樣本、版本、幣別與評估條件，不能當通用 benchmark。
 
-![SRE Agent 的告警、背景處理與通知資料流](hello-world-notes/session/2026-10-15/1115-ai-incident-investigation/assets/workshop-photo-2.jpg)
+![人類工程師調查 Kubernetes 告警的工作流程](hello-world-notes/session/2026-10-15/1115-ai-incident-investigation/assets/workshop-photo-1.jpg)
 
-圖中可看到課堂提出的基本責任分離：監控系統送告警給 Webhook，背景服務處理，再把結果寫入資料或送出通知。
+這張流程圖先保留人工調查的完整步驟：確認告警、查看上下文、查詢遙測資料、形成假設，再決定處置；Agent 應該協助這條流程，而不是跳過證據。
+
+![SRE Agent 將告警、背景處理與通知串起來](hello-world-notes/session/2026-10-15/1115-ai-incident-investigation/assets/workshop-photo-3.jpg)
+
+這張架構圖呈現監控告警進入背景處理，再由 Agent 使用工具分析、產生報告並通知人的方向；重點是保留可追溯的資料與決策依據。
 
 #### 這堂值得帶走的東西
 
@@ -459,9 +471,9 @@ COBOL 案例用 One-liner 對比 Structured Prompt：只說「看一下這段 CO
 
 把現有的 AGENTS／Skills、Build／Test、Playwright、Architecture Rule、CI 與 benchmark 重新盤點成 Harness 零件，補上目前沒有的 observability、evaluation 與 recovery，不必先引入一套完整框架。
 
-![Structured Prompt 降低 Legacy Code 分析發散的案例](hello-world-notes/session/2026-10-15/1600-harness-engineering/assets/workshop-photo-1.jpg)
+![Prompt、Context、Harness 的三層模型](hello-world-notes/session/2026-10-15/1600-harness-engineering/assets/workshop-photo-5.jpg)
 
-這張投影片具體呈現「模糊任務會讓模型自行補故事」與「指定輸入、處理步驟、輸出契約」的差異。
+這張投影片把穩定的 Agent 系統拆成三層：Prompt 說明任務，Context 提供依據，Harness 負責工具、狀態、觀測、驗證與恢復。
 
 #### 詳細資料
 
@@ -487,9 +499,9 @@ Lint 檢查局部語法或直接依賴，Architecture Test 檢查整個 import�
 
 現有筆記沒有本專案新增 lint 或 architecture test 的實作，因此這裡只記錄方法與待做 POC，不宣稱已經導入。
 
-![depguard 將直接依賴限制變成可執行規則](hello-world-notes/session/2026-10-15/1700-lint-architecture-test/assets/workshop-photo-1.jpg)
+![Agent、Git Hook、CI 三層架構防護欄](hello-world-notes/session/2026-10-15/1700-lint-architecture-test/assets/workshop-photo-5.jpg)
 
-圖中可看到規則除了列出允許的 import，還要求違規說明與禁止無理由 `nolint`；這就是把架構意圖轉成機器可檢查的門檻。
+這張投影片把規則檢查放在三層：Agent 先自我驗證，Git Hook 在本機攔截，CI 再做團隊層級的保護；三層最好共用同一個可重跑命令。
 
 #### 這堂值得帶走的東西
 
@@ -577,7 +589,7 @@ Lint 檢查局部語法或直接依賴，Architecture Test 檢查整個 import�
 ## 資料完整性與閱讀說明
 
 - 本 Summary 收錄 **13 場課程**。
-- 精選 **11 張圖片**：目前有素材的 12 場中，挑選 11 張放入 Summary；內容涵蓋 Structurizr、事件驅動交易、LLM Wiki、Agent Skills、FinOps、A2A、架構判斷、團隊 AI Workflow、事故調查、Harness 與 Lint。MCP OAuth2 的截圖因含帳號、Client ID、Token／授權流程或分享提示，不列入公開摘要；ACP 目前沒有 `assets/` 檔案可引用。
+- 精選 **15 張圖片**：使用能直接解釋架構、流程或簡報重點的圖片；MCP 僅放入不含 Token／Client ID 的 scope 流程圖，其餘含授權操作的截圖不公開；ACP 目前沒有 `assets/` 檔案可引用。
 - 明確有本地 Artifact 的課程有 **2 場**：Structurizr × OpenCode、MCP OAuth2 Workshop；前者的 DSL／ADR／workspace JSON，後者的 `repo/` 與授權實驗筆記。
 - A2A／x402／AP2、架構判斷已補上現場筆記與各自精選圖片；兩場仍沒有本地實作 Artifact，因此成果表維持「課程素材／筆記」，不誤寫成已完成實驗。
 - 其他課程若只列「課程／案例筆記」，表示現有資料沒有本地實作或可重跑 Artifact；不代表課程沒有價值。

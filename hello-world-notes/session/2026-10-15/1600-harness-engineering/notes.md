@@ -4,9 +4,9 @@
 
 AI 不穩定，問題不一定在 Prompt。
 
-![Structured Prompt 降低 Legacy Code 分析發散的案例](./assets/workshop-photo-1.jpg)
+![Prompt、Context、Harness 三層 AI Engineering 心智模型](./assets/workshop-photo-5.jpg)
 
-投影片對比模糊的一句話與指定 Input、Process、Output schema 的差異。
+這張簡報把 AI 工程拆成三層：Prompt 提供明確指令，Context 提供正確知識，Harness 負責 orchestration、evaluation、observability 與 recovery，三者缺一都可能讓結果不穩定。
 
 - **Prompt** 決定 AI 怎麼說
 - **Context** 決定 AI 看得到什麼

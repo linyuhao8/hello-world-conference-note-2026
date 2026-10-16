@@ -1,8 +1,12 @@
 # Notes
 
-![把規範拆成不同 Skill 的課程投影片](./assets/workshop-photo-2.jpg)
+![Agent Compliance 的三個帶走重點](./assets/workshop-photo-9.jpg)
 
-圖中示範以 `SKILL.md`、description 與 Agent 讀取 Skill 的方式拆分責任，重點不是把所有規則塞進一份巨大 Prompt。
+這張結論投影片把本場方法收斂成三件事：規範寫成 Skill、用 Harness 把安全邊界放在執行層、由人保留不可逆決策的判斷責任。
+
+![Skill 與 Harness 的執行邊界](./assets/workshop-photo-6.jpg)
+
+這張投影片進一步把「能做什麼」和「不能做錯什麼」分開：Agent 產生意圖，Tool Call 進入 Harness，由 Command Policy、Gitleaks、人工提供的 PAT、staging 與稽核記錄共同限制執行結果。
 
 ## 一句話總結
 

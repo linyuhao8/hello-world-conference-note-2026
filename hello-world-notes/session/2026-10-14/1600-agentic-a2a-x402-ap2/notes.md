@@ -1,8 +1,12 @@
 # A2A、x402、AP2、Ghost Pay：新手版筆記
 
-![A2A 的 input-required 任務狀態](./assets/workshop-photo-2.jpg)
+![AP2 定義 Agent 間的授權語言](./assets/workshop-photo-11.jpg)
 
-這張投影片具體呈現 A2A 的重點：任務不只會成功或失敗，也可能停在等待輸入，並保留任務 ID 與訊息上下文。
+這張投影片說明 AP2 的位置：當 Agent 代表人或公司付款時，需要一套可被驗證的授權語言，而不只是讓模型自行決定要不要付款。
+
+![x402 把付款放回 HTTP 協議層](./assets/workshop-photo-3.jpg)
+
+這張投影片對照傳統付款與 x402：傳統流程通常由 API 加 webhook 處理，x402 則用 HTTP 402、簽署與回應完成同一條線上的支付流程。
 
 這場其實是在講一個很實際的問題：
 

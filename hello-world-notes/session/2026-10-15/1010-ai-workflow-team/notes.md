@@ -3,9 +3,9 @@
 - **日期**：2026/10/15 10:10–10:55
 - **講師**：謝浩哲（HAO）｜TSMC Senior IT Engineer
 
-![Commit 失敗成為 Agent 下一步修正回饋的案例](./assets/workshop-photo-1.jpg)
+![把實作拆成可驗證的增量並逐步提交](./assets/workshop-photo-4.jpg)
 
-畫面呈現規則檢查失敗後回到 Agent 修正、再重新驗證的迴圈。
+這張投影片把團隊 AI 工作流畫成增量交付：主 Agent 規劃、Implementer 實作與測試、主 Agent 驗證，再由 Policy Reviewer、Business Reviewer 與人類完成審查。
 
 ## 一句話總結
 

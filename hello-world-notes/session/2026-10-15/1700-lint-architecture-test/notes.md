@@ -4,9 +4,9 @@
 
 Prompt / AGENTS.md 只是 soft constraint；真正要守住架構，必須把規則做成 Lint、Architecture Test、Git Hook、CI 等可執行 guardrail。
 
-![depguard 將直接依賴限制變成可執行規則](./assets/workshop-photo-1.jpg)
+![Agent、Git hook 與 CI 組成三層防線](./assets/workshop-photo-5.jpg)
 
-圖中可看到規則除了列出允許的 import，還要求違規說明與禁止無理由 `nolint`。
+這張投影片把防護牆分成三層：Agent 自己跑驗證、Git hook 在 commit／push 時自動檢查、CI 與 branch protection 守住最後一道合併門檻；規則與測試仍必須由人維護。
 
 ## 核心觀念
 
