@@ -1,0 +1,59 @@
+name: Verify workshop
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  go-test:
+    name: Go tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: go
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go/go.mod
+          cache-dependency-path: go/go.sum
+      - name: Check formatting
+        run: test -z "$(gofmt -l .)"
+      - name: Vet
+        run: go vet ./...
+      - name: Test with race detector
+        run: go test -race -count=1 ./...
+
+  python-test:
+    name: Python tests and Go/Python integration
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go/go.mod
+          cache-dependency-path: go/go.sum
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.13.0'
+          python-version: '3.12'
+          enable-cache: true
+          cache-dependency-glob: python/uv.lock
+      - name: Install Python dependencies
+        run: uv sync --project python --frozen
+      - name: Lint Python
+        run: |
+          uv run --project python --frozen ruff check python tests scripts
+          uv run --project python --frozen ruff format --check python tests scripts
+      # The pytest fixtures build Go and exercise both implementations.
+      - name: Test both languages with the local issuer
+        run: uv run --project python --frozen pytest -q
+      - name: Validate both Compose profiles (no live Signet needed)
+        run: |
+          cp .env.example .env
+          SIGNET_ISSUER=https://issuer.example python3 scripts/configure_gateway.py
+          docker compose --env-file .env -f labs/06/compose.yml --profile go config --quiet
+          docker compose --env-file .env -f labs/06/compose.yml --profile python config --quiet

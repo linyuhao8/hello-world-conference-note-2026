@@ -2,6 +2,7 @@
 
 ## 一句話總結
 
+- github: https://github.com/mansunkuo/hello-world-2026/tree/main
 這堂課的核心不是安裝 OpenCode，也不是單純畫架構圖；而是用 Structurizr 的 **Models as Code** 加上 ADR，把架構、取捨與決策理由變成團隊和 AI 都能持續使用的共同基準。
 
 ## 課程主線

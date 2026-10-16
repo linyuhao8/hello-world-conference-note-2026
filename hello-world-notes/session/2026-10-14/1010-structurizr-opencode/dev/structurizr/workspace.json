@@ -5,7 +5,9 @@
   "description" : "C4 工作坊",
   "documentation" : { },
   "id" : 1,
-  "lastModifiedDate" : "2026-10-14T04:06:57Z",
+  "lastModifiedAgent" : "structurizr/diagrams/40f4f627-87fe-4b2b-8cdf-a35926aa4fe4",
+  "lastModifiedDate" : "2026-10-14T04:12:51Z",
+  "lastModifiedUser" : "330505113",
   "model" : {
     "deploymentNodes" : [ {
       "children" : [ {
@@ -513,9 +515,9 @@
   },
   "name" : "玩具預購抽選服務",
   "properties" : {
-    "structurizr.inspection.error" : "8",
     "structurizr.inspection.info" : "0",
     "structurizr.inspection.ignore" : "0",
+    "structurizr.inspection.error" : "8",
     "structurizr.inspection.warning" : "0"
   },
   "views" : {
@@ -588,6 +590,8 @@
       } ]
     } ],
     "configuration" : {
+      "lastSavedView" : "Deployment",
+      "metadataSymbols" : "SquareBrackets",
       "styles" : {
         "elements" : [ {
           "background" : "#999999",
@@ -664,6 +668,10 @@
     } ],
     "deploymentViews" : [ {
       "description" : "每個服務在正式環境中的位置。",
+      "dimensions" : {
+        "height" : 2453,
+        "width" : 3820
+      },
       "elements" : [ {
         "id" : "36",
         "x" : 0,
@@ -674,24 +682,24 @@
         "y" : 0
       }, {
         "id" : "38",
-        "x" : 0,
-        "y" : 0
+        "x" : 2179,
+        "y" : 793
       }, {
         "id" : "39",
         "x" : 0,
         "y" : 0
       }, {
         "id" : "40",
-        "x" : 0,
-        "y" : 0
+        "x" : 299,
+        "y" : 1087
       }, {
         "id" : "41",
         "x" : 0,
         "y" : 0
       }, {
         "id" : "42",
-        "x" : 0,
-        "y" : 0
+        "x" : 3069,
+        "y" : 837
       }, {
         "id" : "45",
         "x" : 0,
@@ -702,8 +710,8 @@
         "y" : 0
       }, {
         "id" : "47",
-        "x" : 0,
-        "y" : 0
+        "x" : 1239,
+        "y" : 243
       }, {
         "id" : "49",
         "x" : 0,
@@ -714,33 +722,81 @@
         "y" : 0
       }, {
         "id" : "51",
-        "x" : 0,
-        "y" : 0
+        "x" : 1220,
+        "y" : 1825
       }, {
         "id" : "54",
         "x" : 0,
         "y" : 0
       }, {
         "id" : "55",
-        "x" : 0,
-        "y" : 0
+        "x" : 2990,
+        "y" : 1870
       } ],
       "environment" : "正式環境",
       "key" : "Deployment",
       "name" : "Deployment View: 正式環境",
       "order" : 6,
       "relationships" : [ {
-        "id" : "43"
+        "id" : "43",
+        "vertices" : [ {
+          "x" : 2679,
+          "y" : 918
+        }, {
+          "x" : 3019,
+          "y" : 918
+        } ]
       }, {
-        "id" : "44"
+        "id" : "44",
+        "vertices" : [ {
+          "x" : 799,
+          "y" : 1193
+        }, {
+          "x" : 2679,
+          "y" : 1193
+        }, {
+          "x" : 2849,
+          "y" : 1143
+        }, {
+          "x" : 3019,
+          "y" : 1143
+        } ]
       }, {
-        "id" : "48"
+        "id" : "48",
+        "vertices" : [ {
+          "x" : 1789,
+          "y" : 393
+        }, {
+          "x" : 1959,
+          "y" : 943
+        } ]
       }, {
-        "id" : "52"
+        "id" : "52",
+        "vertices" : [ {
+          "x" : 2129,
+          "y" : 1787
+        } ]
       }, {
-        "id" : "53"
+        "id" : "53",
+        "vertices" : [ {
+          "x" : 799,
+          "y" : 1312
+        }, {
+          "x" : 1189,
+          "y" : 1312
+        } ]
       }, {
-        "id" : "56"
+        "id" : "56",
+        "vertices" : [ {
+          "x" : 2679,
+          "y" : 1018
+        }, {
+          "x" : 2849,
+          "y" : 1318
+        }, {
+          "x" : 3019,
+          "y" : 1318
+        } ]
       } ]
     } ],
     "dynamicViews" : [ {
