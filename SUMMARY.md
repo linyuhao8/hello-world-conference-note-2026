@@ -1,6 +1,6 @@
 # Hello World Dev Conference 2026 — 技術收穫與實戰筆記
 
-這份文件整理 Hello World Dev Conference 2026 兩天共 13 個課程資料夾。內容以各場 `notes.md` 的實際記錄為主要證據，README 的官方簡介只用來補充課程背景；沒有把官方議程直接當成我已經驗證過的成果。圖片只在能幫助理解架構、流程或簡報重點時顯示，其他素材改用文字說明，並避開含帳號、Token、Client ID 或授權操作的畫面。10/14 10:10 的「AI 驅動架構實戰：Structurizr × OpenCode」我沒有參加，因此該段只保留官方背景與既有素材，不列為個人收穫。
+這份文件整理 Hello World Dev Conference 2026 兩天共 13 個課程資料夾。內容以各場 `notes.md` 的實際記錄為主要證據，README 的官方簡介只用來補充課程背景；沒有把官方議程直接當成我已經驗證過的成果。圖片只在能幫助理解架構、流程或簡報重點時顯示，其他素材改用文字說明，並避開含帳號、Token、Client ID 或授權操作的畫面。10/14 10:10 的「AI 驅動架構實戰：Structurizr × OpenCode」是我有參加並留下實作成果的 Workshop。
 
 兩天的內容雖然分散在架構建模、AI Coding、事件驅動系統、授權、事故調查與 FinOps，但共同問題很一致：AI 或分散式系統真正進入工程流程後，不能只靠一個漂亮的 Prompt 或一次成功的 Demo。需要清楚的邊界、可追蹤的狀態、可重跑的驗證，以及失敗後知道怎麼停下來或恢復。
 
@@ -10,13 +10,13 @@
 2. **規則要變成可執行的檢查。** AGENTS、Skills、Prompt 與文件可以提供方向，但不能單獨當作保證；Lint、Architecture Test、Build、Test、Git Hook、CI 與權限閘門才是能阻止錯誤進入下一階段的證據。
 3. **效能優化必須和一致性、可恢復性一起量。** 交易課的案例顯示，拿掉交易邊界可以提高局部吞吐量，卻可能產生部分提交與死鎖；真正可接受的方案，是在同一組負載條件下證明資料一致，並保留失敗時的診斷線索。
 4. **可觀測性不等於診斷。** 告警、Metrics、Logs、Traces 只提供證據；AI 事故調查還需要規則先縮小範圍、工具取得上下文、結構化結果、歷史事件檢索與人工確認。
-5. **最有價值的實作成果是可重跑的邊界。** MCP OAuth2 留下可執行的多階段授權實驗；Structurizr 資料夾則保留 DSL、ADR 與驗證資料，但 10/14 10:10 這場我沒有參加，不把它寫成現場成果。
+5. **最有價值的實作成果是可重跑的邊界。** MCP OAuth2 留下可執行的多階段授權實驗；Structurizr Workshop 則留下 DSL、ADR、workspace JSON 與驗證資料，讓架構模型可以繼續修改與檢查。
 
 ## 兩天活動總覽
 
 | 日期／時間 | 課程 | 這份整理的重點 | 詳細筆記 |
 |---|---|---|---|
-| 10/14 10:10 | AI 驅動架構實戰：Structurizr × OpenCode | **未參加**；僅整理官方背景與既有實作素材 | [README](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/README.md) · [notes](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/notes.md) |
+| 10/14 10:10 | AI 驅動架構實戰：Structurizr × OpenCode | **已參加**；完成架構模型、ADR 與驗證流程 | [README](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/README.md) · [notes](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/notes.md) |
 | 10/14 13:30 | LLM Wiki：企業內部知識問答系統的架構演進 | Raw／Wiki／Ops 分層、更新流程與評估邊界 | [README](hello-world-notes/session/2026-10-14/1330-llm-wiki/README.md) · [notes](hello-world-notes/session/2026-10-14/1330-llm-wiki/notes.md) |
 | 10/14 13:30 | 用 AI 工作流重整事件驅動交易系統的一致性、效能與監測 | 批次化、交易邊界、鎖順序、Outbox 與 reconciliation | [README](hello-world-notes/session/2026-10-14/1330-event-driven-trading/README.md) · [notes](hello-world-notes/session/2026-10-14/1330-event-driven-trading/notes.md) |
 | 10/14 14:15 | 懂行規的 Agent：把規範變成技能，自動化開發到部署 | Skills、權限與 pre-tool check 的治理邊界 | [README](hello-world-notes/session/2026-10-14/1415-agent-compliance-skills/README.md) · [notes](hello-world-notes/session/2026-10-14/1415-agent-compliance-skills/notes.md) |
@@ -30,13 +30,13 @@
 | 10/15 16:00 | 從踩坑到 Harness Engineering | Prompt、Context、Tool、State、Observability、Verify／Recover | [README](hello-world-notes/session/2026-10-15/1600-harness-engineering/README.md) · [notes](hello-world-notes/session/2026-10-15/1600-harness-engineering/notes.md) |
 | 10/15 17:00 | Lint + Architecture Test：Agentic Coding 防護牆 | 將依賴規則與架構邊界變成 CI 可執行的護欄 | [README](hello-world-notes/session/2026-10-15/1700-lint-architecture-test/README.md) · [notes](hello-world-notes/session/2026-10-15/1700-lint-architecture-test/notes.md) |
 
-10/14 的兩場 13:30 課程時間重疊，因此這裡不宣稱兩場都完整參與；各自的內容只依現有筆記整理。10/14 10:10 的 Structurizr × OpenCode 課程則明確標記為未參加。
+10/14 的兩場 13:30 課程時間重疊，因此這裡不宣稱兩場都完整參與；各自的內容只依現有筆記整理。另有一場「讓 AI 讀懂你的系統 with Knowledge Graph」不是本次 13 個課程資料夾之一，且我沒有參加，不列為現場心得。10/14 10:10 的 Structurizr × OpenCode 則是我實際參加的 Workshop。
 
 ## 核心技術與工程觀念
 
 ### 1. Architecture as Code 的價值在於共享決策，不只是畫圖
 
-課程資料把架構模型放進 DSL，並用 ADR（Architecture Decision Record，架構決策紀錄）說明為什麼重用代理商既有的實名制 App 與門市取貨系統，而不是重新打造買家 App 或門市系統。由於我沒有參加這場，以下只把它當成既有資料中的技術背景，不當成我的現場心得。這個做法本身解決的是「人和 Agent 各自從不同上下文理解系統」的問題：系統邊界、外部依賴、資料流與取捨都能被版本控制、檢視與重新產生。
+課程把架構模型放進 DSL，並用 ADR（Architecture Decision Record，架構決策紀錄）說明為什麼重用代理商既有的實名制 App 與門市取貨系統，而不是重新打造買家 App 或門市系統。Workshop 實作把這些決策留下來，解決「人和 Agent 各自從不同上下文理解系統」的問題：系統邊界、外部依賴、資料流與取捨都能被版本控制、檢視與重新產生。
 
 真正重要的不是圖的數量，而是模型能否回答：誰使用系統、哪一個系統負責實名驗證、抽選結果往哪裡送、哪些東西明確不在本次範圍內。DSL 與 ADR 讓這些決策成為可 review 的工程資料，而不是只存在簡報或某個人的記憶中。
 
@@ -92,26 +92,27 @@ FinOps 課則將同樣的治理思路放到雲端成本：先知道成本歸屬�
 
 ## 10/14 課程精華
 
-### AI 驅動架構實戰：Structurizr × OpenCode（未參加）
+### AI 驅動架構實戰：Structurizr × OpenCode
 
 講師與時間：郭孟坤 (Mansun Kuo)，2026-10-14 10:10–12:10。
 
 #### 官方背景
 
-官方內容把這場工作坊定位為 AI 驅動的 Architecture as Code：用 Structurizr DSL 建立以 C4 為基礎的 Models as Code，讓不同角色從同一份架構模型產生不同視角，再用 ADR 保存決策脈絡。這段是課程資料的技術背景，不是我現場聽到的心得，也不宣稱我完成了該場 Workshop。
+本場 Workshop 以 Architecture as Code 為主軸：用 Structurizr DSL 建立以 C4 為基礎的 Models as Code，讓不同角色從同一份架構模型產生不同視角，再用 ADR 保存決策脈絡。這些內容有對應的實作目錄、DSL、workspace JSON 與驗證紀錄。
 
 ![既有 Structurizr 玩具預購抽選服務部署視角](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/assets/image.png)
 
-這張圖屬於資料夾內既有實作素材，放在 Summary 只作為架構模型的閱讀入口；更完整的參與狀態與圖片說明已放在 [notes](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/notes.md)。
+這張圖是 Workshop 產出的部署視角：讀者可以先看系統邊界、預購／抽選流程與既有外部系統，再回到 DSL 和 ADR。圖片說明與實作背景也放在 [notes](hello-world-notes/session/2026-10-14/1010-structurizr-opencode/notes.md)。
 
 #### 解決的問題與方法
 
 課堂主軸是需求脈絡 → C4 模型 → Structurizr DSL → 多視角架構圖 → ADR。OpenCode 以自然語言協助建立與修改模型，但架構邊界、責任、資料流與取捨仍要由人確認。這個做法的價值不只是產生圖，而是讓架構成為可版本控制、可驗證、可交給 Agent 持續使用的共同基準。
 
-#### 可供後續閱讀的方向
+#### 實際成果與收穫
 
 - 將架構從一次性的圖，提升為可版本控制的模型與決策紀錄。
-- 若之後要研究，先用自己的專案畫一張 C4 System Context，並為一個重要取捨補一份 ADR；目前沒有我的現場筆記，不把這列為已完成成果。
+- 已完成玩具預購抽選服務的 C4 架構模型、部署視角、ADR 與驗證資料；完整檔案仍以 `dev/` 目錄為準。
+- 最值得延伸的是把同一份模型提供給主管、工程師、維運人員與 Agent 使用，而不是為每個人各畫一份互相漂移的圖。
 
 #### 詳細資料
 
