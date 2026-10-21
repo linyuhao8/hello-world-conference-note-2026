@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1920, height=1080, initial-scale=1">
+  <title>S008 — Workshop 產出的部署視角</title>
+  <style>
+    :root {
+      --bg: #09090b;
+      --surface: #18181b;
+      --text: #fafafa;
+      --muted: #a1a1aa;
+      --border: #3f3f46;
+      --accent: #d4d4d8;
+      --external: #71717a;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    body {
+      font-family: Inter, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .slide {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      padding: 66px 80px 48px;
+      background:
+        linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px) 80px 0 / 280px 100%,
+        var(--bg);
+    }
+
+    .slide::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(115deg, transparent 0 52%, rgba(255,255,255,.02) 52.1%, transparent 52.3%);
+    }
+
+    .mono,
+    .eyebrow,
+    .footer,
+    .label,
+    .caption-meta {
+      font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+      letter-spacing: .06em;
+    }
+
+    .header,
+    .main,
+    .footer { position: relative; z-index: 1; }
+
+    .header {
+      height: 152px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 60px;
+    }
+
+    .eyebrow {
+      margin-bottom: 18px;
+      color: var(--muted);
+      font-size: 17px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 48px;
+      line-height: 1.12;
+      letter-spacing: -.035em;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      max-width: 680px;
+      margin: 25px 0 0;
+      color: var(--muted);
+      font-size: 23px;
+      line-height: 1.42;
+      text-align: right;
+    }
+
+    .main {
+      display: grid;
+      grid-template-columns: minmax(0, 1.7fr) minmax(520px, .8fr);
+      gap: 42px;
+      height: 760px;
+      padding-top: 18px;
+    }
+
+    .evidence {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .diagram-frame {
+      position: relative;
+      height: 710px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background: #111113;
+    }
+
+    .diagram-frame::after {
+      content: "";
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 58px;
+      background: #111113;
+      pointer-events: none;
+    }
+
+    .diagram-frame img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: right center;
+      display: block;
+    }
+
+    .diagram-note {
+      z-index: 3;
+      position: absolute;
+      right: 18px;
+      bottom: 16px;
+      padding: 8px 12px;
+      border: 1px solid rgba(255,255,255,.22);
+      background: rgba(9,9,11,.84);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    figcaption {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      padding-top: 13px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.35;
+    }
+
+    .caption-meta { white-space: nowrap; color: var(--accent); font-size: 13px; }
+
+    .notes {
+      min-width: 0;
+      padding: 3px 0 0 28px;
+      border-left: 1px solid var(--border);
+    }
+
+    .note {
+      padding: 0 0 14px;
+      margin: 0 0 14px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .note:last-child { margin-bottom: 0; }
+
+    .label {
+      margin-bottom: 8px;
+      color: var(--accent);
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    .note h2 {
+      margin: 0 0 7px;
+      font-size: 22px;
+      line-height: 1.25;
+      font-weight: 650;
+    }
+
+    .note p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.4;
+    }
+
+    .note strong,
+    .note code { color: var(--text); font-weight: 600; }
+    code { font-family: "JetBrains Mono", Consolas, monospace; font-size: .88em; }
+
+    .limitation {
+      margin-top: 13px;
+      padding-top: 11px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.35;
+    }
+
+    .limitation strong { color: var(--accent); }
+
+    .footer {
+      position: absolute;
+      right: 80px;
+      bottom: 48px;
+      left: 80px;
+      display: flex;
+      justify-content: space-between;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .footer .page { color: var(--text); }
+  </style>
+</head>
+<body>
+  <main class="slide" aria-label="S008 Workshop 產出的部署視角">
+    <header class="header">
+      <div>
+        <div class="eyebrow">ARCHITECTURE AS CODE / S008</div>
+        <h1>Workshop 產出的部署視角</h1>
+      </div>
+      <p class="subtitle">預購抽選系統如何落在執行環境，並與代理商既有系統協作</p>
+    </header>
+
+    <section class="main">
+      <figure class="evidence">
+        <div class="diagram-frame">
+          <img src="../../hello-world-notes/session/2026-10-14/1010-structurizr-opencode/assets/image.png" alt="Structurizr Workshop 預購抽選系統 Deployment View">
+          <div class="diagram-note mono">Deployment View · 架構模型</div>
+        </div>
+        <figcaption>
+          <span>Structurizr Workshop 建立的 Deployment View：新增服務與代理商既有系統位於不同部署邊界。</span>
+          <span class="caption-meta">Artifact: workspace.dsl + workspace.json</span>
+        </figcaption>
+      </figure>
+
+      <aside class="notes" aria-label="Deployment View 技術重點">
+        <section class="note">
+          <div class="label">01 / 本次系統</div>
+          <h2>新增的預購抽選能力</h2>
+          <p><strong>預購抽選系統</strong>由管理後台、預購 API、抽選排程與預購資料庫四個 Container 組成。</p>
+        </section>
+
+        <section class="note">
+          <div class="label">02 / 執行責任</div>
+          <h2>Container 對應到部署位置</h2>
+          <p>預購 API → <strong>ECS Fargate</strong>；抽選排程 → <strong>EventBridge 排程任務</strong>；預購資料庫 → <strong>RDS for PostgreSQL</strong>。管理後台由辦公室電腦開啟。</p>
+        </section>
+
+        <section class="note">
+          <div class="label">03 / 外部依賴</div>
+          <h2>既有系統不屬於新增邊界</h2>
+          <p>代理商既有實名制 App 負責登入、實名驗證與推播；既有門市取貨系統接收中籤名單與門市選擇。</p>
+        </section>
+
+        <section class="note">
+          <div class="label">04 / 資料流</div>
+          <h2>設定 → 登記 → 抽選 → 取貨</h2>
+          <p>營運人員設定活動；App 送出登記；API 保存資料；排程讀取並保存結果；App 推播結果，再將門市選擇送往既有門市系統。</p>
+        </section>
+
+        <p class="limitation"><strong>Deployment View ≠ Container View</strong><br>這是 DSL 的部署映射，不是 AWS Production Runtime 證據；`inspection.error: 8` 的含義仍未確認。</p>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      <span>HWDC 2026 · Architecture as Code · Workshop Artifact</span>
+      <span class="page">S008</span>
+    </footer>
+  </main>
+</body>
+</html>

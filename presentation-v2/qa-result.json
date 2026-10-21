@@ -1,0 +1,162 @@
+{
+  "total": 12,
+  "bad": [],
+  "results": [
+    {
+      "id": "S025",
+      "exists": true,
+      "screenshot": true,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pageId": "S025",
+      "badImages": [],
+      "errors": [],
+      "requestFailures": []
+    },
+    {
+      "id": "S026",
+      "exists": true,
+      "screenshot": true,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pageId": "S026",
+      "badImages": [],
+      "errors": [],
+      "requestFailures": []
+    },
+    {
+      "id": "S027",
+      "exists": true,
+      "screenshot": true,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pageId": "S027",
+      "badImages": [],
+      "errors": [],
+      "requestFailures": []
+    },
+    {
+      "id": "S028",
+      "exists": true,
+      "screenshot": true,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pageId": "S028",
+      "badImages": [],
+      "errors": [],
+      "requestFailures": []
+    },
+    {
+      "id": "S029",
+      "exists": true,
+      "screenshot": true,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pageId": "S029",
+      "badImages": [],
+      "errors": [],
+      "requestFailures": []
+    },
+    {
+      "id": "S030",
+      "exists": true,
+      "screenshot": true,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pageId": "S030",
+      "badImages": [],
+      "errors": [],
+      "requestFailures": []
+    },
+    {
+      "id": "S031",
+      "exists": true,
+      "screenshot": true,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pageId": "S031",
+      "badImages": [],
+      "errors": [],
+      "requestFailures": []
+    },
+    {
+      "id": "S032",
+      "exists": true,
+      "screenshot": true,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pageId": "S032",
+      "badImages": [],
+      "errors": [],
+      "requestFailures": []
+    },
+    {
+      "id": "S033",
+      "exists": true,
+      "screenshot": true,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pageId": "S033",
+      "badImages": [],
+      "errors": [],
+      "requestFailures": []
+    },
+    {
+      "id": "S034",
+      "exists": true,
+      "screenshot": true,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pageId": "S034",
+      "badImages": [],
+      "errors": [],
+      "requestFailures": []
+    },
+    {
+      "id": "S035",
+      "exists": true,
+      "screenshot": true,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pageId": "S035",
+      "badImages": [],
+      "errors": [],
+      "requestFailures": []
+    },
+    {
+      "id": "S036",
+      "exists": true,
+      "screenshot": true,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pageId": "S036",
+      "badImages": [],
+      "errors": [],
+      "requestFailures": []
+    }
+  ]
+}
