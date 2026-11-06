@@ -4,14 +4,9 @@ Hello World Dev Conference 2026 的課程資訊、現場筆記、照片與 Works
 
 ## 快速入口
 
-- [HWDC 2026 簡報](https://hwdc.ithome.com.tw/2026/slide)：研討會投影片。
+- [研討會分享簡報](./presentation-v2/HWDC-2026-更新範例.pptx)：研討會心得分享投影片。
 - [研討會課堂照片](./照片整理_2026年10月14日至15日_開發者大會/)：依日期與課程整理的現場照片。
-
 - [兩天技術收穫與實戰 Summary](./SUMMARY.md)：整體重點、逐堂精華、成果與後續行動。
-- [課程筆記](./hello-world-notes/session/)：依日期與時間整理每一場課程。
-- [課程資料索引](./data/sessions.json)：課程名稱、時間、講師與場次資訊。
-- [講師資料](./data/speakers.json)：講師背景與相關資訊。
-- [議程資料](./data/schedule.json)：Conference 的日期、時間與場次安排。
 
 ## 課程清單
 
